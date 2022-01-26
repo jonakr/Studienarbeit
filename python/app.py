@@ -15,7 +15,7 @@ class Window(QDialog):
         super(Window, self).__init__(parent)
 
         # load mat file
-        self.file = h5py.File('data/11-48-21_hrv.mat','r')
+        self.file = h5py.File('../data/11-48-21_hrv.mat','r')
 
         # a figure instance to plot on
         self.figure = plt.figure()
