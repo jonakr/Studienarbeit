@@ -3,12 +3,16 @@ classdef WithSamplesParser
     properties
         path
         data
+        datetime
     end
 
     methods
         function obj = WithSamplesParser(path2file)
             obj.path = path2file;
             obj.data = load(path2file);
+
+            datetimeStr = [obj.data.Res.CNT.CntGen.date ' ' obj.data.Res.CNT.CntGen.time];
+            obj.datetime = datetime(datetimeStr,'InputFormat','dd.MM.yy HH.mm.ss');
 
             obj = obj.adjustFrequencyData();
         end
@@ -20,12 +24,22 @@ classdef WithSamplesParser
             description = setup.result.description(idx);
             unit = setup.result.unit(idx);
             type = setup.result.type(idx);
+            
+            % calculate the length of a single sample
+            sampleLength = round((obj.data.Res.CNT.Length / 60) ...
+                / length(obj.data.Res.HRV.(type).(index)));
+            % create array of timestamps to match y-values
+            timeArray = obj.datetime:minutes(sampleLength):obj.datetime ...
+                + minutes(length(obj.data.Res.HRV.(type).(index)) * sampleLength);
 
-            plot(UIAxes, obj.data.Res.HRV.(type).(index));
+            plot(UIAxes, timeArray(2:end), obj.data.Res.HRV.(type).(index));
             UIAxes.Title.String = selectedVar;
             UIAxes.Subtitle.String = description;
             UIAxes.YLabel.String = unit;
-            UIAxes.XLabel.String = 'time in min';
+
+            % configure x-Axis to start at y-Axis and tick every 3 minutes
+            UIAxes.XLim = [timeArray(2) timeArray(end)];
+            UIAxes.XTick = timeArray(2):minutes(sampleLength*2):timeArray(end);
         end
 
         function obj = adjustFrequencyData(obj)
