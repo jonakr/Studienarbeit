@@ -32,6 +32,7 @@ classdef WithoutSamplesParser
             UIAxes.Title.String = selectedVar;
             UIAxes.Subtitle.String = description;
             UIAxes.YLabel.String = unit;
+            UIAxes.XLabel.String = '';
             
             % configure x-Axis to start at y-Axis and tick every 3 minutes
             UIAxes.XLim = [timeArray(2) timeArray(end)];
