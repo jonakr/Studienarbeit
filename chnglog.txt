@@ -1,0 +1,88 @@
+Changelog für die LaTeX Vorlage
+
+v2_2 (Änderung gemergt)
+  Manuel Kansy (lmp8fe), 24.05.2018
+  Christoph Birkelbach (crk8fe)
+  Cedric Donie (ocd2fe)
+  - Neue Bosch-Logos mit buntem Streifen hinzugefügt und entsprechend formatiert im Header und auf dem Deckblatt
+  - Formelgrößenverzeichnis hinzugefügt
+
+
+v2_1
+  Jens Berg (bjg8fe), 02.09.2016
+  - Paket tikz-uml hinzugefügt, UML Diagramme for SW Entwicklung
+  - Paket cirquitikz hinzugefügt, elektrische Schaltungen
+  - Paket amssymb hinzugefügt, Erweiterung der Symbole der Mathematikumgebung. Credits: Nicolas Velz
+  - Paket icomma hinzugefügt, europäisches Komma in Formeln. Credits: Nicolas Velz (nur wenn Sprache auf Deutsch ist)
+  - Bugfix: Figures, Table, Listings beginnen jetzt im Anhang mit Ax (x = Zahl) (hatten vorher die Nummer des letzten Kapitels)
+  - Bugfix: Überlappung der Buchstaben im Titel auf dem Deckblatt behoben
+  - Bugfix: Einfügen des roten/gelben Punktes verändert das Layout des Deckblattes weniger
+  - Bugfix: Zwei Leerzeichen vor dem Titel im Sperrvermerk --> jetzt nur noch ein Leerzeichen
+  - Bugfix: Vor der Überschrift der Erklärung war eine Leerzeile zu wenig --> eingefügt
+
+
+v2_0
+  Leonhard Riedisser (rdl8fe), 15.08.2016
+  - Vollständige Unterstützung der englischen Übersetzung
+  - Unterstützung für zusätzlichen Abstract in fremder Sprache (englisch bzw. deutsch, je nach Hauptsprache)
+  - Fixes für Formelverzeichnis
+  - Alle Verzeichnisse können in den Einstellungen aktiviert/deaktiviert werden
+  - weitere Fixes zur Behebung verschiedener Warnings
+
+v1_6
+  Leonhard Riedisser (rdl8fe), 14.07.2016
+  - Neue Option in den Einstellungen: Bei Verweisen auf Kapitel per \autoref kann automatisch die Seitenzahl nach der Kapitelnummer eingefügt werden (hilfreich bei gedrucktem Dokument). Credits: Johannes Rieger
+
+v1_5
+  Leonhard Riedisser (rdl8fe), 12.07.2016
+  - Fix für englische Übersetzung: Titel des Formelverzeichnisses wird korrekt übersetzt (weitere Übersetzungen werden folgen, danke an Maximilian Scholl)
+  - Default bib-Backend ist Biber
+  - Fix für acronyms: Fehlende Teile in acronyms.tex hinzugefügt, Hinweis zur Anpassung der Spaltenbreite eingefügt
+
+v1_4
+  Jens Berg (bjg8fe), 19.05.2016
+  - Sperrvermerk an DH Richtlinie angepasst (http://www.dhbw-stuttgart.de/fileadmin/dateien-horb/Amtliche_Bekanntmachungen_DHBW/24_2015_Bekanntmachung_StuPrO_DHBW_Technik.pdf)
+  - Es wird nun bibtex statt biber verwendet --> sollte weniger Probleme machen.
+
+v1_3
+  Leonhard Riedisser (rdl8fe)
+  19.05.2016
+  - Deckblatt angepasst: Bosch Logo jetzt mit Schriftzug und auf gleicher Höhe wie DHBW-Logo, Logos horizontal auf der Seite zentriert
+  - Transparenz des Wasserzeichens angepasst
+  - Bookmark für Inhaltsverzeichnis
+
+v1_2
+  Leonhard Riedisser (rdl8fe)
+  17.05.2016
+  - Seitenränder angepasst (oben und unten +0.5cm Rand)
+  - Fix für Darstellungsproblem bei langen URLs im Quellenverzeichnis
+  - Selbstständigkeitserklärung eingefügt, inkl. Flag zur Parametrisierung
+  - Parametrisierung für Vertraulichkeitspunkt, Unterschriftenblatt, Wasserzeichen
+  - Readme aktualisiert
+  - Struktur von einstellungen.tex/header.tex verbessert
+  - altes README.md entfernt
+
+v1_1
+  Jens Berg (bjg8fe)
+  - Abkürzungsverzeichnis ist nun alphabetisch sortiert
+
+v1_0
+  Leonhard Riedißer (rdl8fe)
+  12.02.2016
+  - INITIAL RELEASE
+  - for and loe files in clean.cmd aufgenommen
+  - Hinweis zu clean.cmd in Readme aufgenommen
+
+v0_2
+  Leonhard Riedißer (rdl8fe)
+  11.02.2016
+  - Schreibfehler im Readme korrigiert
+  - Readme erweitert
+
+v0_1 
+  Jens Berg (bjg8fe)
+  11.02.2016
+  - Bestehende Vorlage um Formelverzeichnis ergänzt
+  - Abstand Seitenrand - Kopfzeile, Seitenrand - Fußzeile um 0.5cm erhöht
+  - Readme angelegt
+  - Quellenverzeichnis wird nun nicht mehr nach Weblinks und Rest getrennt (als Option noch verfügbar --> Bei Bedarf einkommentieren)
