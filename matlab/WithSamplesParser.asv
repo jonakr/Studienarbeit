@@ -4,7 +4,6 @@ classdef WithSamplesParser
         path
         data
         sampleLength
-        minutesArray
     end
 
     methods
@@ -13,13 +12,6 @@ classdef WithSamplesParser
             obj.data = load(path2file);
 
             obj = obj.adjustFrequencyData();
-
-            % calculate the length of a single sample
-            obj.sampleLength = floor((obj.data.Res.CNT.Length / 60) ...
-                / obj.data.Res.HRV.Param.Nbr_Segment);
-
-            obj.minutesArray = obj.sampleLength:obj.sampleLength: ...
-            obj.data.Res.HRV.Param.Nbr_Segment * obj.sampleLength;
         end
 
         function plotToAxes(obj, setup, UIAxes, selectedVar)
@@ -29,16 +21,19 @@ classdef WithSamplesParser
             description = setup.result.description(idx);
             unit = setup.result.unit(idx);
             type = setup.result.type(idx);
+            
+            obj.sampleLength = round((obj.data.Res.CNT.Length / 60) ...
+                / length(obj.data.Res.HRV.(type).(index)));
 
             % plot data and adjust axis
-            scatter(UIAxes, obj.minutesArray, obj.data.Res.HRV.(type).(index), ...
+            scatter(UIAxes, obj.data.Res.HRV.(type).(index), ...
                                                 'MarkerEdgeColor',[0 .5 .5],...
                                                 'MarkerFaceColor',[0 .7 .7],...
                                                 'LineWidth',1.5);
             UIAxes.Title.String = selectedVar;
             UIAxes.Subtitle.String = description;
             UIAxes.YLabel.String = unit;
-            UIAxes.XLabel.String = 'minutes';
+            UIAxes.XLabel.String = 'samples';
 
         end
 
@@ -61,8 +56,7 @@ classdef WithSamplesParser
             for idx = 1:length(frequencyData)
                 LFHFpower(idx) = frequencyData(idx).Welch.('LF_HF_power');
                 DFAalpha1(idx) = nonlinearData(idx).DFA.('alpha1');
-                % convert to milliseconds
-                RMSSD(idx) = statisticsData(idx).('RMSSD') * 100;
+                RMSSD(idx) = statisticsData(idx).('RMSSD');
                 StressIndex(idx) = statisticsData(idx).('SI');
             end
 
