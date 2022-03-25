@@ -1,3 +1,91 @@
 %!TEX root = ../dokumentation.tex
 
-\chapter{Irgendwas}
+\chapter{Informatikthemen}
+
+
+\section{Auswertung von Messdaten mit MATLAB und Python}
+
+
+
+\subsection{MATLAB vs. Python}
+
+
+
+\subsection{Performance-Vergleich}
+
+Um einen besseren Überblick über die Performance der beiden Programmiersprachen zur Auswertung von Messdaten zu erhalten, wurden mehrere Speedtests durchgeführt. Im ersten Schritt wird dazu ein kleiner Datensatz geöffnet und ein einfache Line-Plot erstellt. Geplottet wurde jeweils die durchschnittliche Herzfrequenz aus dem normalen Datensatz der Auswertung ohne Samples. Hierbei handelt es sich um 41 Werte, welche als Line-Plot ohne weitere Konfiguration dargestellt werden. In der Python Umgebung wurden die Bibliotheken \textbf{pandas} und \textbf{h5py} verwendet, da diese für ihre jeweiligen Aufgaben, Erstellen von Data Frames und Laden von mat-Files, als State-Of-The-Art gelten. Zum Plotten wurde auf die \textbf{matplotlib} zurückgegriffen, da diese der MATLAB Darstellung am nächsten kommt. MATLAB ermöglicht die Auswertung ohne zusätzliche Bibliotheken. Die Zeit wurde in beiden Fällen mit nativen Funktionen ausgewertet. Getestet wurde auf einem MacBook mit folgenden technischen Daten. Dabei wurden beide Skripts jeweils dreimal abwechselnd hintereinander ausgeführt, während sich das MacBook im Akku-betriebenem Modus befand.
+
+\begin{table}
+	\centering
+	\begin{tabular}{|l|l|}
+		\multicolumn{1}{l}{\textbf{Technische Daten}} & \multicolumn{1}{l}{}                       \\ 
+		\hline
+		Model                                         & MacBook Pro (Retina, 13-inch, Early 2015)  \\ 
+		\hline
+		Betriebssystem                                & macOS Montery Version 12.1                 \\ 
+		\hline
+		Prozessor                                     & 2,7 GHz Dual-Core Intel Core i5            \\ 
+		\hline
+		Arbeitsspeicher                               & 8 GB 1867 MHz DD3                          \\ 
+		\hline
+		Grafikchip                                    & Intel Iris Graphics 6100 1536 MB           \\
+		\hline
+	\end{tabular}
+	\caption{Übersicht der technischen Daten des Testmediums}
+\end{table}
+
+Die Implementierungen der einzelnen Programmiersprachen, sowie die berechneten Programmlaufzeiten sind im Folgenden dargestellt. Die beiden Skripte werden jeweils fünf mal ausgeführt und der Mittelwert der berechneten Zeiten bestimmt.
+
+\begin{lstlisting}[caption=MATLAB Implementierung,label=matlabImpl]
+	tic;
+	load('../dat/11-48-21_hrv.mat');
+	plot(Res.HRV.TimeVar.mean_HR);
+	tac;
+\end{lstlisting}
+\begin{lstlisting}[caption=Python Implementierung,label=pythonImpl]
+	import time
+	import pandas as pd
+	import h5py
+	import matplotlib.pyplot as plt
+	
+	start = time.time()
+	f = h5py.File('../dat/11-48-21_hrv.mat')
+	df = pd.DataFrame(f.get('Res/HRV/TimeVar/mean_HR')).T
+	
+	df.plot(y=0, kind='line')
+	end = time.time()
+	print(end - start)
+	plt.show()
+\end{lstlisting}
+
+\begin{table}
+	\centering
+	\caption{Technische Daten}
+	\begin{tabular}{|l|l|l|}
+		\multicolumn{1}{l}{\textbf{Durchlauf}} & \multicolumn{1}{l}{\textbf{MATLAB}} & \multicolumn{1}{l}{\textbf{Python}}  \\ 
+		\hline
+		1                                      & 0.303867 s                          & 0.359526
+		s                           \\ 
+		\hline
+		2                                      & 0.307696
+		s                          & 0.351593
+		s                           \\ 
+		\hline
+		3                                      & 0.295474
+		s                          & 0.354158
+		s                           \\ 
+		\hline
+		4                                      & 0.301647 s                          & 0.352104 s                           \\ 
+		\hline
+		5                                      & 0.299218 s                          & 0.350182 s                           \\ 
+		\hline
+		\textbf{Mittelwert}                    & \textbf{0.301580 s}                          & \textbf{0.353512} s                           \\
+		\hline
+	\end{tabular}
+\end{table}
+
+MATLAB ist bei jeder Ausführung um ca. 17\% schneller als das Python Skript. Zudem muss die Komplexität der beiden Skripte betrachtet werden. In MATLAB benötigt man lediglich zwei Zeilen Code und keine zusätzlichen Bibliotheken, während das Python Skript  vier Code Zeilen und drei zusätzlichen Bibliotheken in Anspruch nimmt. Außerdem muss hier beachtet werden, dass das Anzeigen des Plots unter Python nicht mit in die Berechnung der Zeit aufgenommen werden kann, da alle Code-Zeilen nach "plt.show" auch erst nach dem Schließen des Plot-Fensters angezeigt werden.
+
+% hier muss noch bisschen mehr Analyse hin
+
+\section{Vergleich der Exportmöglichkeiten}
