@@ -1,5 +1,5 @@
 function isCreated = createCSV(sampleStart, sampleLength, fileLength, ...
-    sampleShift, filename)
+    sampleShift, filename, path)
     
     isCreated = true;
 
@@ -10,6 +10,7 @@ function isCreated = createCSV(sampleStart, sampleLength, fileLength, ...
 
     export = [filename,"1"];
     color = " # 0 255 0";
+    configFile = fullfile(path, 'Kubios_Samples.csv');
     starttime = sampleStart * 60;
     endtime = starttime + sampleLength * 60;
 
@@ -22,7 +23,7 @@ function isCreated = createCSV(sampleStart, sampleLength, fileLength, ...
         starttime = starttime + (sampleShift * 60);
     end
     try
-        writematrix(export,'Kubios_Samples.csv','Delimiter','comma')
+        writematrix(export, configFile, 'Delimiter', 'comma')
     catch ME
         isCreated = false;
     end
