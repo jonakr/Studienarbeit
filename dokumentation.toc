@@ -14,20 +14,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Listings}{VIII}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Medizinisches}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Informatikthemen}{2}{chapter.2}%
+\contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Auswertung von Messdaten mit MATLAB und Python}{2}{section.2.1}%
+\contentsline {section}{\numberline {1.2}Herzfrequenzvariabilität (HRV)}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}MATLAB vs. Python}{2}{subsection.2.1.1}%
+\contentsline {section}{\numberline {1.3}Listings}{4}{section.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Performance-Vergleich}{2}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {1.3.1}lorem listum}{4}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Vergleich der Exportmöglichkeiten}{4}{section.2.2}%
+\contentsline {chapter}{\numberline {2}Informatikthemen}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.10}%
+\contentsline {section}{\numberline {2.1}Auswertung von Messdaten mit MATLAB und Python}{7}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossar}{B}{section*.11}%
+\contentsline {subsection}{\numberline {2.1.1}MATLAB vs. Python}{7}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Performance-Vergleich}{7}{subsection.2.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Vergleich der Exportmöglichkeiten}{9}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossar}{B}{section*.13}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
