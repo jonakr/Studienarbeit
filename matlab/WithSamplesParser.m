@@ -12,7 +12,7 @@ classdef WithSamplesParser
             obj.path = path2file;
             obj.data = load(path2file);
 
-            obj = obj.adjustFrequencyData();
+            obj = obj.adjustData();
 
             % calculate the length of a single sample
             obj.sampleLength = floor((obj.data.Res.CNT.Length / 60) ...
@@ -42,38 +42,32 @@ classdef WithSamplesParser
 
         end
 
-        function obj = adjustFrequencyData(obj)
-            % adjust the frequency struct to match plotting scheme
+        function obj = adjustData(obj)
+            % adjust the different data structs to match plotting scheme
             % warning! this deletes the other measurements if not copied
-            % TODO: find better solution
+       
+            % adjust statistics data
+            obj.data.Res.HRV.Statistics = tableConverter(obj.data.Res.HRV.Statistics);
+
+            % adjust frequency data
+            obj.data.Res.HRV.Frequency = struct( ...
+                'Welch', nestedTableConverter(obj.data.Res.HRV.Frequency, 'Welch', {'F', 'PSD'}), ...
+                'AR', nestedTableConverter(obj.data.Res.HRV.Frequency, 'AR', {'F', 'PSD', 'PSD_comp', 'PSD_comp_pow'}));            
             
-            % safe the table contents
-            nonlinearData = obj.data.Res.HRV.NonLinear;
-            frequencyData = obj.data.Res.HRV.Frequency;
-            statisticsData = obj.data.Res.HRV.Statistics;
+            %adjust nonlinear data
+            % clean data that isnt nested
+            notNested = rmfield(obj.data.Res.HRV.NonLinear, {'MSE', 'DFA', 'CorDim', 'RPA', 'EnoughData'});
+            cleanNotNested = tableConverter(notNested);
+            % get nested DFA data
+            cleanDFA = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'DFA', {'N1', 'N2', 'xdata', 'ydata', 'th'});
+            % get nested CorDim data
+            cleanCorDim = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'CorDim', {'log_r', 'log_C', 'th'}); 
+            % get nested RPA data
+            cleanRPA = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'RPA', {'RP', 'Lhist'});
+            names = [fieldnames(cleanNotNested); fieldnames(cleanDFA); fieldnames(cleanCorDim); fieldnames(cleanRPA)];
+            obj.data.Res.HRV.NonLinear = cell2struct([struct2cell(cleanNotNested); ...
+                struct2cell(cleanDFA); struct2cell(cleanCorDim); struct2cell(cleanRPA)], names, 1);
 
-            % create empty tables for our new, filtered data
-            LFHFpower = double.empty(length(frequencyData), 0);
-            DFAalpha1 = double.empty(length(nonlinearData), 0);
-            RMSSD = double.empty(length(statisticsData), 0);
-            StressIndex = double.empty(length(statisticsData), 0);
-            
-            for idx = 1:length(frequencyData)
-                LFHFpower(idx) = frequencyData(idx).Welch.('LF_HF_power');
-                DFAalpha1(idx) = nonlinearData(idx).DFA.('alpha1');
-                % convert to milliseconds
-                RMSSD(idx) = statisticsData(idx).('RMSSD') * 100;
-                StressIndex(idx) = statisticsData(idx).('SI');
-            end
-
-            obj.data.Res.HRV.Frequency = struct('LF_HF_power', LFHFpower);
-            obj.data.Res.HRV.NonLinear = struct('DFA_alpha1', DFAalpha1);
-            obj.data.Res.HRV.Statistics = struct('RMSSD', RMSSD, 'SI', StressIndex);
-
-            % add new content to maintain completeness of data
-            obj.data.Res.HRV.oldFrequency = frequencyData;
-            obj.data.Res.HRV.oldNonLinear = nonlinearData;
-            obj.data.Res.HRV.oldStatistics = statisticsData;
         end
     end
 end
