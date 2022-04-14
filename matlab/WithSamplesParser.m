@@ -38,7 +38,7 @@ classdef WithSamplesParser
                datalink = obj.data.Res.HRV.NonLinear;
             end
 
-            idx = find(contains({setuplink(:).index}, selectedVar));
+            idx = find(ismember({setuplink(:).index}, selectedVar));
             
             short = setuplink(idx).short;
             description = setuplink(idx).description;
@@ -65,8 +65,13 @@ classdef WithSamplesParser
             %       add missing variables e.g. AC DC
        
             % adjust statistics data
-            obj.data.Res.HRV.Statistics = tableConverter(obj.data.Res.HRV.Statistics);
-
+            cleanData = tableConverter(obj.data.Res.HRV.Statistics);
+            cleanNested = nestedTableConverter(obj.data.Res.HRV.Statistics, ...
+                'PRSA', {'DC_phase_ave', 'DC_phase_sd', 'DC_phase_sel_ave', ...
+                'DC_phase_sel_sd','AC_phase_ave', 'AC_phase_sd', 'AC_phase_sel_ave', 'AC_phase_sel_sd'});
+            namesStats = [fieldnames(cleanData); fieldnames(cleanNested);];
+            obj.data.Res.HRV.Statistics = cell2struct([struct2cell(cleanData); struct2cell(cleanNested)], namesStats, 1); 
+            
             % adjust frequency data
             obj.data.Res.HRV.Frequency = struct( ...
                 'Welch', nestedTableConverter(obj.data.Res.HRV.Frequency, 'Welch', {'F', 'PSD'}), ...
@@ -93,9 +98,9 @@ classdef WithSamplesParser
                 [cleanMSE.(['MSE' num2str(id)])] = tempMatrix(id,:);
             end
             % concat all structs
-            names = [fieldnames(cleanNotNested); fieldnames(cleanDFA); fieldnames(cleanCorDim); fieldnames(cleanRPA); fieldnames(cleanMSE)];
+            namesNon = [fieldnames(cleanNotNested); fieldnames(cleanDFA); fieldnames(cleanCorDim); fieldnames(cleanRPA); fieldnames(cleanMSE)];
             obj.data.Res.HRV.NonLinear = cell2struct([struct2cell(cleanNotNested); ...
-                struct2cell(cleanDFA); struct2cell(cleanCorDim); struct2cell(cleanRPA); struct2cell(cleanMSE)], names, 1);
+                struct2cell(cleanDFA); struct2cell(cleanCorDim); struct2cell(cleanRPA); struct2cell(cleanMSE)], namesNon, 1);
 
         end
     end
