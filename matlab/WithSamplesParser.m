@@ -54,6 +54,7 @@ classdef WithSamplesParser
             UIAxes.Subtitle.String = description;
             UIAxes.YLabel.String = unit;
             UIAxes.XLabel.String = 'minutes';
+            ylim(UIAxes, 'padded');
 
         end
 
