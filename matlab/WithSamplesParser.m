@@ -12,14 +12,12 @@ classdef WithSamplesParser
             obj.path = path2file;
             obj.data = load(path2file);
 
-            obj = obj.adjustData();
+            obj = obj.adjustDataStructure();
 
             % calculate the length of a single sample
-            obj.sampleLength = floor((obj.data.Res.CNT.Length / 60) ...
-                / obj.data.Res.HRV.Param.Nbr_Segment);
+            obj.sampleLength = floor((obj.data.Res.CNT.Length / 60) / obj.data.Res.HRV.Param.Nbr_Segment);
 
-            obj.minutesArray = obj.sampleLength:obj.sampleLength: ...
-            obj.data.Res.HRV.Param.Nbr_Segment * obj.sampleLength;
+            obj.minutesArray = obj.sampleLength:obj.sampleLength:obj.data.Res.HRV.Param.Nbr_Segment * obj.sampleLength;
         end
 
         function plotToAxes(obj, setup, UIAxes, selectedVar, selectedGroup)
@@ -58,12 +56,9 @@ classdef WithSamplesParser
 
         end
 
-        function obj = adjustData(obj)
+        function obj = adjustDataStructure(obj)
             % adjust the different data structs to match plotting scheme
             % warning! this deletes the other measurements if not copied
-
-            % TODO: fix units e.g. RMSSD needs to be milliseconds
-            %       add missing variables e.g. AC DC
        
             % adjust statistics data
             cleanData = tableConverter(obj.data.Res.HRV.Statistics);
@@ -71,7 +66,7 @@ classdef WithSamplesParser
                 'PRSA', {'DC_phase_ave', 'DC_phase_sd', 'DC_phase_sel_ave', ...
                 'DC_phase_sel_sd','AC_phase_ave', 'AC_phase_sd', 'AC_phase_sel_ave', 'AC_phase_sel_sd'});
             namesStats = [fieldnames(cleanData); fieldnames(cleanNested);];
-            obj.data.Res.HRV.Statistics = cell2struct([struct2cell(cleanData); struct2cell(cleanNested)], namesStats, 1); 
+            obj.data.Res.HRV.Statistics = cell2struct([struct2cell(cleanData); struct2cell(cleanNested)], namesStats, 1);
             
             % adjust frequency data
             obj.data.Res.HRV.Frequency = struct( ...
@@ -102,7 +97,19 @@ classdef WithSamplesParser
             namesNon = [fieldnames(cleanNotNested); fieldnames(cleanDFA); fieldnames(cleanCorDim); fieldnames(cleanRPA); fieldnames(cleanMSE)];
             obj.data.Res.HRV.NonLinear = cell2struct([struct2cell(cleanNotNested); ...
                 struct2cell(cleanDFA); struct2cell(cleanCorDim); struct2cell(cleanRPA); struct2cell(cleanMSE)], namesNon, 1);
-
+            
+            % fix unit of all variables that should be represented in
+            % milliseconds
+            obj.data.Res.HRV.Statistics.RMSSD = obj.data.Res.HRV.Statistics.RMSSD * 1000;
+            obj.data.Res.HRV.Statistics.mean_RR = obj.data.Res.HRV.Statistics.mean_RR * 1000;
+            obj.data.Res.HRV.Statistics.std_RR = obj.data.Res.HRV.Statistics.std_RR * 1000;
+            obj.data.Res.HRV.Statistics.TINN = obj.data.Res.HRV.Statistics.TINN * 1000;
+            obj.data.Res.HRV.Statistics.DC = obj.data.Res.HRV.Statistics.DC * 1000;
+            obj.data.Res.HRV.Statistics.DCmod = obj.data.Res.HRV.Statistics.DCmod * 1000;
+            obj.data.Res.HRV.Statistics.AC = obj.data.Res.HRV.Statistics.AC * 1000;
+            obj.data.Res.HRV.Statistics.ACmod = obj.data.Res.HRV.Statistics.ACmod * 1000;
+            obj.data.Res.HRV.NonLinear.Poincare_SD1 = obj.data.Res.HRV.NonLinear.Poincare_SD1 * 1000;
+            obj.data.Res.HRV.NonLinear.Poincare_SD2 = obj.data.Res.HRV.NonLinear.Poincare_SD2 * 1000;
         end
     end
 end
