@@ -14,7 +14,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Listings}{VIII}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Medizinisches}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
@@ -24,15 +24,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.1}lorem listum}{4}{subsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Informatikthemen}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Aufgabenstellung}{7}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Auswertung von Messdaten mit MATLAB und Python}{7}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Stand der Technik}{8}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}MATLAB vs. Python}{7}{subsection.2.1.1}%
+\contentsline {section}{\numberline {3.1}Auswertung von Messdaten mit MATLAB und Python}{8}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Performance-Vergleich}{7}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {3.1.1}MATLAB vs. Python}{8}{subsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Vergleich der Exportmöglichkeiten}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {3.1.2}Performance-Vergleich}{8}{subsection.3.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Vergleich der möglicher Datenstrukturen der Messdaten}{10}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Konzept}{11}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Implementierung des Tools}{12}{chapter.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.12}%
 \defcounter {refsection}{0}\relax 
