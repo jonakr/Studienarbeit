@@ -3,9 +3,10 @@
 \chapter{Stand der Technik}
 
 
+
 \section{Auswertung von Messdaten mit MATLAB und Python}
 
-
+Im Bereich der Data Science gibt es viele unterschiedliche Programmiersprachen, welche das Bearbeiten und Auswerten großer Datenmengen ermöglichen. Je nach Anwendungsgebiet und Lösungsansätzen, sowie der dazugehörigen Eigenschaften der zu analysierenden Daten muss eine passende Programmiersprache gewählt werden. Im Hinblick auf die Anforderungen der Studienarbeit stehen vor allem das Auslesen der Daten aus vorgegebenen Datei-Formaten, das graphische Darstellen der Messdaten, sowie die Erstellung einer passenden Benutzeroberfläche im Vordergrund. 
 
 \subsection{MATLAB vs. Python}
 
@@ -13,7 +14,7 @@
 
 \subsection{Performance-Vergleich}
 
-Um einen besseren Überblick über die Performance der beiden Programmiersprachen zur Auswertung von Messdaten zu erhalten, wurden mehrere Speedtests durchgeführt. Im ersten Schritt wird dazu ein kleiner Datensatz geöffnet und ein einfache Line-Plot erstellt. Geplottet wurde jeweils die durchschnittliche Herzfrequenz aus dem normalen Datensatz der Auswertung ohne Samples. Hierbei handelt es sich um 41 Werte, welche als Line-Plot ohne weitere Konfiguration dargestellt werden. In der Python Umgebung wurden die Bibliotheken \textbf{pandas} und \textbf{h5py} verwendet, da diese für ihre jeweiligen Aufgaben, Erstellen von Data Frames und Laden von mat-Files, als State-Of-The-Art gelten. Zum Plotten wurde auf die \textbf{matplotlib} zurückgegriffen, da diese der MATLAB Darstellung am nächsten kommt. MATLAB ermöglicht die Auswertung ohne zusätzliche Bibliotheken. Die Zeit wurde in beiden Fällen mit nativen Funktionen ausgewertet. Getestet wurde auf einem MacBook mit folgenden technischen Daten. Dabei wurden beide Skripts jeweils dreimal abwechselnd hintereinander ausgeführt, während sich das MacBook im Akku-betriebenem Modus befand.
+Um einen besseren Überblick über die Performance der beiden Programmiersprachen zur Auswertung von Messdaten zu erhalten, werden mehrere Speedtests durchgeführt. Im ersten Schritt wird dazu ein kleiner Datensatz geöffnet und ein einfache Line-Plot erstellt. Geplottet wird jeweils die durchschnittliche Herzfrequenz aus dem normalen Datensatz der Auswertung ohne Samples. Hierbei handelt es sich um 41 Werte, welche als Line-Plot ohne weitere Konfiguration dargestellt werden. In der Python Umgebung werden die Bibliotheken \textbf{pandas} und \textbf{h5py} verwendet, da diese für ihre jeweiligen Aufgaben, Erstellen von Data Frames und Laden von mat-Files, als State-Of-The-Art gelten. Zum Plotten wird auf die \textbf{matplotlib} zurückgegriffen, da diese der MATLAB Darstellung am nächsten kommt. MATLAB ermöglicht die Auswertung ohne zusätzliche Bibliotheken. Die Zeit wird in beiden Fällen mit nativen Funktionen ausgewertet. Getestet wird auf einem MacBook mit folgenden technischen Daten. Dabei werden beide Skripts jeweils dreimal abwechselnd hintereinander ausgeführt, während sich das MacBook im Akku-betriebenem Modus befindet.
 
 \begin{table}[H]
 	\centering
