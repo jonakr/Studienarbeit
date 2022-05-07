@@ -61,8 +61,8 @@ classdef WithSamplesParser
             % warning! this deletes the other measurements if not copied
        
             % adjust statistics data
-            cleanData = tableConverter(obj.data.Res.HRV.Statistics);
-            cleanNested = nestedTableConverter(obj.data.Res.HRV.Statistics, ...
+            cleanData = obj.tableConverter(obj.data.Res.HRV.Statistics);
+            cleanNested = obj.nestedTableConverter(obj.data.Res.HRV.Statistics, ...
                 'PRSA', {'DC_phase_ave', 'DC_phase_sd', 'DC_phase_sel_ave', ...
                 'DC_phase_sel_sd','AC_phase_ave', 'AC_phase_sd', 'AC_phase_sel_ave', 'AC_phase_sel_sd'});
             namesStats = [fieldnames(cleanData); fieldnames(cleanNested);];
@@ -70,19 +70,19 @@ classdef WithSamplesParser
             
             % adjust frequency data
             obj.data.Res.HRV.Frequency = struct( ...
-                'Welch', nestedTableConverter(obj.data.Res.HRV.Frequency, 'Welch', {'F', 'PSD'}), ...
-                'AR', nestedTableConverter(obj.data.Res.HRV.Frequency, 'AR', {'F', 'PSD', 'PSD_comp', 'PSD_comp_pow'}));            
+                'Welch', obj.nestedTableConverter(obj.data.Res.HRV.Frequency, 'Welch', {'F', 'PSD'}), ...
+                'AR', obj.nestedTableConverter(obj.data.Res.HRV.Frequency, 'AR', {'F', 'PSD', 'PSD_comp', 'PSD_comp_pow'}));            
             
             %adjust nonlinear data
             % clean data that isnt nested
             notNested = rmfield(obj.data.Res.HRV.NonLinear, {'MSE', 'DFA', 'CorDim', 'RPA', 'EnoughData'});
-            cleanNotNested = tableConverter(notNested);
+            cleanNotNested = obj.tableConverter(notNested);
             % get nested DFA data
-            cleanDFA = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'DFA', {'N1', 'N2', 'xdata', 'ydata', 'th'});
+            cleanDFA = obj.nestedTableConverter(obj.data.Res.HRV.NonLinear, 'DFA', {'N1', 'N2', 'xdata', 'ydata', 'th'});
             % get nested CorDim data
-            cleanCorDim = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'CorDim', {'log_r', 'log_C', 'th'}); 
+            cleanCorDim = obj.nestedTableConverter(obj.data.Res.HRV.NonLinear, 'CorDim', {'log_r', 'log_C', 'th'}); 
             % get nested RPA data
-            cleanRPA = nestedTableConverter(obj.data.Res.HRV.NonLinear, 'RPA', {'RP', 'Lhist'});
+            cleanRPA = obj.nestedTableConverter(obj.data.Res.HRV.NonLinear, 'RPA', {'RP', 'Lhist'});
             % get nested MSE data
             tempMatrix = [];
             cleanMSE = struct();
@@ -110,6 +110,27 @@ classdef WithSamplesParser
             obj.data.Res.HRV.Statistics.ACmod = obj.data.Res.HRV.Statistics.ACmod * 1000;
             obj.data.Res.HRV.NonLinear.Poincare_SD1 = obj.data.Res.HRV.NonLinear.Poincare_SD1 * 1000;
             obj.data.Res.HRV.NonLinear.Poincare_SD2 = obj.data.Res.HRV.NonLinear.Poincare_SD2 * 1000;
+        end
+
+        function tempStruct = tableConverter(obj, table)
+            transposed = struct2cell(table');
+            names = fieldnames(table)';
+            tempStruct = struct();
+            
+            for idx = 1:length(names)
+                theData = cell2mat(transposed(idx,:));
+                tempStruct.(char(names(idx))) = theData;
+            end
+        end
+
+        function cleanTable = nestedTableConverter(obj, table, column, structToRemove)
+            tempStruct = rmfield(table(1).(column), structToRemove);
+            
+            for idx = 2:length(table)
+                tempStruct = [tempStruct; rmfield(table(idx).(column), structToRemove)];
+            end
+            
+            cleanTable = obj.tableConverter(tempStruct);
         end
     end
 end
