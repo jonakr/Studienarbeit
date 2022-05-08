@@ -1,5 +1,6 @@
 classdef WithSamplesParser
-
+    % class that open the export mat-file from Kubios adjusts its data 
+    % structure and is capable of plotting it to a given axis
     properties
         path
         data
@@ -11,17 +12,21 @@ classdef WithSamplesParser
         function obj = WithSamplesParser(path2file)
             obj.path = path2file;
             obj.data = load(path2file);
-
+            
             obj = obj.adjustDataStructure();
 
             % calculate the length of a single sample
             obj.sampleLength = floor((obj.data.Res.CNT.Length / 60) / obj.data.Res.HRV.Param.Nbr_Segment);
-
+            % convert into an array to use it in the plot later on
             obj.minutesArray = obj.sampleLength:obj.sampleLength:obj.data.Res.HRV.Param.Nbr_Segment * obj.sampleLength;
         end
 
         function plotToAxes(obj, setup, UIAxes, selectedVar, selectedGroup)
+            % plots the data of a given variable to a given axis based on
+            % its respective variable group
             
+            % get the fitting link to the data and setup configuration for
+            % the selected group
             if selectedGroup == "Time-Domain"
                 setuplink = setup.variablesStruct.timeDomain;
                 datalink = obj.data.Res.HRV.Statistics;
@@ -35,9 +40,11 @@ classdef WithSamplesParser
                setuplink = setup.variablesStruct.nonlinear;
                datalink = obj.data.Res.HRV.NonLinear;
             end
-
+            
+            % get id of the given variable in the data structure
             idx = find(ismember({setuplink(:).index}, selectedVar));
             
+            % get all associated informations
             short = setuplink(idx).short;
             description = setuplink(idx).description;
             unit = setuplink(idx).unit;
@@ -113,6 +120,7 @@ classdef WithSamplesParser
         end
 
         function tempStruct = tableConverter(obj, table)
+            % converts a given table to a struct
             transposed = struct2cell(table');
             names = fieldnames(table)';
             tempStruct = struct();
@@ -124,6 +132,7 @@ classdef WithSamplesParser
         end
 
         function cleanTable = nestedTableConverter(obj, table, column, structToRemove)
+            % converts and cleans up a nested table to a struct
             tempStruct = rmfield(table(1).(column), structToRemove);
             
             for idx = 2:length(table)
