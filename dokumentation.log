@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.2.19)  8 MAY 2022 13:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.2.19)  9 MAY 2022 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2281,7 +2281,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 79
 .
 
 (dokumentation.toc
-Overfull \hbox (3.22041pt too wide) detected at line 15
+Overfull \hbox (3.22041pt too wide) detected at line 13
  [][][]\T1/lmss/bx/n/12 VIII[][]
  []
 
@@ -2289,7 +2289,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 19.
-)
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 59.
+(pdftex.def)             Requested size: 80.91335pt x 39.83368pt.
+File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
+<use images/Bosch_Logo_Kopfzeile.png>
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 59
+.
+(pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
+[2
+
+])
 \tf@toc=\write8
 \openout8 = `dokumentation.toc'.
 
@@ -2302,18 +2313,16 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 80
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [2
-
-]
+ [3]
 chapter without number
 (ads/sortedAcronyms.tex
 
-LaTeX Warning: Hyper reference `acro:BSP' on page III undefined on input line 1
-0.
+LaTeX Warning: Hyper reference `acro:BSP' on page IV undefined on input line 10
+.
 
 
-LaTeX Warning: Hyper reference `acro:BSP' on page III undefined on input line 1
-0.
+LaTeX Warning: Hyper reference `acro:BSP' on page IV undefined on input line 10
+.
 
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -2325,7 +2334,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 98
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [3
+ [4
 
 
 
@@ -2345,7 +2354,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 10
 4.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [4
+ [5
 
 
 ]
@@ -2364,39 +2373,41 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 11
 0.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [5
+ [6
 
 
 ]
 chapter without number
 (ads/symbols.tex
 
-LaTeX Warning: Hyper reference `acro:a' on page VI undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:a' on page VII undefined on input line 9.
 
 
-LaTeX Warning: Hyper reference `acro:a' on page VI undefined on input line 9.
+LaTeX Warning: Hyper reference `acro:a' on page VII undefined on input line 9.
 
 
-LaTeX Warning: Hyper reference `acro:b' on page VI undefined on input line 10.
+LaTeX Warning: Hyper reference `acro:b' on page VII undefined on input line 10.
 
 
-LaTeX Warning: Hyper reference `acro:b' on page VI undefined on input line 10.
+
+LaTeX Warning: Hyper reference `acro:b' on page VII undefined on input line 10.
 
 
-LaTeX Warning: Hyper reference `acro:lambda' on page VI undefined on input line
- 11.
+
+LaTeX Warning: Hyper reference `acro:lambda' on page VII undefined on input lin
+e 11.
 
 
-LaTeX Warning: Hyper reference `acro:lambda' on page VI undefined on input line
- 11.
+LaTeX Warning: Hyper reference `acro:lambda' on page VII undefined on input lin
+e 11.
 
 
-LaTeX Warning: Hyper reference `acro:phi' on page VI undefined on input line 12
-.
+LaTeX Warning: Hyper reference `acro:phi' on page VII undefined on input line 1
+2.
 
 
-LaTeX Warning: Hyper reference `acro:phi' on page VI undefined on input line 12
-.
+LaTeX Warning: Hyper reference `acro:phi' on page VII undefined on input line 1
+2.
 
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -2408,7 +2419,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 12
 1.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [6
+ [7
 
 
 ]
@@ -2427,7 +2438,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 12
 7.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [7
+ [8
 
 
 ]
@@ -2446,7 +2457,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 13
 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [8
+ [9
 
 
 ] (content/01kapitel.tex
@@ -2474,7 +2485,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 40
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [2]
-<images//RR.png, id=207, 685.56125pt x 270.00874pt>
+<images//RR.png, id=226, 685.56125pt x 270.00874pt>
 File: images//RR.png Graphic file (type png)
 <use images//RR.png>
 Package pdftex.def Info: images//RR.png  used on input line 50.
@@ -2573,24 +2584,45 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [9]
 chapter 4.
-<images//ablaufKonzept.png, id=255, 553.06625pt x 392.46625pt>
-File: images//ablaufKonzept.png Graphic file (type png)
-<use images//ablaufKonzept.png>
-Package pdftex.def Info: images//ablaufKonzept.png  used on input line 9.
-(pdftex.def)             Requested size: 364.19672pt x 258.44164pt.
-)
+<images//konzeptKlassen.png, id=275, 593.21625pt x 201.75375pt>
+File: images//konzeptKlassen.png Graphic file (type png)
+<use images//konzeptKlassen.png>
+Package pdftex.def Info: images//konzeptKlassen.png  used on input line 13.
+(pdftex.def)             Requested size: 455.24417pt x 154.83366pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 148.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 20.
 (pdftex.def)             Requested size: 80.91335pt x 39.83368pt.
 File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 <use images/Bosch_Logo_Kopfzeile.png>
-Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 14
-8.
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 20
+.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [10
+[10
 
- <./images//ablaufKonzept.png>] (content/05kapitel.tex
+ <./images//konzeptKlassen.png>]
+<images//ablaufKonzept.png, id=282, 553.06625pt x 392.46625pt>
+File: images//ablaufKonzept.png Graphic file (type png)
+<use images//ablaufKonzept.png>
+Package pdftex.def Info: images//ablaufKonzept.png  used on input line 23.
+(pdftex.def)             Requested size: 364.19672pt x 258.44164pt.
+<images//ablaufVisualisieren.png, id=283, 251.94125pt x 300.12125pt>
+File: images//ablaufVisualisieren.png Graphic file (type png)
+<use images//ablaufVisualisieren.png>
+Package pdftex.def Info: images//ablaufVisualisieren.png  used on input line 34
+.
+(pdftex.def)             Requested size: 159.33823pt x 189.8101pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 38.
+(pdftex.def)             Requested size: 80.91335pt x 39.83368pt.
+File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
+<use images/Bosch_Logo_Kopfzeile.png>
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 38
+.
+(pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
+ [11 <./images//ablaufKonzept.png>])
+(content/05kapitel.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 3.
@@ -2600,9 +2632,9 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 3.
 
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [11]
+ [12 <./images//ablaufVisualisieren.png>]
 chapter 5.
-<images//klassendiagramm.png, id=267, 2706.11pt x 1423.3175pt>
+<images//klassendiagramm.png, id=294, 2706.11pt x 1423.3175pt>
 File: images//klassendiagramm.png Graphic file (type png)
 <use images//klassendiagramm.png>
 Package pdftex.def Info: images//klassendiagramm.png  used on input line 11.
@@ -2617,7 +2649,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 15
 0.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [12
+ [13
 
  <./images//klassendiagramm.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -2629,7 +2661,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 15
 0.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [13] (ads/appendix.tex
+ [14] (ads/appendix.tex
 
 LaTeX Warning: Empty bibliography on input line 17.
 
@@ -2672,13 +2704,13 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60138 strings out of 478593
- 1263290 string characters out of 2844604
- 2458771 words of memory out of 3000000
- 76897 multiletter control sequences out of 15000+600000
- 540229 words of font info for 151 fonts, out of 8000000 for 9000
+ 60175 strings out of 478593
+ 1264139 string characters out of 2844604
+ 2457902 words of memory out of 3000000
+ 76925 multiletter control sequences out of 15000+600000
+ 540320 words of font info for 152 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 113i,20n,109p,10629b,2329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,20n,109p,10629b,2406s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
 :/Users/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
 :/Users/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C
@@ -2694,9 +2726,9 @@ k/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jojo
 k/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jo
 jok/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jo
 jok/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (24 pages, 594002 bytes).
+Output written on dokumentation.pdf (26 pages, 613816 bytes).
 PDF statistics:
- 437 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 42336 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 475 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 42370 words of extra memory for PDF output out of 42996 (max. 10000000)
 
