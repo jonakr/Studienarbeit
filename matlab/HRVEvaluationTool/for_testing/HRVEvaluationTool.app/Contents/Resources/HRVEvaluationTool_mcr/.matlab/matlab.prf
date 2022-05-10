@@ -1,8 +1,9 @@
 #MATLAB Preferences
-#Tue May 10 10:38:11 CEST 2022
+#Tue May 10 15:56:00 CEST 2022
 RLHiddenB2_WB_2014b_1=I16376
 RLOrderB2_WB_2014b_1=S0:1:
 MatlabExitConfirm=Bfalse
+pEZDeployDefaultAuthor=STim Wei\u00DF, Jona Krumrein
 RLWidthB2_VE_2014b_1_1=I563
 RLWidthB2_VE_2014b_1_0=I185
 DeploytoollastOpenFile=S
@@ -17,6 +18,7 @@ EditorMRU2=S/Users/jona/repos/Studienarbeit/matlab/createCSV.m
 EditorMRU1=S/Users/jona/repos/Studienarbeit/matlab/setupHRVvariables.m
 CommandWindowClearConfirmation=Btrue
 DeploytoolrecentProjects=S/Users/jona/repos/Studienarbeit/matlab/untitled1.prj
+pEZDeployDefaultCompany=SDHBW Stuttgart
 RLWidthB2_WB_2014b_1_1=I130
 RLWidthB2_WB_2014b_1_0=I81
 RLPrevInitB2_null=Btrue
@@ -25,3 +27,4 @@ RLPrevInitB2_VE_2014b_1=Btrue
 RLPrevInitB2_WB_2014b_1=Btrue
 RLOrderB2_VE_2014b_1=S0:1:
 ClosedToolTipPathAffordance=Btrue
+pEZDeployDefaultEmail=Stimweiss01@gmx.de, krumrein.jona@gmail.com

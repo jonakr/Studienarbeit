@@ -1,15 +1,20 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
   <configuration file="/Users/jona/repos/Studienarbeit/matlab/HRVEvaluationTool.prj" location="/Users/jona/repos/Studienarbeit/matlab" name="HRVEvaluationTool" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>HRVEvaluationTool</param.appname>
-    <param.icon />
-    <param.icons />
-    <param.version>1.1</param.version>
+    <param.icon>${PROJECT_ROOT}/HRVEvaluationTool_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/HRVEvaluationTool_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/HRVEvaluationTool_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/HRVEvaluationTool_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/HRVEvaluationTool_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>1.4</param.version>
     <param.authnamewatermark>Tim Weiß, Jona Krumrein</param.authnamewatermark>
-    <param.email>krumrein.jona@gmail.com, timweiss01@gmx.de</param.email>
+    <param.email>timweiss01@gmx.de, krumrein.jona@gmail.com</param.email>
     <param.company>DHBW Stuttgart</param.company>
     <param.summary />
     <param.description />
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}/assets/HRVEvalToolIcon.png</param.screenshot>
     <param.guid />
     <param.installpath.string>/DHBW_Stuttgart/HRVEvaluationTool/</param.installpath.string>
     <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
@@ -51,11 +56,11 @@ ${DYLD_LIBRARY_PATH}:MR/v911/runtime/maci64:MR/v911/sys/os/maci64:MR/v911/bin/ma
 	 -?  print help on how to use the application 
 	 input arguments</param.help.text>
     <unset>
-      <param.icon />
-      <param.icons />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
       <param.summary />
       <param.description />
-      <param.screenshot />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
@@ -86,6 +91,7 @@ ${DYLD_LIBRARY_PATH}:MR/v911/runtime/maci64:MR/v911/sys/os/maci64:MR/v911/bin/ma
       <file>${PROJECT_ROOT}/mainapp.mlapp</file>
     </fileset.main>
     <fileset.resources>
+      <file>${PROJECT_ROOT}/assets/HRVEvalToolIcon.png</file>
       <file>${PROJECT_ROOT}/assets/guide.docx</file>
       <file>${PROJECT_ROOT}/assets/guide.pdf</file>
       <file>${PROJECT_ROOT}/assets/setup.mat</file>
