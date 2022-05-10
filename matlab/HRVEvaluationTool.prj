@@ -3,9 +3,9 @@
     <param.appname>HRVEvaluationTool</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark>Tim Weiß, Jona Krumrein</param.authnamewatermark>
-    <param.email />
+    <param.email>krumrein.jona@gmail.com, timweiss01@gmx.de</param.email>
     <param.company>DHBW Stuttgart</param.company>
     <param.summary />
     <param.description />
@@ -53,8 +53,6 @@ ${DYLD_LIBRARY_PATH}:MR/v911/runtime/maci64:MR/v911/sys/os/maci64:MR/v911/bin/ma
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
-      <param.email />
       <param.summary />
       <param.description />
       <param.screenshot />
@@ -87,15 +85,18 @@ ${DYLD_LIBRARY_PATH}:MR/v911/runtime/maci64:MR/v911/sys/os/maci64:MR/v911/bin/ma
     <fileset.main>
       <file>${PROJECT_ROOT}/mainapp.mlapp</file>
     </fileset.main>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/assets/guide.docx</file>
+      <file>${PROJECT_ROOT}/assets/guide.pdf</file>
+      <file>${PROJECT_ROOT}/assets/setup.mat</file>
+      <file>${PROJECT_ROOT}/assets/timeDomainVariables.xlsx</file>
+      <file>${PROJECT_ROOT}/assets/xlsToSetupFileScript.m</file>
+    </fileset.resources>
     <fileset.package />
     <fileset.depfun>
       <file>${PROJECT_ROOT}/WithSamplesParser.m</file>
-      <file>${PROJECT_ROOT}/WithoutSamplesParser.m</file>
       <file>${PROJECT_ROOT}/createCSV.m</file>
       <file>${PROJECT_ROOT}/createSampleFile.mlapp</file>
-      <file>${PROJECT_ROOT}/setup.mat</file>
-      <file>${PROJECT_ROOT}/setupHRVvariables.m</file>
     </fileset.depfun>
     <build-deliverables>
       <file location="${PROJECT_ROOT}/HRVEvaluationTool/for_testing" name="splash.png" optional="false">/Users/jona/repos/Studienarbeit/matlab/HRVEvaluationTool/for_testing/splash.png</file>
