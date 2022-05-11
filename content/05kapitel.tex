@@ -13,9 +13,15 @@ Die Grundstruktur der Applikation basiert auf zwei im MATLAB App Designer erstel
 	\label{fig:klassendiagramm}
 \end{figure}
 
+\todo{Die Applikation besteht aus den folgenden Elementen... (UIAxes, ListBox, etc.)}
+
+\section{Setup der Applikation}
+
+\todo{Was passiert alles beim Start der Applikation?}
+
 \section{Erstellung der Samples}
 
-% Tims Job
+\todo{Wim schreibt was er gemacht hat :)}
 
 \section{Visualisierung der Daten}
 
@@ -29,4 +35,22 @@ Im folgenden Teil der Implementierung sollen die einzelnen Schritte und Funktion
 
 \subsection{Plot-Funktion}
 
+Die Hauptaufgaben der Plot-Funktion (dt. graphisch darstellen) sind das Auswählen des richtigen Datensatzes anhand einer gegebenen Gruppe und dem zugehörigen Messparameter, sowie das Verknüpfen der Daten mit dem Koordinatensystem und das Anpassung der Koordinatenachsen auf den passenden Stand.
+
+Die Plot-Funktion wird dabei durch das Auswählen eines Messparameters in der Liste aller konfigurierten Parameter aufgerufen. Als Methode der Parser-Klasse \textbf{WithSampleParser} hat sie direkten Zugriff auf die eingelesenen Messdaten. Sie erhält dabei die setup-Konfiguration, das Koordinatensystem als UIAxes-Objekt des App Designers, den ausgewählten Parameter und dessen Gruppe. Zu Beginn wird anhand der übergegebenen Gruppe, der Link auf die passende Setupstruktur und die Tabelle in der Datenstruktur ermittelt.
+
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=4,caption={Beispiel der Link-Zuordnung für Parameter-Gruppe}]{code/getGroupPlot.m}
+
+Mit den beiden Links wird nun nach dem speziellen Parameter gefiltert und dessen Index innerhalb der Tabelle zurückgegeben. Hiermit lassen sich nun das Daten-Array, der vollständige Bezeichner, die Kurzbeschreibung und die Einheit des Parameters bestimmen. 
+
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=8,caption={Index des Parameters und dazugehörige Informationen filtern}]{code/getIndexPlot.m}
+
+Das Daten-Array wird nun als Liste der y-Werte dem Koordinatensystem übergeben und dort als Datensatz hinterlegt. Die passenden Werte der x-Achse wurden bereits innerhalb des Einlesevorgangs der Messdaten ermittelt und repräsentieren die Länge der Messung als relative Minutenangabe. Diese werden ebenfalls mit an das Koordinatensystem angehängt. Mit Hilfe der MATLAB-eigenene Scatter-Funktion wird dem UIAxes-Objekt die Information übertragen, dass es sich um einen Scatter-Plot (dt. Streu-Graphen) handelt und die x- und y-Werte-Paare als Punkte ohne verbindende Linie dargestellt werden sollen. Hier können ebenfalls Konfigurationen für die Darstellung der Daten-Tupel im Graphen übergeben werden.
+
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=4,caption={MATLAB Scatter-Funktion}]{code/plotFunktion.m}
+
+Im letzten Schritt wird das Aussehen des Koordinatensystems angepasst, so dass es die wichtigen Informationen wie Achsenbeschriftungen aber auch Titel und Kurzbeschreibung enthält und der Bildausschnitt angenehm für den Ersteindruck ist.
+
 \subsection{Zusätzliche Funktionen}
+
+\todo{Belastungsintervall, Plot speichern, Plot Restoren}

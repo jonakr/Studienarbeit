@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2021.6.9)  11 MAY 2022 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2021.6.9)  11 MAY 2022 15:15
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -2932,28 +2932,28 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
 (textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 60.
+(textpos)                Alignment may work out wrongly. on input line 62.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 60. on input li
-ne 60.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 62. on input li
+ne 62.
 Package pdftex.def Info: Requested size: 80.91335pt x 39.83368pt on input line 
-60.
+62.
 File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 <use images/Bosch_Logo_Kopfzeile.png>
-Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 60
-. on input line 60.
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 62
+. on input line 62.
 Package pdftex.def Info: Requested size: 119.81003pt x 76.82234pt on input line
- 60.
+ 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 62.
 [2
 
 ])
@@ -3302,7 +3302,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 44.
-<images/RR.png, id=229, 685.56125pt x 270.00874pt>
+<images/RR.png, id=241, 685.56125pt x 270.00874pt>
 File: images/RR.png Graphic file (type png)
 <use images/RR.png>
 Package pdftex.def Info: images/RR.png  used on input line 50. on input line 50
@@ -3553,7 +3553,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
-<images/konzeptKlassen.png, id=278, 593.21625pt x 201.75375pt>
+<images/konzeptKlassen.png, id=290, 593.21625pt x 201.75375pt>
 File: images/konzeptKlassen.png Graphic file (type png)
 <use images/konzeptKlassen.png>
 Package pdftex.def Info: images/konzeptKlassen.png  used on input line 13. on i
@@ -3593,14 +3593,14 @@ Package babel Info: Redefining ngerman shorthand "~
 [10
 
  <./images/konzeptKlassen.png>]
-<images/ablaufKonzept.png, id=285, 553.06625pt x 392.46625pt>
+<images/ablaufKonzept.png, id=297, 553.06625pt x 392.46625pt>
 File: images/ablaufKonzept.png Graphic file (type png)
 <use images/ablaufKonzept.png>
 Package pdftex.def Info: images/ablaufKonzept.png  used on input line 23. on in
 put line 23.
 Package pdftex.def Info: Requested size: 364.19672pt x 258.44164pt on input lin
 e 23.
-<images/konzeptSamples.png, id=286, 723.70375pt x 211.79124pt>
+<images/konzeptSamples.png, id=298, 723.70375pt x 211.79124pt>
 File: images/konzeptSamples.png Graphic file (type png)
 <use images/konzeptSamples.png>
 Package pdftex.def Info: images/konzeptSamples.png  used on input line 32. on i
@@ -3635,7 +3635,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 36.
 [11 <./images/ablaufKonzept.png>]
-<images/ablaufVisualisieren.png, id=292, 251.94125pt x 300.12125pt>
+<images/ablaufVisualisieren.png, id=304, 251.94125pt x 300.12125pt>
 File: images/ablaufVisualisieren.png Graphic file (type png)
 <use images/ablaufVisualisieren.png>
 Package pdftex.def Info: images/ablaufVisualisieren.png  used on input line 41.
@@ -3674,7 +3674,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 49.
 [12 <./images/konzeptSamples.png> <./images/ablaufVisualisieren.png>]
-<images/designKonzept.png, id=299, 684.5575pt x 338.26375pt>
+<images/designKonzept.png, id=311, 684.5575pt x 338.26375pt>
 File: images/designKonzept.png Graphic file (type png)
 <use images/designKonzept.png>
 Package pdftex.def Info: images/designKonzept.png  used on input line 55. on in
@@ -3719,7 +3719,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
-<images/klassendiagramm.png, id=305, 2706.11pt x 1423.3175pt>
+<images/klassendiagramm.png, id=317, 2706.11pt x 1423.3175pt>
 File: images/klassendiagramm.png Graphic file (type png)
 <use images/klassendiagramm.png>
 Package pdftex.def Info: images/klassendiagramm.png  used on input line 11. on 
@@ -3727,54 +3727,86 @@ input line 11.
 Package pdftex.def Info: Requested size: 455.24417pt x 239.44148pt on input lin
 e 11.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 18.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 18.
 
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
 (textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 23.
+(textpos)                Alignment may work out wrongly. on input line 22.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 23. on input li
-ne 23.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 22. on input li
+ne 22.
 Package pdftex.def Info: Requested size: 80.91335pt x 39.83368pt on input line 
-23.
+22.
 File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 <use images/Bosch_Logo_Kopfzeile.png>
-Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 23
-. on input line 23.
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 22
+. on input line 22.
 Package pdftex.def Info: Requested size: 119.81003pt x 76.82234pt on input line
- 23.
+ 22.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 22.
 [14
 
  <./images/klassendiagramm.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 26.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 32.
+(babel)             in language  on input line 36.
+ (code/getGroupPlot.m
+
+Package textpos Warning: environment textblock* not in vertical mode. 
+(textpos)                Environment textblock* should not have any text
+(textpos)                or printable material appearing before it.
+(textpos)                Alignment may work out wrongly. on input line 3.
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 3. on input lin
+e 3.
+Package pdftex.def Info: Requested size: 80.91335pt x 39.83368pt on input line 
+3.
+File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
+<use images/Bosch_Logo_Kopfzeile.png>
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 3.
+ on input line 3.
+Package pdftex.def Info: Requested size: 119.81003pt x 76.82234pt on input line
+ 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+[15]) (code/getIndexPlot.m) (code/plotFunktion.m)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
 )
 
 Package textpos Warning: environment textblock* not in vertical mode. 
@@ -3802,7 +3834,34 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 150.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 150.
-[15] (ads/appendix.tex
+[16]
+
+Package textpos Warning: environment textblock* not in vertical mode. 
+(textpos)                Environment textblock* should not have any text
+(textpos)                or printable material appearing before it.
+(textpos)                Alignment may work out wrongly. on input line 150.
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 150. on input l
+ine 150.
+Package pdftex.def Info: Requested size: 80.91335pt x 39.83368pt on input line 
+150.
+File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
+<use images/Bosch_Logo_Kopfzeile.png>
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 15
+0. on input line 150.
+Package pdftex.def Info: Requested size: 119.81003pt x 76.82234pt on input line
+ 150.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 150.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 150.
+[17] (ads/appendix.tex
 
 LaTeX Warning: Empty bibliography on input line 17.
 
@@ -3894,13 +3953,13 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60508 strings out of 493314
- 1226456 string characters out of 3138865
- 2086644 words of memory out of 3000000
- 62727 multiletter control sequences out of 15000+200000
- 598419 words of font info for 114 fonts, out of 3000000 for 9000
+ 60594 strings out of 493314
+ 1227709 string characters out of 3138865
+ 2094644 words of memory out of 3000000
+ 62781 multiletter control sequences out of 15000+200000
+ 598548 words of font info for 115 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
- 66i,20n,97p,10486b,2220s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,21n,97p,10486b,2220s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/e
 nc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
@@ -3913,9 +3972,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX
 blic/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (27 pages, 604083 bytes).
+Output written on dokumentation.pdf (29 pages, 623015 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 22407 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 22415 words of extra memory for PDF output out of 24883 (max. 10000000)
 
