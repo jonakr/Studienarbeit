@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2021.6.9)  11 MAY 2022 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6400 64-bit) (preloaded format=pdflatex 2021.6.9)  11 MAY 2022 09:58
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -3734,48 +3734,48 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 20.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 20.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 22.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 22.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
-)
 
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
 (textpos)                or printable material appearing before it.
-(textpos)                Alignment may work out wrongly. on input line 150.
+(textpos)                Alignment may work out wrongly. on input line 23.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 150. on input l
-ine 150.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 23. on input li
+ne 23.
 Package pdftex.def Info: Requested size: 80.91335pt x 39.83368pt on input line 
-150.
+23.
 File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 <use images/Bosch_Logo_Kopfzeile.png>
-Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 15
-0. on input line 150.
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 23
+. on input line 23.
 Package pdftex.def Info: Requested size: 119.81003pt x 76.82234pt on input line
- 150.
+ 23.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 150.
+(babel)             in language  on input line 23.
 [14
 
  <./images/klassendiagramm.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 24.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 30.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 32.
+)
 
 Package textpos Warning: environment textblock* not in vertical mode. 
 (textpos)                Environment textblock* should not have any text
@@ -3896,7 +3896,7 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 Here is how much of TeX's memory you used:
  60508 strings out of 493314
  1226456 string characters out of 3138865
- 2086630 words of memory out of 3000000
+ 2086644 words of memory out of 3000000
  62727 multiletter control sequences out of 15000+200000
  598419 words of font info for 114 fonts, out of 3000000 for 9000
  1145 hyphenation exceptions out of 8191
@@ -3913,7 +3913,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX
 blic/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (27 pages, 603832 bytes).
+Output written on dokumentation.pdf (27 pages, 604083 bytes).
 PDF statistics:
  475 PDF objects out of 1000 (max. 8388607)
  98 named destinations out of 1000 (max. 500000)
