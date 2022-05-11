@@ -1,6 +1,7 @@
+\select@language {ngerman}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}\relax 
-\babel@toc {ngerman}{}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -8,7 +9,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces R-R-Intervall\relax }}{3}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces R-R-Intervall\relax }}{3}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -16,16 +17,18 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Konzept Klassendiagramm\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Konzept Klassendiagramm\relax }}{10}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Ablaufdiagramm des Konzepts\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ablaufdiagramm des Konzepts\relax }}{11}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Konzept für das Visualisieren von Daten\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Konzept Ablauf f\IeC {\"u}r das Erstellen der Samples\relax }}{12}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Konzept f\IeC {\"u}r das Visualisieren von Daten\relax }}{12}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Konzept f\IeC {\"u}r das Design\relax }}{13}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Klassendiagramm der fertigen Applikation\relax }}{13}{figure.caption.14}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Klassendiagramm der fertigen Applikation\relax }}{14}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
