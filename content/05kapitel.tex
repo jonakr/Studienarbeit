@@ -13,7 +13,20 @@ Die Grundstruktur der Applikation basiert auf zwei im MATLAB App Designer erstel
 	\label{fig:klassendiagramm}
 \end{figure}
 
+\subsection{Layout und Komponenten}
+
+Der MATLAB App Designer setzt bei der Erstellung von Applikation auf Code-Generierung. Der App Designer ist eine eigenständige MATLAB Applikation, welcher über eine Auswahl bereits vorgefertigter Komponenten, wie verschiedene beispielsweise Buttons, Container oder Eingabefelder verfügt. Um eine Applikation zu erstellen, können diese einfach beliebig kombiniert und visuell angepasst werden. Aus den verwendeten Komponenten wird dann eine Klasse generiert, welche beim Ausführen instanziiert wird. Diese Klasse enthält einen genauen \glqq Bauplan\grqq{} der späteren Applikation. Funktionen, welche beispielsweise durch das Klicken eines Buttons ausgelöst werden basieren auf sogenannten \textbf{Callbacks} (siehe Setup der Applikation). Diese werden direkt als Methoden der App-Klasse definiert und können nicht generiert werden. Jede Komponente kann mehrere dieser Callbacks besitzen.
+
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=8,caption={Auszug einiger verwendeter App-Komponenten}]{code/appComponents.m}
+
+Die Grundstruktur der implementierten Applikation bildet ein \textbf{Grid-Layout}. Dies ermöglicht das korrekte Positionieren der einzelnen Komponenten innerhalb der Applikation und damit auch die symmetrische Konsistenz von Rahmen- und Komponentenabständen, welche im grundlegenden Design-Konzept definiert wurden. Außerdem fügt es der Applikation eine umfassende Responsiveness hinzu, wodurch das Verwenden der Applikation in unterschiedlichen Monitorgrößen und Fenstergrößen ermöglicht werden kann.
+
+
+
 \todo{Die Applikation besteht aus den folgenden Elementen... (UIAxes, ListBox, etc.)}
+
+
+\todo{Bild der fertigen Applikation}
 
 \section{Setup der Applikation}
 
@@ -22,6 +35,7 @@ Die Grundstruktur der Applikation basiert auf zwei im MATLAB App Designer erstel
 \section{Erstellung der Samples}
 
 \todo{Wim schreibt was er gemacht hat :)}
+\todo{Die Applikation besteht aus den folgenden Elementen... (UIAxes, ListBox, etc.)}
 
 \section{Visualisierung der Daten}
 
