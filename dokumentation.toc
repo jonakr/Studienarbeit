@@ -28,9 +28,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Programmiersprache}{6}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}MATLAB vs. Python}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Python}{7}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Performance-Vergleich}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.2}MATLAB}{7}{subsection.3.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{7}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Konzept}{10}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -46,7 +48,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Layout und Komponenten}{15}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Setup der Applikation}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Setup der Applikation}{16}{section.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Erstellung der Samples}{16}{section.5.3}%
 \defcounter {refsection}{0}\relax 
@@ -54,12 +56,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Datenstruktur und Datenverarbeitung}{16}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{16}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{18}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Zusätzliche Funktionen}{17}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.3}Zusätzliche Funktionen}{19}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.17}%
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossar}{B}{section*.18}%
+\contentsline {chapter}{Glossar}{B}{section*.19}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
