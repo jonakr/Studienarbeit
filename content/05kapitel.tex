@@ -43,7 +43,12 @@ Im folgenden Teil der Implementierung sollen die einzelnen Schritte und Funktion
 
 Um das schnelle Visualisieren und Verarbeiten der Daten muss eine zentrale Datenstruktur entwickelt werden, die hohe Übersichtlichkeit, gute Erweiterbarkeit, sowie möglichst minimalistisch und kompakt aufgebaut ist. Zudem ist es wichtig ein passendes Format für die Visualisierungsfunktionen von MATLAB zu verwenden, da diese nur bestimmte Datenformate als Eingabe-Parameter akzeptiert. Die Rohdaten sind dabei sehr verschachtelt und es sind lange Zugriffsketten nötig, um an die korrekte Datenwerte zu gelangen. Außerdem fehlt es oft an Konsistenz. Während ein Großteil der Parameter als Tabelle vorliegt und mittels der passenden Spalte ausgelesen werden können, sind einige in eine weitere Struktur verschachtelt oder es liegen Parameter in einer Liste unter einem allgemeinen Bezeichner vor und müssen mit dem passenden Index extrahiert werden. Deshalb benötigen die eingelesene Daten eine vorläufige Anpassung bevor sie visualisiert werden können. Aus diesem Grund muss das eingelesene MAT-File angepasst werden, um nicht für jeden Parameter eine separate Zugriffsfunktion implementieren zu müssen.
 
-\todo{Abbildung Verschachtelung}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{rawData}
+	\caption{Verschachtelungsprobleme der unverarbeiteten Export-Daten}
+	\label{fig:rawData}
+\end{figure}
 
 % Quelle für Key-Value/Dictionary Python
 Das Einlesen des MAT-Files erfolgt über den Menüpunkt \glqq Load measurement\grqq{}. Dieser öffnet das Dateisystem des Betriebssystems und ermöglicht das Auswählen einer Datei. Gleichzeitig wird ein Objekt der Parser-Klasse \textbf{WithSampleParser} instanziiert, welche die Inhalte der Datei speichert und eine konsistente Datenstruktur anlegt.\\
@@ -60,15 +65,17 @@ Das erzeugte Struct besteht aus vier Ebenen. Auf obersten Ebene sind die Gruppie
 
 Um diese Struktur bilden zu können werden einige Funktionen zur Anpassungen durchlaufen. Zuerst wird die Tabelle invertiert. Das lässt sich darauf zurückführen, dass ein Großteil der Daten innerhalb einer Spalte gespeichert und der Zugriff beim Visualisieren der Daten mit Hilfe der MATLAB-Funktion auf als Reihe gespeicherte Daten präferiert wird. Hierzu wurde eine Methode implementiert, welche alle Spalten und die Parameter-Bezeichner einliest, invertiert und als Struct abspeichert.
 
-\todo{Code-Ausschnitt tableConverter}
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=10,caption={Konvertieren einer MATLAB Tabelle in ein Struct}]{code/tableConverter.m}
 
 Für das Extrahieren von verschachtelten Parametern innerhalb der Tabelle müssen zusätzliche Schritte ausgeführt werden. Hierbei muss die Struktur, welche anstatt eines direkten Wertes vorliegt, aufgelöst werden. Im ersten Schritt werden dabei alle unwichtigen Parameter, die keinen Sample-Bezug besitzen gelöscht. In einer Schleifen werden dann alle restlichen Parameter kopiert und zu den restlichen Einträgen des zuvor erstellten Structs hinzugefügt. Somit ist die Verschachtelung von zwei Ebenen auf eine reduziert.
 
-\todo{Code-Ausschnitt nestedTableConverter}
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=9,caption={Auflösen verschachtelter MATLAB Tabellen in ein Struct}]{code/nestedTableConverter.m}
 
 Um eine Reduzierung mehrerer Parameter auf einen allgemeinen Bezeichner rückgängig zu machen wurde folgendes Vorgehen implementiert. Innerhalb des Datensatzes handelt es sich hier um den Parameter \glqq Multiscale entropy\grqq{}, welcher zwanzig unterschiedliche Skalierungsfaktoren besitzt. Diese sind innerhalb eines Bezeichners als Liste aus zwanzig Werten angelegt. Für die korrekte Visualisierung müssen diese jedoch als einzelne Parameter der Struktur angeziegt werden, wobei der Datenwert an der ersten Stelle der Liste dem Wert für den Skalierungsfaktor eins entspricht. Die Auflösung erfolgt mittels zweier Iterationen. Zuerst werden alle Listen aneinander gehängt, sodass eine Matrix der einzelnen Werte entsteht. Mittels der zweiten Iteration wird diese Matrix in die einzelnen Structs aufgeteilt und der allgemeine Bezeichner mit dem Schleifen-Index als Key gesetzt.
 
-\todo{Code-Ausschnitt MSE?} 
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=9,caption={Auflösen eines Parameters in einer Liste anhand des Beispiel-Parameters MSE}]{code/listConverter.m}
+
+\todo{Hinzufügen des minuteArrays}
 
 \subsection{Plot-Funktion}
 
