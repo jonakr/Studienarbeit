@@ -1,67 +1,70 @@
+\select@language {ngerman}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}\relax 
-\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IV}{chapter*.2}%
+\select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{V}{chapter*.3}%
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IV}{chapter*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VI}{chapter*.4}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{V}{chapter*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelgr\"o\ss {}enverzeichnis}{VII}{chapter*.5}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VI}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{VIII}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Formelgr\"o\ss {}enverzeichnis}{VII}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{IX}{chapter*.7}%
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{VIII}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}%
+\contentsline {chapter}{\nonumberline Listings}{IX}{chapter*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Herzfrequenzvariabilität (HRV)}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Aufgabenstellung}{4}{chapter.2}%
+\contentsline {section}{\numberline {1.2}Herzfrequenzvariabilit\IeC {\"a}t (HRV)}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Rahmenbedingungen}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {2}Aufgabenstellung}{4}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Export-Datenstruktur}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {3}Rahmenbedingungen}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Programmiersprache}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Export-Datenstruktur}{5}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Python}{7}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.2}Programmiersprache}{6}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}MATLAB}{7}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.1}Python}{7}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{7}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.2}MATLAB}{7}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Konzept}{10}{chapter.4}%
+\contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{7}{subsection.3.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}System-Grundlage und Struktur}{10}{section.4.1}%
+\contentsline {chapter}{\numberline {4}Konzept}{10}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Ablauf}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.1}System-Grundlage und Struktur}{10}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Applikations-Design}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.2}Ablauf}{11}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementierung des Tools}{14}{chapter.5}%
+\contentsline {section}{\numberline {4.3}Applikations-Design}{12}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Grundstruktur der Applikation}{14}{section.5.1}%
+\contentsline {chapter}{\numberline {5}Implementierung des Tools}{14}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Layout und Komponenten}{15}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.1}Grundstruktur der Applikation}{14}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Setup der Applikation}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.1.1}Layout und Komponenten}{15}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Erstellung der Samples}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.2}Setup der Applikation}{16}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Visualisierung der Daten}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.3}Erstellung der Samples}{16}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Datenstruktur und Datenverarbeitung}{16}{subsection.5.4.1}%
+\contentsline {section}{\numberline {5.4}Visualisierung der Daten}{16}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{20}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.1}Datenstruktur und Datenverarbeitung}{17}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Zusätzliche Funktionen}{21}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{21}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.19}%
+\contentsline {subsection}{\numberline {5.4.3}Zus\IeC {\"a}tzliche Funktionen}{22}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossar}{B}{section*.20}%
+\contentsline {chapter}{\numberline {6}Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}{23}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
+\contentsline {chapter}{\numberline {7}Kritische W\IeC {\"u}rdigung und Ausblick}{24}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Glossar}{B}{section*.20}
