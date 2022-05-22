@@ -15,6 +15,8 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {formel}{\numberline {3.1} Berechnung der abhängigen Variable - OLS}{9}{equation.3.2.1}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
