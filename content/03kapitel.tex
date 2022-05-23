@@ -12,7 +12,8 @@ Das MAT-File beschreibt ein binäres Datencontainerformat, welches von MATLAB ve
 
 Da diese beiden Export-Formate und deren Inhalt von einander verschieden sind und die Grundlage der Datenverarbeitung sowie Datenvisualisierung bilden, sollen diese im Folgenden Hinblick auf Übersichtlichkeit, Formatierung, inhaltlicher Korrektheit und Zugänglichkeit verglichen werden.\\
 Die Darstellung der CSV-Datei ist unverschachtelt und befindet sich auf einer Ebene. Alle Daten lassen sich auf einmal einsehen. Innerhalb der Datei befinden sich tabellarische Strukturen der einzelnen Messdaten, aber auch Einzelinformationen, Überschriften und Bezeichner. Dies stellt für das Einlesen und Verarbeiten der Daten ein Problem dar, da zusätzlich nach relevanten gefiltert oder mehrere Formatierungsiterationen durchgeführt werden müssen. Das MAT-File hingegen ist in sich verschachtelt. Die Messdaten sind sortiert und unter ihrem jeweiligen Bereich geordnet. Der Zugriff auf die Daten erfolgt mittels Key-Value-Verfahren, das heißt unter einem Schlüsselwort befinden sich der jeweilige Datensatz. Ein Datensatz kann dabei ebenfalls von einem weiteren Key-Value-Paar dargestellt werden. Irrelevante Daten können hier gefiltert werden in dem man den jeweiligen Key einfach nicht aufruft. Das Format kann also ohne weitere Vorformatierung eingelesen werden.\\
-Betrachtet man die Konstanz und Korrektheit bezogen auf die Darstellung der Daten in Kubios, lassen sich im CSV-Format einige Unregelmäßigkeiten erkennen. So sind häufig Kommas verschoben und Felder mit einer stark variierenden Anzahl Leerzeichen aufgefüllt, um eine übersichtlichere Darstellung zu ermöglichen. Dies hat jedoch den Effekt, dass diese Leerzeichen beim Einlesen mit beispielsweise Python ebenfalls im Datensatz auftauchen und diesen verunreinigen bzw. im schlimmsten Fall unbrauchbar machen. Auch hier müsste deshalb im Vorhinein ein Formatierung der grundlegenden Datei durchgeführt werden. \color{red}Diese Unregelmäßigkeiten lassen sich auf die Exportfunktionen der Kubios-Software zurückführen. \color{black}Der Inhalt des MAT-Files ist hingegen akkurat und nicht von den Unregelmäßigkeiten betroffen.\\
+Betrachtet man die Konstanz und Korrektheit bezogen auf die Darstellung der Daten in Kubios, lassen sich im CSV-Format einige Unregelmäßigkeiten erkennen. So sind häufig Kommas verschoben und Felder mit einer stark variierenden Anzahl Leerzeichen aufgefüllt, um eine übersichtlichere Darstellung zu ermöglichen. Dies hat jedoch den Effekt, dass diese Leerzeichen beim Einlesen mit beispielsweise Python ebenfalls im Datensatz auftauchen und diesen verunreinigen bzw. im schlimmsten Fall unbrauchbar machen. Auch hier müsste deshalb im Vorhinein ein Formatierung der grundlegenden Datei durchgeführt werden. \color{red}Diese Unregelmäßigkeiten lassen sich auf die Exportfunktionen der Kubios-Software zurückführen. \color{black}Der Inhalt des MAT-Files ist hingegen akkurat und nicht von den Unregelmäßigkeiten betroffen.
+
 Daraus ergibt sich, dass das MAT-File ein grundlegend konsistenterer Datenspeicher für die medizinischen Messdaten darstellt und einen großen Vorteil im Bereich der Zugänglichkeit sowie der Reduzierung zusätzlicher Hilfsfunktionen und Datenmanipulationen gegenüber dem CSV-Format bietet. Aus diesem Grund wird dieses auch als Grundlage zur Umsetzung des Tools zur Auswertung der medizinischen Messdaten verwendet.
 
 
@@ -60,28 +61,33 @@ Um einen besseren Überblick über die Performance der beiden Programmiersprache
 	\caption{Übersicht der technischen Daten des Testmediums}
 \end{table}
 
-\subsubsection{Analyse anhand der Methode der kleinsten Quadrate}
+\subsubsection{Analyse anhand der Berechnung einer Regressionsfunktion}
 
-Zuerst wird ein allgemeiner Geschwindigkeitstest durchgeführt. Hierzu soll sowohl in Python als auch in MATLAB die Methode der kleinsten Quadrate (OLS) zur Regression exemplarisch durchgeführt werden. Hierbei werden die quadrierten Abstände zwischen den Datenpunkten und der Regressionsfunktion/-geraden minimiert, um die Regressionsgerade zu finden. Ausgleichsrechnungen sind ein wichtiger Bestandteil der Datenanalyse, deshalb bietet diese Methode ein gutes Beispiel zum Vergleich der Programmiersprachen. 
+Zuerst wird ein allgemeiner Geschwindigkeitstest durchgeführt. Hierzu soll sowohl in Python als auch in MATLAB die Methode der kleinsten Quadrate (engl. ordinary least squares - kurz OLS) zur Regression anhand eines zufällig generierten Datensatzes durchgeführt werden. Mit Hilfe von Ausgleichsrechnungen kann eine möglichste genau passende, modellabhängige Modellkurve in eine Wolke von Datenpunkten gelegt werden. In der Methode der kleinsten Quadrate wird die Summe der quadratischen Abweichungen der Kurve von den beobachteten Punkten minimiert. Ausgleichsrechnungen sind ein wichtiger Bestandteil der Datenanalyse und sind größtenteils rechenintensiv wenn sie auf große Datenmengen angewendet werden, deshalb bietet diese Methode ein gutes Beispiel zum Vergleich der Programmiersprachen und ihrer Performance. 
+% https://mathepedia.de/Methode_der_kleinsten_Quadrate.html
 
 Die Methode der kleinsten Quadrate wurde mit einer Replikation von 1000 durchgeführt. Für die Erstellung des Beispieldatensatzes werden die folgenden wahren Parameter verwendet.
 
-$  \beta = \begin{bmatrix}
- 	10\\ 
- 	-0,5\\ 
- 	0,5
- \end{bmatrix} $
+\begin{equation}
+	\beta = \begin{bmatrix}
+	 	10\\ 
+	 	-0,5\\ 
+	 	0,5
+	\end{bmatrix}
+\end{equation} 
 
 Die Regression wird für drei unterschiedliche Datensatzgrößen mit n = 1000, 10000 und 100000 umgesetzt. Für jede Beobachtung werden die unabhängigen Variablen aus folgenden Werten gezogen:
 
-$ \mu _{x} = \begin{bmatrix}
-	10\\ 
-	10
-\end{bmatrix}
-, \sigma _{x} = \begin{bmatrix}
-	4 & 0\\ 
-	0 & 4
-\end{bmatrix} $
+\begin{equation}
+	\mu _{x} = \begin{bmatrix}
+		10\\ 
+		10
+	\end{bmatrix}
+	, \sigma _{x} = \begin{bmatrix}
+		4 & 0\\ 
+		0 & 4
+	\end{bmatrix}
+\end{equation} 
 
 Die abhängige Variable wird konstruiert, indem ein Vektor von zufälligen Normalvariablen aus Normal(0,1) gezogen wird. Dieser Vektor wird als $ \epsilon $ bezeichnet, und die abhängige Variable wird wie folgt berechnet:
 
@@ -115,10 +121,11 @@ Für den Vergleich fällt die Beschränkung der Zeitmessung auf das Auswählen v
 	\end{minipage}
 \end{figure}
 
-\todo{Auswertung}
+An den Zeitmessung für verschieden große Datensätze lässt sich gut erkennen, dass MATLAB und Python für kleine Datenmengen eine ähnlich große Berechnungszeit benötigen. Mit zunehmender Datenmenge wächst auch die Berechnungszeit. MATLAB skaliert hier jedoch um ein Vielfaches besser und es lässt sich eine stetige steigende Lücke zwischen den Ausführungszeiten erkennen.
+
 % https://rlhick.people.wm.edu/posts/comparing-the-speed-of-matlab-versus-pythonnumpy.html
 
-\subsubsection{Analyse anhand des Daten einlesen und visualisieren}
+\subsubsection{Analyse anhand der einfachen Datenvisualisierung}
 
 Im nächsten Schritt soll ein Performance-Test durchgeführt werden, welcher stärker in Richtung der Aufgabenstellung ausgelegt ist. Hierzu wird ein kleiner Datensatz geöffnet und ein einfache Line-Plot erstellt. Geplottet wird jeweils die durchschnittliche Herzfrequenz aus dem normalen Datensatz der Auswertung ohne Samples. Hierbei handelt es sich um 41 Werte, welche als Line-Plot ohne weitere Konfiguration dargestellt werden. In der Python Umgebung werden die Bibliotheken \textbf{pandas} und \textbf{h5py} verwendet, da diese für ihre jeweiligen Aufgaben, Erstellen von Data Frames und Laden von mat-Files, als State-Of-The-Art gelten. Zum Plotten wird auf die \textbf{matplotlib} zurückgegriffen, da diese der MATLAB Darstellung am nächsten kommt. MATLAB ermöglicht die Auswertung ohne zusätzliche Bibliotheken. Die Zeit wird in beiden Fällen mit nativen Funktionen ausgewertet. Die Implementierungen der einzelnen Programmiersprachen, sowie die berechneten Programmlaufzeiten sind im Folgenden dargestellt. Die beiden Skripte werden jeweils fünf mal ausgeführt und der Mittelwert der berechneten Zeiten bestimmt.
 
@@ -154,8 +161,10 @@ Im nächsten Schritt soll ein Performance-Test durchgeführt werden, welcher st�
 		\caption{Ergebnisse der Geschwindigkeits-Messungen}
 \end{table}
 
-MATLAB ist bei jeder Ausführung um ca. 17\% schneller als das Python Skript. Zudem muss die Komplexität der beiden Skripte betrachtet werden. In MATLAB benötigt man lediglich zwei Zeilen Code und keine zusätzlichen Bibliotheken, während das Python Skript  vier Code Zeilen und drei zusätzlichen Bibliotheken in Anspruch nimmt. Außerdem muss hier beachtet werden, dass das Anzeigen des Plots unter Python nicht mit in die Berechnung der Zeit aufgenommen werden kann, da alle Code-Zeilen nach \glqq plt.show\grqq{} auch erst nach dem Schließen des Plot-Fensters angezeigt werden.
+MATLAB ist bei jeder Ausführung um ca. 17\% schneller als das Python Skript. Außerdem muss hier beachtet werden, dass das Anzeigen des Plots unter Python nicht mit in die Berechnung der Zeit aufgenommen werden kann, da alle Code-Zeilen nach \glqq plt.show\grqq{} auch erst nach dem Schließen des Plot-Fensters angezeigt werden. Da die Geschwindigkeit bei kleinen simplen Skripten nicht wirklich aussagekräftig ist, soll hier vor allem das Augenmerk auf die Umsetzung gesetzt werden. Deshalb muss vor allem die Komplexität der beiden Skripte betrachtet werden. In MATLAB benötigt man lediglich zwei Zeilen Code und keine zusätzlichen Bibliotheken, während das Python Skript vier Code Zeilen und drei zusätzlichen Bibliotheken in Anspruch nimmt.
 
-% hier muss noch bisschen mehr Analyse hin
+\subsubsection{Fazit und Begründung der Entscheidung}
 
-\todo{finale Entscheidung begründen}
+MATLAB ist für die Umsetzung des Evaluierungs-Tools die schnellere und passendere Programmiersprache. Dies lässt sich vor allem auf die allgemein bessere zeitliche Performance innerhalb mathematischer Berechnungen aber auch beim Einlesen und Visualisieren von Datensätzen zurückführen. Zudem ist die MAT-Datei, welche im späteren Verlauf der Studienarbeit durch Kubios erstellt wird ein nativer Datentyp von MATLAB. Dadurch lässt sich allgemein ein einfacherer Umgang mit den Daten garantieren, sowie die Reduzierung von Code-Komplexität durch einfacher gehaltene Datenverarbeitung ermöglichen. So lässt sich die innere Struktur der MAT-Datei in MATLAB direkt einsehen und es sind keine zusätzlichen Bibliotheken und Funktionen notwendig.
+
+Betrachtet man die Komplexität bezogen auf die Erstellung von Applikationen und das dazugehörigen Design, lässt sich keine objektiv bessere Programmiersprache für die Aufgabenstellung erkennen. Hierbei handelt es sich rein um eine persönliche Präferenz, da die Möglichkeiten beider Sprachen vergleichbar bis gleich sind.
