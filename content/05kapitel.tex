@@ -4,9 +4,9 @@
 
 \section{Grundstruktur der Applikation}
 
-Die Grundstruktur der Applikation basiert auf zwei im MATLAB App Designer erstellten Applikationen. Der Hauptapplikation, welche das Aufrufen einzelner Funktionalität ermöglicht, sowie den Graphen der erstellen Visualisierungen darstellt, und die Applikation zur Konfiguration der Samples, welche parallel zur Hauptapplikation als Pop-Up geöffnet werden kann, jedoch nicht ohne diese verwendbar ist. Als dritte Struktur wurde die sogenannte WithSamplesParser-Klasse erstellt, welche alle Funktionalitäten bezüglich der Messdatenverarbeitung und Darstellung enthält. Dazu gehören das Einlesend und Umstrukturieren der Messdaten auf ein passendes Format, sowie das Erstellen eines Graphen mit der passenden Konfiguration. Diese Funktionen werden dabei ebenfalls aus der Hauptapplikationen gestartet und benötigen diese deshalb auch als Grundlage.
+Die Grundstruktur der Applikation basiert auf zwei im MATLAB App Designer erstellten Applikationen. Der Hauptapplikation, welche das Aufrufen einzelner Funktionalität ermöglicht, sowie den Graphen der erstellen Visualisierungen darstellt, und die Applikation zur Konfiguration der Samples, welche parallel zur Hauptapplikation als Pop-Up geöffnet werden kann, jedoch nicht ohne diese verwendbar ist. Als dritte Struktur wurde die sogenannte WithSamplesParser-Klasse erstellt, welche alle Funktionalitäten bezüglich der Messdatenverarbeitung und Darstellung enthält. Dazu gehören das Einlesen und Umstrukturieren der Messdaten auf ein passendes Format, sowie das Erstellen eines Graphen mit der passenden Konfiguration. Diese Funktionen werden dabei ebenfalls aus der Hauptapplikationen gestartet und benötigen diese deshalb auch als Grundlage.
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{klassendiagramm}
 	\caption{Klassendiagramm der fertigen Applikation}
@@ -21,10 +21,20 @@ Der MATLAB App Designer setzt bei der Erstellung von Applikation auf Code-Generi
 
 Die Grundstruktur der implementierten Applikation bildet die \textbf{Figure-Komponente}. Diese legt die Fenstergröße fest und ist die Grundlage der Applikation in der die einzelnen Unterkomponenten eingefügt werden. Um eine gewisse Grundstruktur in das Aussehen zu integrieren wird ein \textbf{Grid-Layout} nächste Stufe der Komponenten-Hierarchie eingebaut. Dies ermöglicht das korrekte Positionieren der einzelnen Komponenten innerhalb der Applikation und damit auch die symmetrische Konsistenz von Rahmen- und Komponentenabständen, welche im grundlegenden Design-Konzept definiert wurden. Außerdem fügt es der Applikation eine umfassende Responsiveness hinzu, wodurch das Verwenden der Applikation in unterschiedlichen Monitorgrößen und Fenstergrößen ermöglicht werden kann ohne ungewollte Nebeneffekte herbeizuführen.
 
-\todo{Die Applikation besteht aus den folgenden Elementen... (UIAxes, ListBox, etc.)}
+Innerhalb des Grid-Layouts befinden sich alle zur Visualisierungen von Messdaten notwendigen Komponenten. In der kleineren linken Hälfte der Applikation sind alle Elemente zur Auswahl des jeweiligen Mess-Paramters vorhanden. Dazu gehört eine \textbf{DropDown-Komponente} in der alle Gruppierungen der Parameter, wie sie in Kubios vorgegeben sind, aufgeführt werden. Diese ermöglicht das Ausklappen einer Liste und die Wahl einer der vorgegeben Gruppierungen. Für die Auswahl eines speziellen Parameters wird eine sogenannte \textbf{ListBox-Komponente}. Diese zeigt eine Liste von Werte an, mit dem Vorteil, dass innerhalb dieser auch ein Element angeklickt und eine Callback-Funktion ausgewählt werden kann. Außerdem wird hier automatisch ein Slider eingefügt, sollte die Anzahl der Elemente die Größe der Box überschreiten. Die Inhalte der Listbox werden zu den jeweiligen Parametern der ausgewählten Gruppierungen geändert, sollte diese sich innerhalb der DropDown-Komponente verändern.
 
+Hier befindet sich ebenfalls eine \textbf{Panel-Komponente}, welche die Einstellung des Belastungsintervalls ermöglicht. Dazu gehören zwei Textfelder zur Eingabe der Intervalleigenschaften, sowie ein \textbf{Toggle-Button}, welcher das Aktivieren und Deaktivieren des konfigurierten Belastungsintervalls ermöglicht.
 
-\todo{Bild der fertigen Applikation}
+In der größeren rechten Hälfte befindet sich das Koordinatensystem, welches zum Visualisieren der Parameter verwendet wird. Innerhalb der MATLAB App Designer Umgebung wird dieses als \textbf{UIAxes-Komponente} bezeichnet. Zum Start der Applikation ist keine Visualisierungen, sowie Achsenbeschriftung zu sehen. Diese Elemente werden beim Laden von Messungen sowie Auswählen spezieller Parameter mit Hilfe der Plot-Funktion angepasst, welche in einem späteren Teil der Arbeit beschrieben wird.
+
+Für das Ausführen aller Funktionen, welche über das Visualisieren der Messdaten hinaus geht, wurde eine \textbf{Menu-Komponente} am oberen Fensterrand eingerichtet. Diese beinhaltet drei verschiedene Menüs mit Unterpunkten. Unter dem Punkt \glqq Open\grqq{} kann die Konfiguration von Samples für eine Messung gestartet werden. Hier lassen sich ebenfalls konfigurierte Messdaten in die Applikation laden. Unter \glqq Plot\grqq{} befinden sich alle visualisierungsspezifischen Funktionen. Hierzu gehören das Speichern des erstellten Graphen, sowie das zurückkehren zum ursprünglichen Bildausschnitt der Visualisierung, sollte diese verschoben bzw. vergrößert worden sein. Der letzte Punkt \glqq Help\grqq{} ermöglicht das Öffnen eines Guides sowie eines Pop-Up der Entwickler-Kontaktdaten.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{fertigeApplikation}
+	\caption{Fertige Applikation mit geladener Messung}
+	\label{fig:fertigeApplikation}
+\end{figure}
 
 \section{Setup der Applikation}
 
@@ -63,7 +73,7 @@ Um das schnelle Visualisieren und Verarbeiten der Daten muss eine zentrale Daten
 \end{figure}
 
 % Quelle für Key-Value/Dictionary Python
-Das Einlesen des MAT-Files erfolgt über den Menüpunkt \glqq Load measurement\grqq{}. Dieser öffnet das Dateisystem des Betriebssystems und ermöglicht das Auswählen einer Datei. Gleichzeitig wird ein Objekt der Parser-Klasse \textbf{WithSampleParser} instanziiert, welche die Inhalte der Datei speichert und eine konsistente Datenstruktur anlegt.\\
+Das Einlesen des MAT-Files erfolgt über den Menüpunkt \glqq Load measurement\grqq{}. Dieser öffnet das Dateisystem des Betriebssystems und ermöglicht das Auswählen einer Datei. Gleichzeitig wird ein Objekt der Parser-Klasse \textbf{WithSampleParser} instanziiert, welche die Inhalte der Datei speichert und eine konsistente Datenstruktur anlegt. Nach dem erfolgreichen Laden der ausgewählten Datei wird der Name dieser oberhalb des UIAxes-Komponente angezeigt.\\
 Als Grundkonzept wird dazu ein Struct angelegt. Dieses lässt sich mit einem Python-Dictionary vergleichen, in dem die Elemente mittels Key-Value-Paaren abgespeichert sind. Ein Datensatz lässt sich dann einfach mit Hilfe des entsprechenden Keys aufrufen. Zusätzlich ist es möglich dieses zu verschachteln und unter einem Key ein weiteres Key-Value-Paar zu speichern. So lässt sich eine hierarchische Beziehung zwischen den unterschiedlichen Parametern und Datensätzen erzeugen.
 
 Das erzeugte Struct besteht aus vier Ebenen. Auf obersten Ebene sind die Gruppierungen der Parametern zu finden. Für die Parameter der Herzmessdaten wurden hier die bereits von Kubios HRV Premium vordefinierten Gruppierungen Time-Domain, Nonlinear sowie Frequency-Domain im Zeit- und Frequenzbereich verwendet. Unterhalb dieser Bezeichner befinden sich dann alle zugehörigen Parameter. Im Falle der Frequency-Domain wird hier noch die Ebene der Darstellung, also Zeit- oder Frequenzbereich, eingeschoben, da hier die Parameter-Bezeichner identisch sind und so eine Unterscheidung unmöglich wäre. Auf tiefster Ebene ist dann jedem Parameter ein Datensatz als Liste mit genauen Werten zugeordnet. Ein Eintrag in der Liste entspricht dabei immer dem Mittelwert des Parameters für den Zeitraum der zuvor konfigurierten und exportierten Samples. Diese Liste bildet eine gute Grundlage für die Visualisierung der Daten mit Hilfe der vorhandenen MATLAB-Funktionen. Außerdem ist es möglich diese für gegebene Anforderungen zu manipulieren.
