@@ -198,7 +198,7 @@ Nun wurden einige wichtige zeitabhängige Parameter der HRV erläutert. Diese wu
  Nun sollen einige wichtige Parameter noch genauer untersucht werden.
  
  \paragraph{HF power}\mbox{} \\
- Der Parameter HF power kann berechnet werde, in dem die Fläch des HF Bands bestimmt wird. Anschaulich kann dies als grün gefärbte Fläche in Abbildung \ref{fig:spec} betrachtet werden. Als Einheit trägt HF power meist ms$^{2}$, kann jedoch auch in Prozent angegeben werden. 
+ Der Parameter HF power kann berechnet werde, in dem die Fläche des HF Bands bestimmt wird. Anschaulich kann dies als grün gefärbte Fläche in Abbildung \ref{fig:spec} betrachtet werden. Als Einheit trägt HF power meist ms$^{2}$, kann jedoch auch in Prozent angegeben werden. 
  Mit dem Parameter HF power können parasympathische Aktivitäten gemessen werden, wodurch er im autonomen Nervensystem dem Parasympathikus zugeordnet ist. Aufgrund dieser Tatsache steht er in einem starken Zusammenhang mit RMMSD und pNN 50, welche ebenfalls die Aktivität des Parasympathikus messen. \\
  VLF- und LF power können analog dazu berechnet werden, indem die Fläche im jeweiligen Intervall bestimmt wird. Der Parameter VLF power kann beispielsweise gentzt werden um Aussagen über SADS (Sudden arrhythmic death syndrome, deutsch: Plötzliche Arrhythmiesyndrome) zu treffen. Auch ist ein niedriger VLF power Wert ein Anzeichen für PTSD (Post Traumatic Stress Order, deutsch: posttraumatische Belastungsstörung) . QUELLE:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5624990/pdf/fpubh-05-00258.pdf
  
@@ -254,3 +254,36 @@ Zusätzlich lässt sich durch das Verwenden verschiedener Analysen die Aussagekr
 
 Die Berechnung aller Parameter aus einer Messung per Hand vorzunehmen, würde extrem viel Zeit in Anspruch nehmen. Daher gibt es bereits Programme und Anwendungen, die diese Berechnung der gewünschten Parameter übernehmen. Außerdem ist die Vergleichbarkeit und Verlässlichkeit der aus den Auswertungen resultierenden Ergebnissen größer, wenn diese mit einem öffentlichen Programm durchgeführt werden. Während dieser Arbeit wurde daher ebenfalls ein Programm zur Auswertung verschiedener HRV Messungen benutzt. Die dafür  Anwendung heißt \textit{Kubios HRV Premium} und soll im Nachfolgenden kurz erläutert werden. 
 
+\section{Kubios HRV Premium}
+Das während dieser Arbeit verwendete Programm \textit{Kubios HRV Premium} ist eine kostenpflichtige Anwendung des gleichnamigen finnischen Unternehmens Kubios. Wie der Name des Programms bereits sagt, ist dies ein Tool zur Auswertung von Herzratenvariabilität. Dabei können verschiedene Parameter der HRV berechnet und angezeigt werden.
+Im Folgenden wird die Anwendung Kubios HRV Premium nur mit dem Namen Kubios angesprochen. 
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{kubios}
+	\caption{Kubios HRV Premium}
+	\label{fig:kubios}
+\end{figure}
+\todo bild vllt zu klein
+
+In der gestarteten Anwendung (siehe Abbildung \ref{fig:kubios}) wird oben die Messung dargestellt. Gut erkennbar sind dabei die hohen R-Zacken, welche zum Berechnen der Intervalle benötigt werden. Darunter kann ein weiteres Diagramm erkannt werden. Dies zeigt die bereits berechneten aufeinanderfolgenden RR-Intervalle an. In der unteren Hälfte der Anwendung findet die Auswertung der Messdaten statt. So kann in einem Menü ausgewählt werden, welche Parameter berechnet werden sollen. Dabei kann zwischen den bereits beschriebenen zeitabhängigen-, frequenzabhängigen- oder nicht-linearen- Parametern unterschieden werden. In Abbildung \ref{fig:kubios} sind die zeitabhängigen Parameter ausgewählt, welche unten links aufgelistet sind. Unter anderem können dabei die bereits bekannten Parameter RMSSD und SDNN erkannt werden. Daneben sind weitere Diagramme zur Analyse der HRV, welche für diese Arbeit irrelevant sind und daher nicht weiter ausgeführt werden. Auf eine weitere Funktion von Kubios soll nun genauer eingegangen werden. Das Erstellen von Samples. \\
+
+\subsection{Samples}\label{subsec:textsamples}
+Um eine Messung auswerten zu können, kann jedes RR-Intervall als ein Wert betrachtet werden. Eine weitere, übersichtlichere Möglichkeit ist es aus mehreren Werten das arithmetische Mittel zu bilden, und diesen anschließend als einen Wert zu betrachten. Beispielhaft wir die Berechnung eines Samples der Größe 3 in Abbildung \ref{fig:samples} dargestellt.
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{samples}
+	\caption{Berechnung eines Samples}
+	\label{fig:samples}
+\end{figure}
+Aus den Messdaten werden nun Samples berechnet. Der Wert des ersten Samples ergibt sich aus dem arithmetischen Mittel der ersten 3 Werte, was in diesem Fall 18 ergibt. Um nun das zweite Sample berechnen zu können muss bekannt sein, wie groß der Abstand zwischen den einzelnen Samples ist. In diesem Fall wird jedes Sample immer einen Wert weitergeschoben, wodurch die Werte 26,17 und 8 zur Berechnung des zweiten Samples genutzt werden. Das letzte Sample berechnet sich aus den Werten 17,8 und 5.\\
+
+Die Verwendung von Samples ist auch in Kubios möglich. Dabei muss für jedes Sample  die Größe angegeben werden. In Abbildung \ref{fig:kubiossamples} ist ein Sample der Größe 10 Minuten erstellt worden. Dies bedeutet, dass alle Messwerte dieser 10 Minuten zusammengefasst werden. Für die 40 minütige Messung in Abbildung \ref{fig:kubiossamples} wurde jede Minute ein Sample mit 10 minütiger Länge gestartet.\\
+
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{kubiossamples}
+	\caption{Samples in Kubios}
+	\label{fig:kubiossamples}
+\end{figure}
+
+In Kubios ist es nicht möglich automatisch mehrere Samples anzulegen, weshalb jedes Sample einzeln mit Startzeit und Dauer erstellt werden muss. Für längere Messungen, welche die Erstellung vieler Samples mit sich zieht ist dies daher ein großer Zeitaufwand. Allein für die beispielhafte Messung in Abbildung \ref{fig:kubiossamples} von 40 Minuten ist bei einer Samplegröße von 5 Minuten die manuelle Erstellung von 31 Samples nötig.\color{red}Eine Automatisierung würde hier viel Zeit und Arbeit sparen. Daher war das automatische Erstellen von Samples in Kubios eines der Hauptziele der Studienarbeit. Weitere Ziele und die Motivation der Arbeit werden in den nächsten Abschnitten erläutert.\color{black} 
