@@ -71,15 +71,25 @@ Da die manuelle Erstellung dieser Konfigruationsdateien sehr aufwendig ist und i
 
 Der Sample Configurator besteht hierbei aus vier Eingabefeld-Komponenten und zwei Buttons des App Designers. In den Eingabefeldern werden die wichtigen Parameter der Sample eingegeben. Dazu gehören die Länge der einzelnen Sample, die Verschiebung (d.h. wie viele Minuten nach dem Start des ersten Samples das zweite Sample angelegt werden soll), sowie die Startzeit des ersten Samples und die Länge der gesamten Messungen. Über die Buttons lässt sich dann die Messdatei laden, um Informationen über den Namen, sowie den Speicherort zu erhalten. Der zweite Button dient zur Bestätigung und Generierung der Konfigurationsdatei.
 
-\todo{Bild der Applikation}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{sampleConfigurator}
+	\caption{Unterapplikation Sample Configurator}
+	\label{fig:sampleConfigurator}
+\end{figure}
 
 Die tatsächliche Generierung erfolgt außerhalb des Sample Configurator durch die \textbf{createCSV}-Funktion. Diese gibt die erhaltenen Daten lediglich an die Hauptapplikation, wo die entsprechende Funktion aufgerufen wird. Hierbei wird die Anzahl der Samples mittels der Messungslänge sowie der Verschiebung der einzelnen Samples berechnet und über die Anzahl dieser gelooped. Dabei werden in jeder Iteration die zuvor beschriebenen Daten berechnet und mit Hilfe des String-Datentyps in eine Liste hinzugefügt. Es ergibt sich eine Liste im Stil der oben beschriebenen Tabelle. Zum Schluss wird diese als CSV-Datei mit dem passenden Namen in das Projekt-Verzeichnis der Messung exportiert.
 
-\todo{Code}
+\lstinputlisting[language=Matlab,numbers=left,firstline=1,lastline=30,caption={Erstellung der Sample-Konfigurations-Datei}]{code/createCSV.m}
 
 Um nun die Sample-Konfiguration zu importieren, muss zuerst die entsprechende Messdatei manuell in Kubios geladen werden. Die erstellten Samples lassen sich hier direkt auf der Visualisierung von Kubios erkennen. Im nächsten Schritt muss dann ein Export der Messung als MAT-Datei durchgeführt, da diese als Grundlage der Visualisierung der implementierten Applikation dient. Hier ist also ein direkter manueller Eingriff in die Generierung notwendig, da keine Schnittstelle von Kubios einen vollautomatisierte Analyse und Export einer Messung ermöglicht. Das Ablaufdiagramm ändert sich dann wie in nachfolgender Abbildung zu erkennen, wobei die manuell auszuführenden Schritte farbig hinterlegt sind.
 
-\todo{Überarbeitung Ablauf}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\linewidth]{ablaufSamples}
+	\caption{Angepasstes Ablaufdiagramm der Sample-Erstellung mit manuellen Schritten}
+	\label{fig:ablaufSamples}
+\end{figure}
 
 \section{Visualisierung der Daten}
 

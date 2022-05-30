@@ -1,108 +1,109 @@
-\select@language {ngerman}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
-\select@language {ngerman}
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IV}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IV}{chapter*.2}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{V}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{V}{chapter*.3}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VI}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VI}{chapter*.4}
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{VII}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{VII}{chapter*.5}
+\contentsline {chapter}{\nonumberline Listings}{VIII}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{VIII}{chapter*.6}
+\contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Herzparameter}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Herzfrequenz (Hf)}{1}{subsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Herzfrequenz (Hf)}{1}{subsection.1.1.1}
+\contentsline {section}{\numberline {1.2}Herzfrequenzvariabilität (HRV)}{3}{section.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Herzfrequenzvariabilit\IeC {\"a}t (HRV)}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Messung}{4}{subsection.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Messung}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Nutzen}{5}{subsection.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Nutzen}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Parameter}{6}{subsection.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Parameter}{6}{subsection.1.2.3}
+\contentsline {subsubsection}{\nonumberline Zeitabhängige Parameter}{7}{subsubsection*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Zeitabh\IeC {\"a}ngige Parameter}{7}{section*.8}
+\contentsline {paragraph}{\nonumberline SDNN (Standard Deviation of NN-Intervals)}{7}{paragraph*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline SDNN (Standard Deviation of NN-Intervals)}{7}{section*.10}
+\contentsline {paragraph}{\nonumberline RMSSD (Root Mean Square of successive differences)}{8}{paragraph*.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline RMSSD (Root Mean Square of successive differences)}{8}{section*.11}
+\contentsline {paragraph}{\nonumberline pNN50}{9}{paragraph*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline pNN50}{9}{section*.12}
+\contentsline {subsection}{\numberline {1.2.4}Frequenzabhängige Parameter}{10}{subsection.1.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Frequenzabh\IeC {\"a}ngige Parameter}{10}{subsection.1.2.4}
+\contentsline {paragraph}{\nonumberline Mathematische Grundlagen}{10}{paragraph*.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Mathematische Grundlagen}{10}{section*.13}
+\contentsline {paragraph}{\nonumberline Darstellung}{11}{paragraph*.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Darstellung}{11}{section*.14}
+\contentsline {paragraph}{\nonumberline HF power}{12}{paragraph*.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline HF power}{12}{section*.17}
+\contentsline {paragraph}{\nonumberline LF/HF}{13}{paragraph*.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline LF/HF}{13}{section*.18}
+\contentsline {subsection}{\numberline {1.2.5}Nicht-lineare Parameter}{13}{subsection.1.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.5}Nicht-lineare Parameter}{13}{subsection.1.2.5}
+\contentsline {paragraph}{\nonumberline Poincaré-Diagramm}{14}{paragraph*.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Poincar\IeC {\'e}-Diagramm}{14}{section*.20}
+\contentsline {paragraph}{\nonumberline SD1 und SD2}{15}{paragraph*.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline SD1 und SD2}{15}{section*.22}
+\contentsline {subsection}{\numberline {1.2.6}Zusammenfassung}{16}{subsection.1.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.6}Zusammenfassung}{16}{subsection.1.2.6}
+\contentsline {chapter}{\numberline {2}Aufgabenstellung}{18}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Aufgabenstellung}{18}{chapter.2}
+\contentsline {chapter}{\numberline {3}Rahmenbedingungen}{19}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Rahmenbedingungen}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Export-Datenstruktur}{19}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Export-Datenstruktur}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Programmiersprache}{20}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Programmiersprache}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Python}{21}{subsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Python}{21}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}MATLAB}{21}{subsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}MATLAB}{21}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{22}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{22}{subsection.3.2.3}
+\contentsline {subsubsection}{\nonumberline Analyse anhand der Berechnung einer Regressionsfunktion}{22}{subsubsection*.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Analyse anhand der Berechnung einer Regressionsfunktion}{22}{section*.25}
+\contentsline {subsubsection}{\nonumberline Analyse anhand der einfachen Datenvisualisierung}{26}{subsubsection*.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Analyse anhand der einfachen Datenvisualisierung}{26}{section*.28}
+\contentsline {subsubsection}{\nonumberline Fazit und Begründung der Entscheidung}{27}{subsubsection*.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Fazit und Begr\IeC {\"u}ndung der Entscheidung}{27}{section*.30}
+\contentsline {chapter}{\numberline {4}Konzept}{29}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Konzept}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}System-Grundlage und Struktur}{29}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}System-Grundlage und Struktur}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Ablauf}{30}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Ablauf}{30}{section.4.2}
+\contentsline {section}{\numberline {4.3}Applikations-Design}{31}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Applikations-Design}{31}{section.4.3}
+\contentsline {chapter}{\numberline {5}Implementierung des Tools}{33}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Implementierung des Tools}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Grundstruktur der Applikation}{33}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Grundstruktur der Applikation}{33}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Layout und Komponenten}{34}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Layout und Komponenten}{34}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Setup der Applikation}{36}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Setup der Applikation}{36}{section.5.2}
+\contentsline {section}{\numberline {5.3}Erstellung der Samples}{37}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Erstellung der Samples}{37}{section.5.3}
+\contentsline {section}{\numberline {5.4}Visualisierung der Daten}{40}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Visualisierung der Daten}{39}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Datenstruktur und Datenverarbeitung}{40}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Datenstruktur und Datenverarbeitung}{39}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{44}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Plot-Funktion}{43}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Zusätzliche Funktionen}{46}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Zus\IeC {\"a}tzliche Funktionen}{45}{subsection.5.4.3}
+\contentsline {chapter}{\numberline {6}Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}{47}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}{46}{chapter.6}
+\contentsline {chapter}{\numberline {7}Kritische Würdigung und Ausblick}{48}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Kritische W\IeC {\"u}rdigung und Ausblick}{47}{chapter.7}
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.42}
+\contentsline {chapter}{Glossar}{B}{section*.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossar}{B}{section*.43}
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
