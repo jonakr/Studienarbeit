@@ -42,7 +42,7 @@ Die Export-Daten von Kubios haben ein Problem in der Konsistenz ihrer Datensätz
 
 Die Applikation lädt sich hierzu beim Starten eine entsprechende MAT-Datei als Variable in den Workspace. Diese Datei enthält die Mappings der einzelnen Parameter sortiert nach ihrer jeweiligen Gruppierung wie sie in Kubios HRV Premium angegeben sind. Diese Gruppierungen sind hier Time-Domain, Nonlinear sowie Frequency-Domain im Zeit- und Frequenzbereich, wobei die beiden Frequency-Domain-Gruppen auf ein Mapping reduziert werden kann, da diese die gleichen Parameter enthält. So ergeben sich drei Setupstrukturen im Tabellenformat mit den Spalten Index, Kurzbezeichner, Kurzbeschreibung, Einheit und Gruppierung. Mit Hilfe des von Kubios erzeugten Index lassen sich nun alle dazugehörigen Informationen aufrufen und verwerten. Zudem wird diese Setup-Datei verwendet um zu Beginn alle vorhandenen Parameter unter ihrer jeweiligen Gruppierung zur ListBox-Komponente hinzuzufügen, sodass der Nutzer später diese Auswählen kann.
 
-Zusätzlich wurde eine Helper-Funktion geschrieben, welche es ermöglicht aus einer Excel-Datei das Setup zu generieren, um die Handhabung bzw. Veränderung des Mappings zu ermöglichen. Dazu können einfach neue Elemente in die Tabelle mit aufgenommen oder bereits bestehende Einträge verändert bzw. gelöscht. Diese Funktion ist jedoch der Entwicklung vorenthalten, da das Verändern bestehender Workspace-Variable nach der Installation oder während des Betriebs der Applikation nicht passend umsetzbar ist. 
+Zusätzlich ist eine Helper-Funktion implementiert, welche es ermöglicht aus einer Excel-Datei das Setup zu generieren, um die Handhabung bzw. Veränderung des Mappings zu ermöglichen. Dazu können einfach neue Elemente in die Tabelle mit aufgenommen oder bereits bestehende Einträge verändert bzw. gelöscht. Diese Funktion ist jedoch der Entwicklung vorenthalten, da das Verändern bestehender Workspace-Variable nach der Installation oder während des Betriebs der Applikation nicht passend umsetzbar ist. 
 
 \begin{figure}[H]
 	\centering
@@ -54,8 +54,32 @@ Zusätzlich wurde eine Helper-Funktion geschrieben, welche es ermöglicht aus ei
 
 \section{Erstellung der Samples}
 
-\todo{Wim schreibt was er gemacht hat :)}
-\todo{Die Applikation besteht aus den folgenden Elementen... (UIAxes, ListBox, etc.)}
+Die automatisierte Erstellung der Samples für eine Messung basiert auf einem Feature von Kubios HRV Premium. Dabei kann manuell eine strukturierte CSV-Datei erstellt werden, in welcher die genauen Informationen über die einzelnen Samples definiert sind. Befindet sich diese beim Laden der Messung in Kubios im gleichen Projekt-Verzeichnis, so wird diese erkannt, importiert und die Samples entsprechend angelegt. In der CSV-Datei können dabei Sample-Bezeichnungen, sowie Farbe, Start- und Endzeit der Samples festegelegt werden, wobei die Bezeichnung und Farbe keinen Einfluss auf die spätere Visualisierung hat, jedoch zweingend angelegt werden muss. Die Struktur der Datei ist, wie im folgenden Beispiel zu erkennen, eindimensional. In der ersten Spalte befindet sich immer der Name der Messdatei, sodass Kubios eine Zuordnung der CSV-Datei zur Messung ermöglicht wird. Im nächsten Schritt werden dann die einzelnen Samples konfiguriert. Hierzu wird zunächst in einer Spalte der Name und die Farbe des Samples gesetzt. Die Farbe wird dabei in RGB mit drei Werten von 0 bis 255 angegeben. Die folgenden beiden Spalten geben die Start- und Endzeit in Sekunden an. Das nächste Sample wird direkt an das vorherige angehängt. Alle Spalten werden, wie bei CSV-Dateien üblich, mit einem Komma getrennt.
+
+% kubios.com/downloads/Kubios_HRV_Users_Guide.pdf Seite 14
+
+\begin{table}[H]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|l|l|l|l|l|l|l|l|}
+		\hline
+		11-48-21.EDF & Sample1 \# 0 255 0 & 0 & 600 & Sample2 \# 0 255 0 & 60 & 660 & ... \\ \hline
+	\end{tabular}}
+	\caption{Beispielhafter Aufbau einer Sample-Konfigurationsdatei}
+\end{table}
+
+Da die manuelle Erstellung dieser Konfigruationsdateien sehr aufwendig ist und im Zuge der Aufgabenstellung ein hoher Automatisierungsgrad erreicht werden soll, wird ein Tool innerhalb der Applikation geschrieben, welche diese stark vereinfacht. Dazu kann über den Menüpunkt \glqq Create parametersettings csv-file\grqq{} eine Unterapplikation, der \textbf{Sample Configurator}, gestartet werden. Diese führt den Nutzer Schritt für Schritt durch die Generierung der CSV-Datei.   
+
+Der Sample Configurator besteht hierbei aus vier Eingabefeld-Komponenten und zwei Buttons des App Designers. In den Eingabefeldern werden die wichtigen Parameter der Sample eingegeben. Dazu gehören die Länge der einzelnen Sample, die Verschiebung (d.h. wie viele Minuten nach dem Start des ersten Samples das zweite Sample angelegt werden soll), sowie die Startzeit des ersten Samples und die Länge der gesamten Messungen. Über die Buttons lässt sich dann die Messdatei laden, um Informationen über den Namen, sowie den Speicherort zu erhalten. Der zweite Button dient zur Bestätigung und Generierung der Konfigurationsdatei.
+
+\todo{Bild der Applikation}
+
+Die tatsächliche Generierung erfolgt außerhalb des Sample Configurator durch die \textbf{createCSV}-Funktion. Diese gibt die erhaltenen Daten lediglich an die Hauptapplikation, wo die entsprechende Funktion aufgerufen wird. Hierbei wird die Anzahl der Samples mittels der Messungslänge sowie der Verschiebung der einzelnen Samples berechnet und über die Anzahl dieser gelooped. Dabei werden in jeder Iteration die zuvor beschriebenen Daten berechnet und mit Hilfe des String-Datentyps in eine Liste hinzugefügt. Es ergibt sich eine Liste im Stil der oben beschriebenen Tabelle. Zum Schluss wird diese als CSV-Datei mit dem passenden Namen in das Projekt-Verzeichnis der Messung exportiert.
+
+\todo{Code}
+
+Um nun die Sample-Konfiguration zu importieren, muss zuerst die entsprechende Messdatei manuell in Kubios geladen werden. Die erstellten Samples lassen sich hier direkt auf der Visualisierung von Kubios erkennen. Im nächsten Schritt muss dann ein Export der Messung als MAT-Datei durchgeführt, da diese als Grundlage der Visualisierung der implementierten Applikation dient. Hier ist also ein direkter manueller Eingriff in die Generierung notwendig, da keine Schnittstelle von Kubios einen vollautomatisierte Analyse und Export einer Messung ermöglicht. Das Ablaufdiagramm ändert sich dann wie in nachfolgender Abbildung zu erkennen, wobei die manuell auszuführenden Schritte farbig hinterlegt sind.
+
+\todo{Überarbeitung Ablauf}
 
 \section{Visualisierung der Daten}
 
