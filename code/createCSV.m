@@ -1,5 +1,5 @@
-function isCreated = createCSV(sampleStart, sampleLength, fileLength, ...
-    sampleShift, filename, path)
+function isCreated = createCSV(sampleStart, sampleLength, ...
+		fileLength, sampleShift, filename, path)
     
     isCreated = true;
 
