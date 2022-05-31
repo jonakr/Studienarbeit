@@ -1,4 +1,86 @@
 %!TEX root = ../dokumentation.tex
 
 \chapter{Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}
+In den vorigen Abschnitten wurde bereits ausführlich der Aufbau und die Funktionen des entwickelten Tools erklärt. Nun erfolgt noch eine Beschreibung, wie das Programm in der Praxis tatsächlich genutzt werden kann. Dabei soll vor allem darauf eingegangen werden, welche Verbesserungen und Erleichterungen das HRV Evaluation Tool bei der Analyse von Messungen und der Verwendung von Kubios mit sich bringt. Abschließend soll eine Messung mithilfe des HRV Evaluation Tools analysiert und ausgewertet werden. Bei der Analyse soll dabei hauptsächlich der Einfluss elektromagnetischer Strahlung auf den Körper untersucht werden. 
 
+
+
+\section{Analyse mit Hilfe des  HRV Evaluation Tools und Kubios}
+Das HRV Evaluation Tool ist in seiner Entwicklung als Art Hilfestellung für Kubios gedacht. Im Folgenden werden am Beispiel einer Messanalyse die Aspekte beschrieben, in denen sichtbar wird, inwiefern das Evaluation Tool die Nutzung von Kubios vereinfacht.\\
+
+Die Messung, welche analysiert wird hat eine Länge von circa 45 Minuten. Während der gesamten Messung, liegt der Proband ruhig auf einer Liege und betätigt sich nicht körperlich. Zufällig werden während dieses 45 minütigen Messzeitraums ein WLAN Router und eine DECT Basisstation nahe dem Probanden aktiviert, welcher dies allerdings nicht mitbekommt. Die Dauer der elektromagnetischen Belastung beträgt 15 Minuten. Danach werden Router und DECT Basisstation wieder deaktiviert, sodass keine Belastung mehr auf den Probanden einwirkt. Das Belastungsintervall ist dabei Schwerpunkt der Analyse. Dabei soll untersucht werden, ob die elektromagnetische Belastung eine Auswirkung auf die HRV des Probanden hat.
+
+\subsection{Erstellung von Samples}
+Die Erstellung der Samples wurde bereits im ersten Kapitel behandelt. Die zentrale Aussage dabei war, dass das Erstellen von Samples in Kubios einen großen Zeitaufwand erfordert. Um diese Zeit zu sparen, wird zuerst mit dem HRV Evaluation Tool  die .csv Datei erstellt, welche die gewünschten Samples beinhaltet.
+Für diese Messung wurde eine Sample Länge von 5 Minuten gewählt. Die Verschiebung zwischen den einzelnen Samples beträgt 1 Minute, sodass jede Minute ein neues Sample beginnt. Die dadurch entstehenden 31 Samples werden beim Laden der Messung in Kubios automatisch erstellt, wodurch viel Zeit eingespart werden konnte. Als nächster Schritt muss die Messung mit ihren Samples aus Kubios als \textit{.mat} Datei exportiert werden, damit sie in das Evaluation Tool geladen werden kann. 
+
+\subsection{Veranschaulichung der Parameter} \label{sec:anschaulich}
+Wenn die Messung in das Evaluation Tool geladen wurde, kann zwischen einer Auswahl an Parametern ausgesucht werden. Für den ausgewählten Parameter wird dann ein Wert für jedes Sample berechnet. Diese werden grafisch in einem Diagramm veranschaulicht. Die Darstellung des RMMSD für die Messung ist in Abbildung \ref{fig:rmssd} dargestellt.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{rmssd}
+	\caption{Diagramm des RMSSD}
+	\label{fig:rmssd}
+\end{figure}
+Der RMSSD liegt während der gesamten Messung zwischen 12 und 17ms. Diese Werte sind grundsätzlich eher gering, jedoch nicht so niedrig, dass sie akut auf eine Erkrankung hindeuten. Die Werte deuten lediglich auf eine verminderte kurzzeitige Erholungsfähigkeit des Probanden hin. Auch könnte sich vermuten lassen, dass die Fitness des Probanden nicht optimal ist. Auch ein ungesunden Lebensstil kann Ursache für einen niedrigen RMSSD Wert sein. \\
+Dies sind jedoch alles nur Vermutungen, da sich solche Vermutungen nie nur anhand einer Messung bestätigt werden können. Um die aufgestellten Vermutungen beweisen zu können, sind andere Messung außerhalb der HRV nötig. So können verschiedene Sporttests, wie beispielsweise Ausdauertests genutzt werden, um Aussagen über die Fitness treffen zu können.\\
+Auffallend sind die hohen Werte zu Beginn und am Ende des Messzeitraums. Dies können ihre Ursache außerhalb der natürlichen Regulierung des autonomen Nervensystems haben. Besonders zu Beginn der Messung kann eine erhöhte Aufregung des Patienten die Werte verfälschen. Auch Messfehler können hier ein Rolle spielen. Deshalb sind Messdaten zu Beginn und am Ende der Messung vorsichtig zu betrachten. Grundsätzlich lässt sich allerdings erkennen, dass der RMSSD zu Beginn und am Ende für diese Messung überdurchschnittlich hoch ist.
+
+
+\section{Auswertung von Messungen im Bezug auf elektromagnetische Strahlung}
+Im Abschnitt \ref{sec:anschaulich} wurde bereits der RMSSD des Probanden über die gesamte Messdauer betrachtet. Nun soll der Einfluss der elektromagnetischen Wellen auf den Probanden genauer untersucht werden. Die Belastungszeitraum war zwischen der 13. und 28. Minuten und kann mit Hilfe des Evaluation Tools farbig in das Diagramm eingezeichnet werden.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{rmssdbelastung}
+	\caption{RMSSD mit eingezeichnetem Belastungsintervall}
+	\label{fig:rmssdbelastung}
+\end{figure}
+Auf den ersten Blick fällt vor allem ein großer Ausschlag des RMSSD nach oben auf. Dieser Ausschlag ist ungefähr in der Mitte des Belastungsintervall. Nach diesem Ausschlag fällt der RMSSD sehr stark ab, sodass gegen Ende der Belastung mit nur knapp über 12 ms der geringste Wert der gesamtem Messung aufgezeichnet wurde. Auch zu Beginn des Belastungsintervalls sind die Werte des RMSSD gering. \\
+Bei Einordnung der Belastung in die gesamte Messdauer fällt auf, dass mit Ausnahme der kurzzeitigen hohen Messwerte in der Mitte des Belastungsintervall, der RMSSD während der Belastung unterdurchschnittlich gering ist. Hier lässt sich die These aufstellen, dass die elektromagnetische Strahlung eine negative Auswirkung auf den RMSSD und der damit zusammenhängenden kurzzeitigen Erholungsfähigkeit des Probanden hat. Um diese Theorie weiter zu untersuchen könnte als nächstes eine längere Messung durchgeführt werden. Auch die Untersuchung von Messungen mit mehreren Belastungsintervallen würden weiteren Erkenntnisgewinn bringen. \\
+Eine weitere Möglichkeit ist es, sich die gemessenen NN-Intervalle an sich anzuschauen. Oft ergibt sich bereits am Verlauf der NN-Intervalle weitere Erkenntnis, wie in Abbildung \ref{fig:meanrr} dargestellt
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{meanrr}
+	\caption{Durchschnittliche NN-Intervalldauer mit Belastungsintervall }
+	\label{fig:meanrr}
+\end{figure}
+
+Die Intervalldauer ist zu Beginn der Messung sehr niedrig, steigt dann aber steil an. Dieser abrupte Anstieg deutet stark auf einen Messfehler hin, da die Starke Änderung der NN-Intervalldauer in einem so kurzen Zeitabschnitt ohne plötzliches Ereignis von Außen eher unwahrscheinlich ist. Auch findet sich im weiteren Verlauf der Messung keine so starke Änderung wieder.\\
+
+Zu Beginn des Belastungsintervalls lässt sich wie beim RMSSD eine Verbesserung feststellen. Danach ist allerdings ein monotone Abnahme der HRV bis zum Ende der Belastung sichtbar. So wurde genau zu Ende des Belastungsintervall der geringste Wert mit knapp 800ms gemessen. Nach der Belastung steigt die Dauer der NN-Intervalle wieder an und erreicht ungefähr das gleiche Niveau wie vor der Belastung. \\
+Die Betrachtung der durchschnittlichen NN-Intervalldauer stärkt die These, dass elektromagnetische Strahlung sich negativ auf die Herzratenvariabilität des Probanden auswirkt. Besonders die fast durchgängige monotone Verschlechterung der HRV während der Belastung ist auffällig. Um das Verhalten der HRV während elektromagnetischer Strahlung weiter zu untersuchen, ist das Berechnen weiterer HRV Parameter sinnvoll. So kann beispielsweise der SDNN, ein Parameter für die langzeitige Erholungsfähigkeit des Körpers, weitere Informationen liefern. Dieser ist in Abbildung \ref{fig:sdnn} dargestellt.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{sdnn}
+	\caption{SDNN mit eingezeichnetem Belastungsintervall}
+	\label{fig:sdnn}
+\end{figure}
+
+Der Wert des SDNN startet zu Beginn der Messung bereits sehr hoch, sodass nach ungefähr 3 Minuten der höchste Wert mit knapp über 28 ms gemessen wurde. Danach sinkt der Wert konstant bis zum Start des Belastungsintervall. Kurz nach Start der Belastung lässt sich eine fast konstante Verbesserung des SDNN bis zum Ende der Messung erkennen. \\
+Anhand es SDNN lassen sich keine negativen Auswirkungen von elektromagnetischen Wellen auf den Körper erkennen. Es kann sogar fast gegenteilig argumentiert werden. Ab Beginn der Belastung steigt der Wert des SDNN kontinuierlich an. Dieser Anstieg lässt sich auch damit begründen, dass der SDNN über die Dauer der Messung grundsätzlich steigt. Aber auch die Belastung kann diesem Anstieg nicht negativ entgegenwirken.  
+
+Die bisherigen Aussagen über den Einfluss elektromagnetischer Belastung wurden alle anhand einer Messung abgeleitet. In einem weiteren Schritt wird eine weitere Messung betrachtet. Die Messung wurde an der gleichen Person, jedoch an einem anderen Tag durchgeführt. Um die Messungen miteinander vergleichen zu können, sollen die gleichen Parameter betrachtet werden wie bei der ersten Messung.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{meanrr2}
+	\caption{Durchschnittliche NN-Intervalldauer mit Belastungsintervall, Messung 2}
+	\label{fig:meanrr2}
+\end{figure}
+Die durchschnittliche Dauer der NN-Intervalle der zweiten Messung liegen ungefähr im gleichen Bereich wie bei Messung 1. Allerdings sind die Schwankungen deutlich geringer und die Intervalldauer hat mir wenigen Ausnahmen ein konstantes Niveau. \\
+Während des Belastungsintervalls sinkt die Dauer der NN-Intervalle schwach ab. Dies ist ein großer Unterschied zur NN-Intervalldauer der ersten Messung. Dort war während der elektromagnetischen Belastung eine klare Verkürzung der NN-Intervalle sichtbar. Dieser Verlauf lässt sich in Abbildung \ref{fig:meanrr2} nicht erkennen. Auch der starke Anstieg der Intervalldauer nach Ende der Belastung  in der ersten Messung wiederholt sich nicht. In Messung 2 bleibt die Dauer der NN-Intervalle nach der elektromagnetischen Belastung bis zum Ende der Messung gleich.\\
+Es lassen sich anhand Abbildung \ref{fig:meanrr2} keine negativen Auswirkungen von elektromagnetischer Strahlung auf die HRV erkennen. Die Dauer der NN-Intervalle scheint in keiner Weise durch die Belastung beeinflusst worden sein. Zwar ist eine leichte konstante Verkürzung der Intervalldauer während der Belastung erkennbar, allerdings ist diese zu gering, um die elektromagnetische Strahlung als sicherere Ursache dafür anzuführen. Um diese Aussage bestätigen zu können, müssen nun weitere Parameter betrachtet werden. Daher wird nun der Verlauf des RMSSD während der zweiten Messung analysiert.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1.0\linewidth]{rmssd2}
+	\caption{RMSSD mit eingezeichnetem Belastungsintervall, Messung 2}
+	\label{fig:rmssd2}
+\end{figure}
+Der RMSSD steigt zu Beginn der Messung stark an und erreicht bei circa 9 Minuten seinen höchsten Wert mit knapp unter 16 ms. Danach stürzt der Wert sehr abrupt ab, sodass nur knappe 4 Minuten später ein Wert von unter 10 ms erreicht wird. Zu Beginn des Belastungintervall steigt der Wert des RMSSD kurzzeit an, fällt jedoch danach bis zum Ende der Belastung. Auch nach Ende des Belastungsintervalls setzt sich dieser Negativtrend bis kurz vor Ende der Messung fort.\\
+Das Verhalten des RMMSD während der Belastung ist vergleichbar mit jenem der ersten Messung in Abbildung \ref{fig:rmssdbelastung}. Auch hier steigt der RMSSD zu Beginn der Belastung stark an und fällt anschließend konstant ab. Unterschiedlich ist jedoch das Verhalten nach der Belastung. In der ersten Messung steigt der Wert des RMSSD nach Beenden der elektromagnetischen Belastung stark an. In Messung 2 fällt der RMSSD auch nach der Belastung weiter ab.
+
+\subsection{Zusammenfassung und Ausblick}
+Die erste Messung deutet an, dass es möglicherweise negative Einflüsse durch elektromagnetisch Strahlung auf die HRV geben kann. Besonders der Verlauf der NN-Intervalle (Abbildung \ref{fig:meanrr}) legt dies nahe. Auch der Wert des RMSSD während des Belastungsintervalls (Abbildung \ref{fig:rmssdbelastung})  ist im Gesamtverlauf der Messung eher gering. Der Parameter SDNN (Abbildung \ref{fig:sdnn}) zeigt hingegen keine Hinweise auf eine mögliche Beeinflussbarkeit durch elektromagnetische Strahlung. \\
+In Messung 2 lassen sich kaum Auswirkungen von elektromagnetischer Strahlung vermuten. Der leichte Negativtrend während des Belastungsintervall (Abbildung \ref{fig:meanrr2}) kann noch am ehesten als Argument angeführt werden. Allerdings ist dieser nur sehr gering. Das Ausbleiben einer Veränderung der Werte nach Beenden der Belastung spricht ebenfalls dafür, dass die elektromagnetische Belastung keine Auswirkung auf den Verlauf der NN-Intervalle hatte und der Negativtrend während der Belastung auf andere Ursachen zurückzuführen ist. Auch mit Hilfe des RMSSD lassen sich in Messung 2 keine Zusammenhänge zwischen elektromagnetischer Strahlung und HRV feststellen.\\
+
+Die Frage, ob elektromagnetischer Strahlung einen Einfluss auf die HRV hat, lässt sich nicht klar beantworten. Eine Messung lässt die Vermutung zu, dass es einen möglichen negativen Zusammenhang geben kann. Allerdings zeigen andere Parameter genau gegenteilige Ergebnisse. Auch eine weitere Messung spricht eher dafür, dass es keinen klaren Zusammenhang zwischen elektromagnetischer Belastung und der HRV gibt. Nichtsdestotrotz kann dies auch sehr personenabhängig sein. Bei Messungen mit anderen Probanden können möglicherweise ganz andere Ergebnisse und Vermutungen aufgestellt werden, weshalb weitere Messungen betrachtet werden müssen. \\
+Auch spielt das Thema der elektromagnetischen Belastung in unserem Leben aufgrund der stetigen Digitalisierung eine immer größere Rolle. Daher ist es wichtig, den Einfluss der Strahlung auf unseren Körper kritisch zu hinterfragen. Auch wenn ein Großteil der Menschen möglicherweise keine Beeinflussung durch elektromagnetische Strahlen erfährt, kann es immer Menschen geben, welche dadurch negativ beeinflusst werden. Weitere Untersuchungen zu verschiedenen Vitalparametern des Menschen im Zusammenhang mit elektromagnetischer Belastung sind daher in Zukunft sinnvoll und wichtig.
