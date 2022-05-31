@@ -1,0 +1,46 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'dokumentation.blg'
+[127] biber-MSWIN64:340> INFO - === 
+[166] Biber.pm:415> INFO - Reading 'dokumentation.bcf'
+[278] Biber.pm:952> INFO - Found 31 citekeys in bib section 0
+[291] Biber.pm:4340> INFO - Processing section 0
+[303] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
+[375] bibtex.pm:1689> INFO - LaTeX decoding ...
+[405] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliographie.bib'
+[475] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 8, warning: 1 characters of junk seen at toplevel
+[475] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 15, warning: 1 characters of junk seen at toplevel
+[475] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 22, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 29, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 36, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 43, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 50, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 58, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 65, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 72, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 79, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 86, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 93, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 100, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 107, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 114, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 121, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 128, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 135, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 142, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 149, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 156, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 163, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 170, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 177, warning: 1 characters of junk seen at toplevel
+[476] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 184, warning: 1 characters of junk seen at toplevel
+[477] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 191, warning: 1 characters of junk seen at toplevel
+[477] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 196, warning: 1 characters of junk seen at toplevel
+[477] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\jojok\AppData\Local\Temp\biber_tmp_qQe5\fc5b366787d68e4234f7436cbf80900b_3088.utf8, line 203, warning: 1 characters of junk seen at toplevel
+[477] Utils.pm:395> WARN - I didn't find a database entry for 'kubis' (section 0)
+[511] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[511] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[511] Biber.pm:4168> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'de_DE'
+[512] Biber.pm:4174> INFO - No sort tailoring available for locale 'de_DE'
+[534] bbl.pm:654> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
+[544] bbl.pm:757> INFO - Output to dokumentation.bbl
+[544] Biber.pm:128> INFO - WARNINGS: 30

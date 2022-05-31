@@ -1,0 +1,790 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{para}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=19838acfa207cb8e422cfb2a84fff2d5}{%
+           family={Blech},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{fullhash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{bibnamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authorbibnamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authornamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authorfullhash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \field{extraname}{1}
+      \field{labelalpha}{Ble}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://studyflix.de/biologie/parasympathikus-2768}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Parasympathikus}
+    \endentry
+    \entry{sym}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=19838acfa207cb8e422cfb2a84fff2d5}{%
+           family={Blech},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{fullhash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{bibnamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authorbibnamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authornamehash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \strng{authorfullhash}{19838acfa207cb8e422cfb2a84fff2d5}
+      \field{extraname}{2}
+      \field{labelalpha}{Ble}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://studyflix.de/biologie/sympathikus-2767}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Sympathikus}
+    \endentry
+    \entry{rrbild}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9797227a8436d7454066219b6b6636cd}{%
+           family={Bührer},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9797227a8436d7454066219b6b6636cd}
+      \strng{fullhash}{9797227a8436d7454066219b6b6636cd}
+      \strng{bibnamehash}{9797227a8436d7454066219b6b6636cd}
+      \strng{authorbibnamehash}{9797227a8436d7454066219b6b6636cd}
+      \strng{authornamehash}{9797227a8436d7454066219b6b6636cd}
+      \strng{authorfullhash}{9797227a8436d7454066219b6b6636cd}
+      \field{labelalpha}{Büh}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://bsmartconsulting.de/herzratenvariabilitaet-hrv/}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Herzratenvariabilität (HRV)}
+    \endentry
+    \entry{rr}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=64ba30afdf590940a27ffe9ee038a3c6}{%
+           family={Citi},
+           familyi={C\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d2ec8bb689cc5fa344048c9dc19d0dc8}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={N.E.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6df2cabbb9f934d6062519009e1bea78}{%
+           family={Barbieri},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \strng{fullhash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \strng{bibnamehash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \strng{authorbibnamehash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \strng{authornamehash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \strng{authorfullhash}{b3d14214fb5f769e4ab5037b8b5372f7}
+      \field{labelalpha}{CBB}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3523127/pdf/nihms419572.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{A Real-Time Automated Point Process Method for Detection and Correction of Erroneous and Ectopic Heartbeats}
+    \endentry
+    \entry{pythonBeginners}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=31a74a3d90482bebd296c057539e548c}{%
+           family={Coursera},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{fullhash}{31a74a3d90482bebd296c057539e548c}
+      \strng{bibnamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authorbibnamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authornamehash}{31a74a3d90482bebd296c057539e548c}
+      \strng{authorfullhash}{31a74a3d90482bebd296c057539e548c}
+      \field{labelalpha}{Cou}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python}; zuletzt eingesehen 31.05.2022}
+      \field{title}{What Is Python Used For? A Beginner’s Guide}
+    \endentry
+    \entry{csv}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f7a9618ecb586bac29cc1a236749e5ff}{%
+           family={DateiWiki},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{fullhash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{bibnamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authorbibnamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authornamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authorfullhash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \field{extraname}{1}
+      \field{labelalpha}{Dat}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://datei.wiki/extension/csv}; zuletzt eingesehen 31.05.2022}
+      \field{title}{.CSV Dateierweiterung}
+    \endentry
+    \entry{mat}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f7a9618ecb586bac29cc1a236749e5ff}{%
+           family={DateiWiki},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{fullhash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{bibnamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authorbibnamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authornamehash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \strng{authorfullhash}{f7a9618ecb586bac29cc1a236749e5ff}
+      \field{extraname}{2}
+      \field{labelalpha}{Dat}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://datei.wiki/extension/mat}; zuletzt eingesehen 31.05.2022}
+      \field{title}{.mat Dateierweiterung}
+    \endentry
+    \entry{dataSciLang}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=10a8da32466f23cbebf2446083ec643b}{%
+           family={datacareer},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{10a8da32466f23cbebf2446083ec643b}
+      \strng{fullhash}{10a8da32466f23cbebf2446083ec643b}
+      \strng{bibnamehash}{10a8da32466f23cbebf2446083ec643b}
+      \strng{authorbibnamehash}{10a8da32466f23cbebf2446083ec643b}
+      \strng{authornamehash}{10a8da32466f23cbebf2446083ec643b}
+      \strng{authorfullhash}{10a8da32466f23cbebf2446083ec643b}
+      \field{labelalpha}{dat}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.datacareer.de/blog/data-science-welche-software-f\%C3\%BCr-den-deutschen-arbeitsmarkt/}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Data Science: Welche Programmiersprachen für den deutschen Arbeitsmarkt?}
+    \endentry
+    \entry{sudep}{misc}{}
+      \name{author}{8}{}{%
+        {{hash=46ce02475eaff9ab1e8bebb53fcc28a7}{%
+           family={DeGiorgio},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1e4c5ad4413430f16fc96ad1c96c252a}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=848b9eaf712a38e66dc39eda833fe817}{%
+           family={Meymandi},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=da0889868203ea2b0c172345280c4195}{%
+           family={Chin},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5adcfb58b7014b79cbccd59393100e1a}{%
+           family={Epps},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=19079a8767b059b6e14062884a9bdcd6}{%
+           family={Gordon},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b5bf26d03b8dbdaa591fe0057693f01}{%
+           family={Gornbein},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e972974917985669af001b7f914cb627}{%
+           family={Harper},
+           familyi={H\bibinitperiod},
+           given={R.M.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{afc039bf941822c28f394e86a52dd93a}
+      \strng{fullhash}{f9a7589c55875332689cfed3c1e127cc}
+      \strng{bibnamehash}{afc039bf941822c28f394e86a52dd93a}
+      \strng{authorbibnamehash}{afc039bf941822c28f394e86a52dd93a}
+      \strng{authornamehash}{afc039bf941822c28f394e86a52dd93a}
+      \strng{authorfullhash}{f9a7589c55875332689cfed3c1e127cc}
+      \field{labelalpha}{DeG+}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Artikel}
+      \field{note}{Online verfügbar unter \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2943000/pdf/nihms217810.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{RMSSD, a Measure of Heart Rate Variability, Is Associated With Risk Factors For SUDEP: The SUDEP-7 Inventory}
+    \endentry
+    \entry{whatIsPython}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9688a568902e4b07b60557b566bdd820}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Python\bibnamedelima Software},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{fullhash}{9688a568902e4b07b60557b566bdd820}
+      \strng{bibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorbibnamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authornamehash}{9688a568902e4b07b60557b566bdd820}
+      \strng{authorfullhash}{9688a568902e4b07b60557b566bdd820}
+      \field{labelalpha}{Fou}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.python.org/doc/essays/blurb/}; zuletzt eingesehen 31.05.2022}
+      \field{title}{What is Python? Executive Summary}
+    \endentry
+    \entry{poincare}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=379890e90270f45ec1a1049e922ffcd3}{%
+           family={Franke-Gricksch},
+           familyi={F\bibinithyphendelim G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{fullhash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{bibnamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authorbibnamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authornamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authorfullhash}{379890e90270f45ec1a1049e922ffcd3}
+      \field{extraname}{1}
+      \field{labelalpha}{Fra}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://hrv-herzratenvariabilität.de/2017/07/berechnung-des-poincare-diagramms-aus-rr-intervallen/}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Berechnung des Poincaré-Diagramms aus RR-Intervallen}
+    \endentry
+    \entry{rmssdart}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=379890e90270f45ec1a1049e922ffcd3}{%
+           family={Franke-Gricksch},
+           familyi={F\bibinithyphendelim G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{fullhash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{bibnamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authorbibnamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authornamehash}{379890e90270f45ec1a1049e922ffcd3}
+      \strng{authorfullhash}{379890e90270f45ec1a1049e922ffcd3}
+      \field{extraname}{2}
+      \field{labelalpha}{Fra}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://hrv-herzratenvariabilität.de/2017/09/rmssd-der-hrv-wert-fuer-die-erholungsfaehigkeit/}; zuletzt eingesehen 31.05.2022}
+      \field{title}{RMSSD – der HRV-Wert für die Erholungsfähigkeit}
+    \endentry
+    \entry{h5py}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=76ed7ac7099232ab9954acb36c70c3e6}{%
+           family={h5py},
+           familyi={h\bibinitperiod}}}%
+      }
+      \strng{namehash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \strng{fullhash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \strng{bibnamehash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \strng{authorbibnamehash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \strng{authornamehash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \strng{authorfullhash}{76ed7ac7099232ab9954acb36c70c3e6}
+      \field{labelalpha}{h5p}
+      \field{sortinit}{h}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://docs.h5py.org/en/stable/quick.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Quick Start Guide}
+    \endentry
+    \entry{olsMatPy}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=33acb641974e53cc02bd0c88e0229b52}{%
+           family={Hicks},
+           familyi={H\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{33acb641974e53cc02bd0c88e0229b52}
+      \strng{fullhash}{33acb641974e53cc02bd0c88e0229b52}
+      \strng{bibnamehash}{33acb641974e53cc02bd0c88e0229b52}
+      \strng{authorbibnamehash}{33acb641974e53cc02bd0c88e0229b52}
+      \strng{authornamehash}{33acb641974e53cc02bd0c88e0229b52}
+      \strng{authorfullhash}{33acb641974e53cc02bd0c88e0229b52}
+      \field{labelalpha}{Hic}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://rlhick.people.wm.edu/posts/comparing-the-speed-of-matlab-versus-pythonnumpy.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Comparing the Speed of Matlab versus Python/Numpy}
+    \endentry
+    \entry{whatIsMatlab2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=30e9d7c52d6db2d803795af12dcedf9d}{%
+           family={Huseyin},
+           familyi={H\bibinitperiod},
+           given={Mr.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \strng{fullhash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \strng{bibnamehash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \strng{authorbibnamehash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \strng{authornamehash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \strng{authorfullhash}{30e9d7c52d6db2d803795af12dcedf9d}
+      \field{labelalpha}{Hus}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://blog.devgenius.io/what-is-matlab-why-we-need-it-d61e405ef419}; zuletzt eingesehen 31.05.2022}
+      \field{subtitle}{Understanding the fundamentals of Matlab}
+      \field{title}{What is Matlab? Why we need it?}
+    \endentry
+    \entry{whatIsMatlab}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=912563ab10ded1879baa46f9637b2c7c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={MathWorks},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{912563ab10ded1879baa46f9637b2c7c}
+      \strng{fullhash}{912563ab10ded1879baa46f9637b2c7c}
+      \strng{bibnamehash}{912563ab10ded1879baa46f9637b2c7c}
+      \strng{authorbibnamehash}{912563ab10ded1879baa46f9637b2c7c}
+      \strng{authornamehash}{912563ab10ded1879baa46f9637b2c7c}
+      \strng{authorfullhash}{912563ab10ded1879baa46f9637b2c7c}
+      \field{labelalpha}{Inc}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://de.mathworks.com/discovery/what-is-matlab.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{What Is MATLAB?}
+    \endentry
+    \entry{herz}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=803cb77eb4e93b71bc93af1a237fd1c7}{%
+           family={Internisten},
+           familyi={I\bibinitperiod},
+           given={Bundesverband\bibnamedelimb Deutscher\bibnamedelima Internistinnen},
+           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={und},
+           prefixi={u\bibinitperiod}}}%
+      }
+      \strng{namehash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \strng{fullhash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \strng{bibnamehash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \strng{authorbibnamehash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \strng{authornamehash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \strng{authorfullhash}{803cb77eb4e93b71bc93af1a237fd1c7}
+      \field{labelalpha}{Int}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.internisten-im-netz.de/fachgebiete/herz-kreislauf/begriffe-rund-ums-herz.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Wichtige Begriffe rund ums Herz}
+    \endentry
+    \entry{sport}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=e181f690c5bb1d56d2ffbfe19c47f0bc}{%
+           family={Kiviniemi},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7574723054080536be435f24011469fe}{%
+           family={Hautala},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ccd8cdf42c05850778bc68de6f553834}{%
+           family={Kinnunen},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b375d72373969310db970bf16e3a2694}{%
+           family={Tulppo},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi P.},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c0d63c7dedc77d55bf0993b597357dd}
+      \strng{fullhash}{c4899efa1994478964177bb37908f0b5}
+      \strng{bibnamehash}{5c0d63c7dedc77d55bf0993b597357dd}
+      \strng{authorbibnamehash}{5c0d63c7dedc77d55bf0993b597357dd}
+      \strng{authornamehash}{5c0d63c7dedc77d55bf0993b597357dd}
+      \strng{authorfullhash}{c4899efa1994478964177bb37908f0b5}
+      \field{labelalpha}{Kiv+}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Artikel}
+      \field{note}{Online verfügbar unter \url{https://link.springer.com/content/pdf/10.1007/s00421-007-0552-2.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Endurance training guided individually by daily heart rate variability measurements}
+    \endentry
+    \entry{zeit}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54f924d164aeb60f5f0d42ca2d636fd7}{%
+           family={Kroell},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{fullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{bibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorbibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authornamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorfullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \field{extraname}{1}
+      \field{labelalpha}{Kro}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://knowledge.time2tri.me/de/articles/die-wichtigsten-hrv-parameter-teil-1-zeitbezogene-parameter}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Die wichtigsten HRV-Parameter – Teil 1: Zeitbezogene Parameter}
+    \endentry
+    \entry{freque}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54f924d164aeb60f5f0d42ca2d636fd7}{%
+           family={Kroell},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{fullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{bibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorbibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authornamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorfullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \field{extraname}{2}
+      \field{labelalpha}{Kro}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://knowledge.time2tri.me/de/articles/die-wichtigsten-hrv-parameter-teil-2-frequenzbezogene-parameter}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Die wichtigsten HRV-Parameter – Teil 2: Frequenzbezogene Parameter}
+    \endentry
+    \entry{hrv}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54f924d164aeb60f5f0d42ca2d636fd7}{%
+           family={Kroell},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{fullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{bibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorbibnamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authornamehash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \strng{authorfullhash}{54f924d164aeb60f5f0d42ca2d636fd7}
+      \field{extraname}{3}
+      \field{labelalpha}{Kro}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extraalpha}{3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://knowledge.time2tri.me/de/articles/was-ist-die-herzratenvariabilitaet-hrv }; zuletzt eingesehen 31.05.2022}
+      \field{title}{Parasympathikus}
+    \endentry
+    \entry{kubios}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=71e019fab39aaa52f7a88cb7ee200d4e}{%
+           family={Kubios},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \strng{fullhash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \strng{bibnamehash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \strng{authorbibnamehash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \strng{authornamehash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \strng{authorfullhash}{71e019fab39aaa52f7a88cb7ee200d4e}
+      \field{labelalpha}{Kub}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Online Dokument}
+      \field{note}{Online verfügbar unter \url{https://www.kubios.com/downloads/Kubios_HRV_Users_Guide.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Kubios HRV Premium User's Guide}
+    \endentry
+    \entry{artefakt}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2ca53023992a8067b422cb0c9b427e9f}{%
+           family={Nicolay},
+           familyi={N\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ca53023992a8067b422cb0c9b427e9f}
+      \strng{fullhash}{2ca53023992a8067b422cb0c9b427e9f}
+      \strng{bibnamehash}{2ca53023992a8067b422cb0c9b427e9f}
+      \strng{authorbibnamehash}{2ca53023992a8067b422cb0c9b427e9f}
+      \strng{authornamehash}{2ca53023992a8067b422cb0c9b427e9f}
+      \strng{authorfullhash}{2ca53023992a8067b422cb0c9b427e9f}
+      \field{labelalpha}{Nic}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://flexikon.doccheck.com/de/Artefakt}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Artefakt}
+    \endentry
+    \entry{pandas}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3a43b4f88325d94022c0efa9c2fa2f5a}{%
+           family={pandas},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{fullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{bibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorbibnamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authornamehash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \strng{authorfullhash}{3a43b4f88325d94022c0efa9c2fa2f5a}
+      \field{labelalpha}{pan}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{What kind of data does pandas handle?}
+    \endentry
+    \entry{babilon}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=a178f2b6e31a38432071579c4fbe3194}{%
+           family={Sammito},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f5740a5359a0f5bb6bdf5539bf4fc923}{%
+           family={Böckelmann},
+           familyi={B\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \strng{fullhash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \strng{bibnamehash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \strng{authorbibnamehash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \strng{authornamehash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \strng{authorfullhash}{ecbc44a7d4916bc453f5d9a2c4a5eceb}
+      \field{labelalpha}{SB}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Artikel}
+      \field{note}{Online verfügbar unter \url{https://www.awmf.org/uploads/tx_szleitlinien/002-042l_S2k_Nutzung-Herzschlagfrequenz-Herzfrequenzvariabilitaet-Arbeitsmedizin-Arbeitswissenschaft_2022-03_1.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Nutzung der Herzschlagfrequenz und der Herzfrequenzvariabilität in der Arbeitsmedizin und der Arbeitswissenschaft}
+    \endentry
+    \entry{med}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=61b84e8b772858c451d03ca8ce51abcc}{%
+           family={Schaffer},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=59ad43f8a005074c7f23b92bd6ad1b02}{%
+           family={Ginsberg},
+           familyi={G\bibinitperiod},
+           given={J.P.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{55402e5fc63341ef8e4d223fac508737}
+      \strng{fullhash}{55402e5fc63341ef8e4d223fac508737}
+      \strng{bibnamehash}{55402e5fc63341ef8e4d223fac508737}
+      \strng{authorbibnamehash}{55402e5fc63341ef8e4d223fac508737}
+      \strng{authornamehash}{55402e5fc63341ef8e4d223fac508737}
+      \strng{authorfullhash}{55402e5fc63341ef8e4d223fac508737}
+      \field{labelalpha}{SG}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Artikel}
+      \field{note}{Online verfügbar unter \url{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5624990/pdf/fpubh-05-00258.pdf}; zuletzt eingesehen 31.05.2022}
+      \field{title}{An Overview of Heart Rate Variability Metrics and Norms}
+    \endentry
+    \entry{kleinsteQuadrate}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=847567ecfff9f466dd517284f8f66aea}{%
+           family={Steinfeld},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{847567ecfff9f466dd517284f8f66aea}
+      \strng{fullhash}{847567ecfff9f466dd517284f8f66aea}
+      \strng{bibnamehash}{847567ecfff9f466dd517284f8f66aea}
+      \strng{authorbibnamehash}{847567ecfff9f466dd517284f8f66aea}
+      \strng{authornamehash}{847567ecfff9f466dd517284f8f66aea}
+      \strng{authorfullhash}{847567ecfff9f466dd517284f8f66aea}
+      \field{labelalpha}{Ste}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://mathepedia.de/Methode\_der\_kleinsten\_Quadrate.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Methode der kleinsten Quadrate}
+    \endentry
+    \entry{deffreq}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=399ba9dfcfdb8ae04037e6994736146a}{%
+           family={T.},
+           familyi={T\bibinitperiod},
+           given={Force},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{399ba9dfcfdb8ae04037e6994736146a}
+      \strng{fullhash}{399ba9dfcfdb8ae04037e6994736146a}
+      \strng{bibnamehash}{399ba9dfcfdb8ae04037e6994736146a}
+      \strng{authorbibnamehash}{399ba9dfcfdb8ae04037e6994736146a}
+      \strng{authornamehash}{399ba9dfcfdb8ae04037e6994736146a}
+      \strng{authorfullhash}{399ba9dfcfdb8ae04037e6994736146a}
+      \field{labelalpha}{T}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Artikel}
+      \field{title}{Standards of Measurement, Physiological Interpretation and Clinical Use. Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology.}
+    \endentry
+    \entry{pythonDict}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={W3Schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{bibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorbibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \field{labelalpha}{W3S}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.w3schools.com/python/python_dictionaries.asp}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Python Dictionaries}
+    \endentry
+    \entry{veg}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=9dd5886580677c05e4676bd3a3722ab9}{%
+           family={Windeler},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9dd5886580677c05e4676bd3a3722ab9}
+      \strng{fullhash}{9dd5886580677c05e4676bd3a3722ab9}
+      \strng{bibnamehash}{9dd5886580677c05e4676bd3a3722ab9}
+      \strng{authorbibnamehash}{9dd5886580677c05e4676bd3a3722ab9}
+      \strng{authornamehash}{9dd5886580677c05e4676bd3a3722ab9}
+      \strng{authorfullhash}{9dd5886580677c05e4676bd3a3722ab9}
+      \field{labelalpha}{Win}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Website}
+      \field{note}{Online verfügbar unter \url{https://www.gesundheitsinformation.de/wie-funktioniert-das-nervensystem.html}; zuletzt eingesehen 31.05.2022}
+      \field{title}{Nutzung der Herzschlagfrequenz und der Herzfrequenzvariabilität in der Arbeitsmedizin und der Arbeitswissenschaft}
+    \endentry
+  \enddatalist
+  \missing{kubis}
+\endrefsection
+\endinput
+

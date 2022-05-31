@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {formel}{\numberline {1.3} SDNN}{7}{equation.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {1.4} RMSSD}{9}{equation.1.2.4}%
+\contentsline {formel}{\numberline {1.4} RMSSD}{8}{equation.1.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {formel}{\numberline {1.5} pNN50}{9}{equation.1.2.5}%
 \defcounter {refsection}{0}\relax 
@@ -19,7 +19,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {3.3} Berechnung der abhängigen Variable - OLS}{23}{equation.3.2.3}%
+\contentsline {formel}{\numberline {3.3} Berechnung der abhängigen Variable - OLS}{26}{equation.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

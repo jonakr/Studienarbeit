@@ -2342,22 +2342,61 @@
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliographie.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">bibliographie.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">csv</bcf:citekey>
-    <bcf:citekey order="2">mat</bcf:citekey>
-    <bcf:citekey order="3">dataSciLang</bcf:citekey>
-    <bcf:citekey order="4">dataSciLang</bcf:citekey>
-    <bcf:citekey order="5">whatIsPython</bcf:citekey>
-    <bcf:citekey order="6">pythonBeginners</bcf:citekey>
-    <bcf:citekey order="7">whatIsMatlab</bcf:citekey>
-    <bcf:citekey order="8">whatIsMatlab2</bcf:citekey>
-    <bcf:citekey order="9">kleinsteQuadrate</bcf:citekey>
-    <bcf:citekey order="10">olsMatPy</bcf:citekey>
-    <bcf:citekey order="11">pandas</bcf:citekey>
-    <bcf:citekey order="12">h5py</bcf:citekey>
-    <bcf:citekey order="13">kubis</bcf:citekey>
-    <bcf:citekey order="14">pythonDict</bcf:citekey>
+    <bcf:citekey order="1">herz</bcf:citekey>
+    <bcf:citekey order="2">babilon</bcf:citekey>
+    <bcf:citekey order="3">veg</bcf:citekey>
+    <bcf:citekey order="4">sym</bcf:citekey>
+    <bcf:citekey order="5">para</bcf:citekey>
+    <bcf:citekey order="6">veg</bcf:citekey>
+    <bcf:citekey order="7">babilon</bcf:citekey>
+    <bcf:citekey order="8">hrv</bcf:citekey>
+    <bcf:citekey order="9">hrv</bcf:citekey>
+    <bcf:citekey order="10">sport</bcf:citekey>
+    <bcf:citekey order="11">sport</bcf:citekey>
+    <bcf:citekey order="12">rrbild</bcf:citekey>
+    <bcf:citekey order="13">artefakt</bcf:citekey>
+    <bcf:citekey order="14">rr</bcf:citekey>
+    <bcf:citekey order="15">kubios</bcf:citekey>
+    <bcf:citekey order="16">med</bcf:citekey>
+    <bcf:citekey order="17">med</bcf:citekey>
+    <bcf:citekey order="18">babilon</bcf:citekey>
+    <bcf:citekey order="19">zeit</bcf:citekey>
+    <bcf:citekey order="20">med</bcf:citekey>
+    <bcf:citekey order="21">sudep</bcf:citekey>
+    <bcf:citekey order="22">rmssdart</bcf:citekey>
+    <bcf:citekey order="23">zeit</bcf:citekey>
+    <bcf:citekey order="24">babilon</bcf:citekey>
+    <bcf:citekey order="25">zeit</bcf:citekey>
+    <bcf:citekey order="26">deffreq</bcf:citekey>
+    <bcf:citekey order="27">med</bcf:citekey>
+    <bcf:citekey order="28">freque</bcf:citekey>
+    <bcf:citekey order="29">freque</bcf:citekey>
+    <bcf:citekey order="30">med</bcf:citekey>
+    <bcf:citekey order="31">med</bcf:citekey>
+    <bcf:citekey order="32">med</bcf:citekey>
+    <bcf:citekey order="33">poincare</bcf:citekey>
+    <bcf:citekey order="34">poincare</bcf:citekey>
+    <bcf:citekey order="35">poincare</bcf:citekey>
+    <bcf:citekey order="36">poincare</bcf:citekey>
+    <bcf:citekey order="37">med</bcf:citekey>
+    <bcf:citekey order="38">med</bcf:citekey>
+    <bcf:citekey order="39">csv</bcf:citekey>
+    <bcf:citekey order="40">mat</bcf:citekey>
+    <bcf:citekey order="41">dataSciLang</bcf:citekey>
+    <bcf:citekey order="42">dataSciLang</bcf:citekey>
+    <bcf:citekey order="43">whatIsPython</bcf:citekey>
+    <bcf:citekey order="44">pythonBeginners</bcf:citekey>
+    <bcf:citekey order="45">whatIsMatlab</bcf:citekey>
+    <bcf:citekey order="46">whatIsMatlab2</bcf:citekey>
+    <bcf:citekey order="47">kleinsteQuadrate</bcf:citekey>
+    <bcf:citekey order="48">olsMatPy</bcf:citekey>
+    <bcf:citekey order="49">pandas</bcf:citekey>
+    <bcf:citekey order="50">h5py</bcf:citekey>
+    <bcf:citekey order="51">kubis</bcf:citekey>
+    <bcf:citekey order="52">pythonDict</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
