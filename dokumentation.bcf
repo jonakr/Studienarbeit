@@ -2399,7 +2399,7 @@
     <bcf:citekey order="52">olsMatPy</bcf:citekey>
     <bcf:citekey order="53">pandas</bcf:citekey>
     <bcf:citekey order="54">h5py</bcf:citekey>
-    <bcf:citekey order="55">kubis</bcf:citekey>
+    <bcf:citekey order="55">kubios</bcf:citekey>
     <bcf:citekey order="56">pythonDict</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

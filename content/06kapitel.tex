@@ -1,9 +1,7 @@
 %!TEX root = ../dokumentation.tex
 
 \chapter{Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}
-In den vorigen Abschnitten wurde bereits ausführlich der Aufbau und die Funktionen des entwickelten Tools erklärt. Nun erfolgt noch eine Beschreibung, wie das Programm in der Praxis tatsächlich genutzt werden kann. Dabei soll vor allem darauf eingegangen werden, welche Verbesserungen und Erleichterungen das HRV Evaluation Tool bei der Analyse von Messungen und der Verwendung von Kubios mit sich bringt. Abschließend soll eine Messung mithilfe des HRV Evaluation Tools analysiert und ausgewertet werden. Bei der Analyse soll dabei hauptsächlich der Einfluss elektromagnetischer Strahlung auf den Körper untersucht werden. 
-
-
+In den vorherigen Abschnitten wurde bereits ausführlich der Aufbau und die Funktionen des entwickelten Tools erklärt. Nun erfolgt noch eine Beschreibung, wie das Programm in der Praxis tatsächlich genutzt werden kann. Dabei soll vor allem darauf eingegangen werden, welche Verbesserungen und Erleichterungen das HRV Evaluation Tool bei der Analyse von Messungen und der Verwendung von Kubios mit sich bringt. Abschließend soll eine Messung mithilfe des HRV Evaluation Tools analysiert und ausgewertet werden. Bei der Analyse soll dabei hauptsächlich der Einfluss elektromagnetischer Strahlung auf den Körper untersucht werden. 
 
 \section{Analyse mit Hilfe des  HRV Evaluation Tools und Kubios}
 Das HRV Evaluation Tool ist in seiner Entwicklung als Art Hilfestellung für Kubios gedacht. Im Folgenden werden am Beispiel einer Messanalyse die Aspekte beschrieben, in denen sichtbar wird, inwiefern das Evaluation Tool die Nutzung von Kubios vereinfacht.\\
@@ -12,7 +10,7 @@ Die Messung, welche analysiert wird, hat eine Länge von circa 45 Minuten. Währ
 
 \subsection{Erstellung von Samples}
 Die Erstellung der Samples wurde bereits im ersten Kapitel behandelt. Die zentrale Aussage dabei war, dass das Erstellen von Samples in Kubios einen großen Zeitaufwand erfordert. Um diese Zeit zu sparen, wird zuerst mit dem HRV Evaluation Tool  die .csv Datei erstellt, welche die gewünschten Samples beinhaltet.
-Für diese Messung wurde eine Sample Länge von 5 Minuten gewählt. Die Verschiebung zwischen den einzelnen Samples beträgt 1 Minute, sodass jede Minute ein neues Sample beginnt. Die dadurch entstehenden 31 Samples werden beim Laden der Messung in Kubios automatisch erstellt, wodurch viel Zeit eingespart werden konnte. Als nächster Schritt muss die Messung mit ihren Samples aus Kubios als \textit{.mat} Datei exportiert werden, damit sie in das Evaluation Tool geladen werden kann. 
+Für diese Messung wurde eine Sample Länge von 5 Minuten gewählt. Die Verschiebung zwischen den einzelnen Samples beträgt 1 Minute, sodass jede Minute ein neues Sample beginnt. Die dadurch entstehenden 31 Samples werden beim Laden der Messung in Kubios automatisch erstellt, wodurch viel Zeit eingespart werden kann. Als nächster Schritt muss die Messung mit ihren Samples aus Kubios als \textit{.mat} Datei exportiert werden, damit sie in das Evaluation Tool geladen werden kann. 
 
 \subsection{Veranschaulichung der Parameter} \label{sec:anschaulich}
 Wenn die Messung in das Evaluation Tool geladen wurde, kann zwischen einer Auswahl an Parametern ausgesucht werden. Für den ausgewählten Parameter wird dann ein Wert für jedes Sample berechnet. Diese werden grafisch in einem Diagramm veranschaulicht. Die Darstellung des RMMSD für die Messung ist in Abbildung \ref{fig:rmssd} dargestellt.
@@ -28,7 +26,7 @@ Auffallend sind die hohen Werte zu Beginn und am Ende des Messzeitraums. Dies k�
 
 
 \section{Auswertung von Messungen im Bezug auf elektromagnetische Strahlung}
-Im Abschnitt \ref{sec:anschaulich} wurde bereits der RMSSD des Probanden über die gesamte Messdauer betrachtet. Nun soll der Einfluss der elektromagnetischen Wellen auf den Probanden genauer untersucht werden. Der Belastungszeitraum war zwischen der 13. und 28. Minuten und kann mithilfe des Evaluation Tools farbig in das Diagramm eingezeichnet werden.
+Im Abschnitt \ref{sec:anschaulich} wurde bereits der RMSSD des Probanden über die gesamte Messdauer betrachtet. Nun soll der Einfluss der elektromagnetischen Wellen auf den Probanden genauer untersucht werden. Der Belastungszeitraum befindet sich zwischen der 13. und 28. Minute und kann mithilfe des Evaluation Tools farbig in das Diagramm eingezeichnet werden.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\linewidth]{rmssdbelastung}
@@ -37,7 +35,7 @@ Im Abschnitt \ref{sec:anschaulich} wurde bereits der RMSSD des Probanden über d
 \end{figure}
 Auf den ersten Blick fällt vor allem ein großer Ausschlag des RMSSD nach oben auf. Dieser Ausschlag ist ungefähr in der Mitte des Belastungsintervalls. Nach diesem Ausschlag fällt der RMSSD sehr stark ab, sodass gegen Ende der Belastung mit nur knapp über 12 ms der geringste Wert der gesamten Messung aufgezeichnet wurde. Auch zu Beginn des Belastungsintervalls sind die Werte des RMSSD gering. \\
 Bei Einordnung der Belastung in die gesamte Messdauer fällt auf, dass, mit Ausnahme der kurzzeitigen hohen Messwerte in der Mitte des Belastungsintervalls, der RMSSD während der Belastung unterdurchschnittlich gering ist. Hier lässt sich die These aufstellen, dass die elektromagnetische Strahlung eine negative Auswirkung auf den RMSSD und der damit zusammenhängenden kurzzeitigen Erholungsfähigkeit des Probanden hat. Um diese Theorie weiter zu untersuchen, könnte als Nächstes eine längere Messung durchgeführt werden. Auch die Untersuchung von Messungen mit mehreren Belastungsintervallen würden weiteren Erkenntnisgewinn bringen. \\
-Eine weitere Möglichkeit ist es, sich die gemessenen NN-Intervalle an sich anzuschauen. Oft ergibt sich bereits am Verlauf der NN-Intervalle weitere Erkenntnis, wie in Abbildung \ref{fig:meanrr} dargestellt
+Eine weitere Möglichkeit ist es, sich die gemessenen NN-Intervalle an sich anzuschauen. Oft ergibt sich bereits am Verlauf der NN-Intervalle weitere Erkenntnis, wie in Abbildung \ref{fig:meanrr} dargestellt.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\linewidth]{meanrr}
@@ -57,7 +55,7 @@ Die Betrachtung der durchschnittlichen NN-Intervalldauer stärkt die These, dass
 \end{figure}
 
 Der Wert des SDNN startet zu Beginn der Messung bereits sehr hoch, sodass nach ungefähr 3 Minuten der höchste Wert mit knapp über 28 ms gemessen wurde. Danach sinkt der Wert konstant bis zum Start des Belastungsintervalls. Kurz nach Start der Belastung lässt sich eine fast konstante Verbesserung des SDNN bis zum Ende der Messung erkennen. \\
-Anhand es SDNN lassen sich keine negativen Auswirkungen von elektromagnetischen Wellen auf den Körper erkennen. Es kann sogar fast gegenteilig argumentiert werden. Ab Beginn der Belastung steigt der Wert des SDNN kontinuierlich an. Dieser Anstieg lässt sich auch damit begründen, dass der SDNN über die Dauer der Messung grundsätzlich steigt. Aber auch die Belastung kann diesem Anstieg nicht negativ entgegenwirken.  
+Anhand des SDNN lassen sich keine negativen Auswirkungen von elektromagnetischen Wellen auf den Körper erkennen. Es kann sogar fast gegenteilig argumentiert werden. Ab Beginn der Belastung steigt der Wert des SDNN kontinuierlich an. Dieser Anstieg lässt sich auch damit begründen, dass der SDNN über die Dauer der Messung grundsätzlich steigt. Aber auch die Belastung kann diesem Anstieg nicht negativ entgegenwirken.  
 
 Die bisherigen Aussagen über den Einfluss elektromagnetischer Belastung wurden alle anhand einer Messung abgeleitet. In einem weiteren Schritt wird eine weitere Messung betrachtet. Die Messung wurde an der gleichen Person, jedoch an einem anderen Tag durchgeführt. Um die Messungen miteinander vergleichen zu können, sollen die gleichen Parameter betrachtet werden wie bei der ersten Messung.
 \begin{figure}[H]
@@ -82,7 +80,7 @@ Das Verhalten des RMMSD während der Belastung ist vergleichbar mit jenem der er
 Die erste Messung deutet an, dass es möglicherweise negative Einflüsse durch elektromagnetisch Strahlung auf die HRV geben kann. Besonders der Verlauf der NN-Intervalle (Abbildung \ref{fig:meanrr}) legt dies nahe. Auch der Wert des RMSSD während des Belastungsintervalls (Abbildung \ref{fig:rmssdbelastung})  ist im Gesamtverlauf der Messung eher gering. Der Parameter SDNN (Abbildung \ref{fig:sdnn}) zeigt hingegen keine Hinweise auf eine mögliche Beeinflussbarkeit durch elektromagnetische Strahlung. \\
 In Messung 2 lassen sich kaum Auswirkungen von elektromagnetischer Strahlung vermuten. Der leichte Negativtrend während des Belastungsintervall (Abbildung \ref{fig:meanrr2}) kann noch am ehesten als Argument angeführt werden. Allerdings ist dieser nur sehr gering. Das Ausbleiben einer Veränderung der Werte nach Beenden der Belastung spricht ebenfalls dafür, dass die elektromagnetische Belastung keine Auswirkung auf den Verlauf der NN-Intervalle hatte und der Negativtrend während der Belastung auf andere Ursachen zurückzuführen ist. Auch mithilfe des RMSSD lassen sich in Messung 2 keine Zusammenhänge zwischen elektromagnetischer Strahlung und HRV feststellen.\\
 
-Die Frage, ob elektromagnetischer Strahlung einen Einfluss auf die HRV hat, lässt sich nicht klar beantworten. Eine Messung lässt die Vermutung zu, dass es einen möglichen negativen Zusammenhang geben kann. Allerdings zeigen andere Parameter genau gegenteilige Ergebnisse. Auch eine weitere Messung spricht eher dafür, dass es keinen klaren Zusammenhang zwischen elektromagnetischer Belastung und der HRV gibt. Nichtsdestotrotz kann dies auch sehr personenabhängig sein. Bei Messungen mit anderen Probanden können möglicherweise ganz andere Ergebnisse und Vermutungen aufgestellt werden, weshalb weitere Messungen betrachtet werden müssen. \\
+Die Frage, ob elektromagnetische Strahlung einen Einfluss auf die HRV hat, lässt sich nicht klar beantworten. Eine Messung lässt die Vermutung zu, dass es einen möglichen negativen Zusammenhang geben kann. Allerdings zeigen andere Parameter genau gegenteilige Ergebnisse. Auch eine weitere Messung spricht eher dafür, dass es keinen klaren Zusammenhang zwischen elektromagnetischer Belastung und der HRV gibt. Nichtsdestotrotz kann dies auch sehr personenabhängig sein. Bei Messungen mit anderen Probanden können möglicherweise ganz andere Ergebnisse und Vermutungen aufgestellt werden, weshalb weitere Messungen betrachtet werden müssen. \\
 Auch spielt das Thema der elektromagnetischen Belastung in unserem Leben aufgrund der stetigen Digitalisierung eine immer größere Rolle. Daher ist es wichtig, den Einfluss der Strahlung auf unseren Körper kritisch zu hinterfragen. Auch wenn ein Großteil der Menschen möglicherweise keine Beeinflussung durch elektromagnetische Strahlen erfährt, kann es immer Menschen geben, welche dadurch negativ beeinflusst werden. Weitere Untersuchungen zu verschiedenen Vitalparametern des Menschen im Zusammenhang mit elektromagnetischer Belastung sind daher in Zukunft sinnvoll und wichtig. \\
 
 
