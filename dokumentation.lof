@@ -6,75 +6,75 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces R-R-Intervall\relax }}{5}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces R-R-Intervall\relax }}{5}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces HRV - Zeitabhängige Parameter\relax }}{7}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces HRV - Zeitabhängige Parameter\relax }}{7}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Leistungsdichtespektrum\relax }}{11}{figure.caption.30}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Leistungsdichtespektrum\relax }}{11}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.4}{\ignorespaces HRV - Frequenzabhängige Parameter\relax }}{12}{figure.caption.31}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces HRV - Frequenzabhängige Parameter\relax }}{12}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.5}{\ignorespaces HRV - Nicht-lineare Parameter\relax }}{14}{figure.caption.36}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces HRV - Nicht-lineare Parameter\relax }}{14}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Poincaré-Diagramm\relax }}{15}{figure.caption.39}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Poincaré-Diagramm\relax }}{15}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.7}{\ignorespaces SD1 und SD2\relax }}{16}{figure.caption.42}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces SD1 und SD2\relax }}{16}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Kubios HRV Premium\relax }}{18}{figure.caption.43}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Kubios HRV Premium\relax }}{18}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Berechnung eines Samples\relax }}{19}{figure.caption.44}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Berechnung eines Samples\relax }}{19}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Samples in Kubios\relax }}{19}{figure.caption.45}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Samples in Kubios\relax }}{19}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualisierung der Zeitmessung\relax }}{29}{figure.caption.50}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualisierung der Zeitmessung\relax }}{29}{figure.caption.51}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Konzept Klassendiagramm\relax }}{32}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Konzept Klassendiagramm\relax }}{32}{figure.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Konzept Ablauf der vollständigen Applikation\relax }}{33}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Konzept Ablauf der vollständigen Applikation\relax }}{33}{figure.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Konzept Ablauf für das Erstellen der Samples\relax }}{34}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Konzept Ablauf für das Erstellen der Samples\relax }}{34}{figure.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Konzept Ablauf für das Visualisieren von Daten\relax }}{34}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Konzept Ablauf für das Visualisieren von Daten\relax }}{34}{figure.caption.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Designkonzept\relax }}{35}{figure.caption.61}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Klassendiagramm der fertigen Applikation\relax }}{36}{figure.caption.62}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Fertige Applikation mit geladener Messung\relax }}{39}{figure.caption.63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Auszug aus der Struktur der Setup-Datei\relax }}{40}{figure.caption.64}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Unterapplikation Sample Configurator\relax }}{41}{figure.caption.66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Angepasstes Ablaufdiagramm der Sample-Erstellung mit manuellen Schritten\relax }}{43}{figure.caption.67}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Verschachtelungsprobleme der unverarbeiteten Export-Daten\relax }}{44}{figure.caption.68}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Baumstruktur zur Veranschaulichung der Datenstruktur\relax }}{45}{figure.caption.69}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Beispiel einer Visualisierung mit Belastungsintervall\relax }}{50}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Designkonzept\relax }}{35}{figure.caption.62}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramm des RMSSD\relax }}{53}{figure.caption.77}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Klassendiagramm der fertigen Applikation\relax }}{36}{figure.caption.63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces RMSSD mit eingezeichnetem Belastungsintervall\relax }}{55}{figure.caption.78}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Fertige Applikation mit geladener Messung\relax }}{39}{figure.caption.64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Durchschnittliche NN-Intervalldauer mit Belastungsintervall \relax }}{56}{figure.caption.79}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Auszug aus der Struktur der Setup-Datei\relax }}{40}{figure.caption.65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces SDNN mit eingezeichnetem Belastungsintervall\relax }}{57}{figure.caption.80}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Unterapplikation Sample Configurator\relax }}{41}{figure.caption.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Durchschnittliche NN-Intervalldauer mit Belastungsintervall, Messung 2\relax }}{58}{figure.caption.81}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Angepasstes Ablaufdiagramm der Sample-Erstellung mit manuellen Schritten\relax }}{43}{figure.caption.68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces RMSSD mit eingezeichnetem Belastungsintervall, Messung 2\relax }}{59}{figure.caption.82}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Verschachtelungsprobleme der unverarbeiteten Export-Daten\relax }}{44}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Baumstruktur zur Veranschaulichung der Datenstruktur\relax }}{45}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Beispiel einer Visualisierung mit Belastungsintervall\relax }}{50}{figure.caption.73}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Diagramm des RMSSD\relax }}{53}{figure.caption.78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces RMSSD mit eingezeichnetem Belastungsintervall\relax }}{55}{figure.caption.79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Durchschnittliche NN-Intervalldauer mit Belastungsintervall \relax }}{56}{figure.caption.80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces SDNN mit eingezeichnetem Belastungsintervall\relax }}{57}{figure.caption.81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Durchschnittliche NN-Intervalldauer mit Belastungsintervall, Messung 2\relax }}{58}{figure.caption.82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces RMSSD mit eingezeichnetem Belastungsintervall, Messung 2\relax }}{59}{figure.caption.83}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

@@ -2,15 +2,15 @@
 \babel@toc {ngerman}{}\relax 
 \babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IV}{chapter*.2}%
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{V}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{V}{chapter*.3}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VI}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VII}{chapter*.4}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{VIII}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{VIII}{chapter*.5}%
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{IX}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{IX}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Listings}{X}{chapter*.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Medizinische Grundlagen}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -26,29 +26,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.3}Parameter}{6}{subsection.1.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Zeitabhängige Parameter}{6}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline Zeitabhängige Parameter}{6}{subsubsection*.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline \ac {SDNN}}{7}{paragraph*.18}%
+\contentsline {paragraph}{\nonumberline \ac {SDNN}}{7}{paragraph*.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline \ac {RMSSD}}{8}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline \ac {RMSSD}}{8}{paragraph*.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline pNN50}{9}{paragraph*.24}%
+\contentsline {paragraph}{\nonumberline pNN50}{9}{paragraph*.25}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.4}Frequenzabhängige Parameter}{9}{subsection.1.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Mathematische Grundlagen}{10}{paragraph*.26}%
+\contentsline {paragraph}{\nonumberline Mathematische Grundlagen}{10}{paragraph*.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Darstellung}{10}{paragraph*.29}%
+\contentsline {paragraph}{\nonumberline Darstellung}{10}{paragraph*.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline HF power}{12}{paragraph*.33}%
+\contentsline {paragraph}{\nonumberline HF power}{12}{paragraph*.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline LF/HF}{13}{paragraph*.35}%
+\contentsline {paragraph}{\nonumberline LF/HF}{13}{paragraph*.36}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.5}Nicht-lineare Parameter}{13}{subsection.1.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline Poincaré-Diagramm}{14}{paragraph*.38}%
+\contentsline {paragraph}{\nonumberline Poincaré-Diagramm}{14}{paragraph*.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\nonumberline SD1 und SD2}{15}{paragraph*.41}%
+\contentsline {paragraph}{\nonumberline SD1 und SD2}{15}{paragraph*.42}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2.6}Zusammenfassung}{16}{subsection.1.2.6}%
 \defcounter {refsection}{0}\relax 
@@ -70,11 +70,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2.3}Performance-Vergleich}{25}{subsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Analyse anhand der Berechnung einer Regressionsfunktion}{25}{subsubsection*.48}%
+\contentsline {subsubsection}{\nonumberline Analyse anhand der Berechnung einer Regressionsfunktion}{25}{subsubsection*.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Analyse anhand der einfachen Datenvisualisierung}{29}{subsubsection*.53}%
+\contentsline {subsubsection}{\nonumberline Analyse anhand der einfachen Datenvisualisierung}{29}{subsubsection*.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Fazit und Begründung der Entscheidung}{31}{subsubsection*.56}%
+\contentsline {subsubsection}{\nonumberline Fazit und Begründung der Entscheidung}{31}{subsubsection*.57}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Konzept}{32}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -102,11 +102,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Zusätzliche Funktionen}{49}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Einfügen eines Belastungsintervalls}{49}{subsubsection*.71}%
+\contentsline {subsubsection}{\nonumberline Einfügen eines Belastungsintervalls}{49}{subsubsection*.72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Abspeichern der Visualisierung als Bild-Datei}{51}{subsubsection*.74}%
+\contentsline {subsubsection}{\nonumberline Abspeichern der Visualisierung als Bild-Datei}{51}{subsubsection*.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Wiederherstellung der Visualisierungsansicht}{51}{subsubsection*.76}%
+\contentsline {subsubsection}{\nonumberline Wiederherstellung der Visualisierungsansicht}{51}{subsubsection*.77}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Auswertung von Messungen mit Hilfe des HRV Evaluation Tools}{52}{chapter.6}%
 \defcounter {refsection}{0}\relax 
@@ -122,6 +122,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Kritische Würdigung und Ausblick}{61}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{A}{chapter*.83}%
+\contentsline {chapter}{\nonumberline Literatur}{A}{chapter*.84}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.2.19)  6 JUN 2022 19:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.2.19)  10 JUN 2022 13:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2207,9 +2207,10 @@ Package pdftex.def Info: images//Bosch_Logo_Titelblatt.png  used on input line
 
 
 {C:/Users/jojok/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images//Bo
-sch_Logo_Titelblatt.png> <./images//dhbw_de.pdf>]) (ads/abstract.tex
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
-0.
+sch_Logo_Titelblatt.png> <./images//dhbw_de.pdf>])
+(ads/selbststaendigkeitserkl.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5
+.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2218,52 +2219,53 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+)
 <images/dhbw_de.pdf, id=42, 130.4875pt x 64.24pt>
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 40.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 54.
 (pdftex.def)             Requested size: 80.91335pt x 39.83368pt.
 <images/Bosch_Logo_Kopfzeile.png, id=43, 159.3225pt x 102.1635pt>
 File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 <use images/Bosch_Logo_Kopfzeile.png>
-Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 40
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 54
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+4.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+4.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-0.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+4.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-40.
+54.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-40.
+54.
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 40.
+(Font)              <6> on input line 54.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 40.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+(Font)              <5> on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
 
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -2272,7 +2274,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 
 
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -2281,14 +2283,24 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\jojok\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-[1
+[1 <./images/dhbw_de.pdf> <./images/Bosch_Logo_Kopfzeile.png>]
+(ads/abstract.tex
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 40.
+(pdftex.def)             Requested size: 80.91335pt x 39.83368pt.
+File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
+<use images/Bosch_Logo_Kopfzeile.png>
+Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 40
+.
+(pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
+ [2
 
- <./images/dhbw_de.pdf> <./images/Bosch_Logo_Kopfzeile.png>])
+])
 Package tocbasic Info: character protrusion at toc deactivated on input line 79
 .
-
-(dokumentation.toc
-Overfull \hbox (3.22041pt too wide) detected at line 11
+ (dokumentation.toc
+Overfull \hbox (3.22041pt too wide) detected at line 9
  [][][]\T1/lmss/bx/n/12 VIII[][]
  []
 
@@ -2305,7 +2317,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 93
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
-[2
+[3
 
 ])
 \tf@toc=\write8
@@ -2320,88 +2332,82 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 80
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [3]
+ [4]
 chapter without number
 (ads/sortedAcronyms.tex
 
-LaTeX Warning: Hyper reference `acro:API' on page IV undefined on input line 10
+LaTeX Warning: Hyper reference `acro:API' on page V undefined on input line 10.
+
+
+
+LaTeX Warning: Hyper reference `acro:API' on page V undefined on input line 10.
+
+
+
+LaTeX Warning: Hyper reference `acro:CSV' on page V undefined on input line 12.
+
+
+
+LaTeX Warning: Hyper reference `acro:CSV' on page V undefined on input line 12.
+
+
+
+LaTeX Warning: Hyper reference `acro:HF' on page V undefined on input line 16.
+
+
+LaTeX Warning: Hyper reference `acro:HF' on page V undefined on input line 16.
+
+
+LaTeX Warning: Hyper reference `acro:HV' on page V undefined on input line 18.
+
+
+LaTeX Warning: Hyper reference `acro:HV' on page V undefined on input line 18.
+
+
+LaTeX Warning: Hyper reference `acro:LF' on page V undefined on input line 19.
+
+
+LaTeX Warning: Hyper reference `acro:LF' on page V undefined on input line 19.
+
+
+LaTeX Warning: Hyper reference `acro:PTSD' on page V undefined on input line 21
 .
 
 
-LaTeX Warning: Hyper reference `acro:API' on page IV undefined on input line 10
+LaTeX Warning: Hyper reference `acro:PTSD' on page V undefined on input line 21
 .
 
 
-LaTeX Warning: Hyper reference `acro:CSV' on page IV undefined on input line 12
+LaTeX Warning: Hyper reference `acro:SADS' on page V undefined on input line 23
 .
 
 
-LaTeX Warning: Hyper reference `acro:CSV' on page IV undefined on input line 12
+LaTeX Warning: Hyper reference `acro:SADS' on page V undefined on input line 23
 .
 
 
-LaTeX Warning: Hyper reference `acro:HF' on page IV undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:SUDEP' on page V undefined on input line 2
+5.
+
+
+LaTeX Warning: Hyper reference `acro:SUDEP' on page V undefined on input line 2
+5.
+
+
+LaTeX Warning: Hyper reference `acro:ULF' on page V undefined on input line 27.
 
 
 
-LaTeX Warning: Hyper reference `acro:HF' on page IV undefined on input line 16.
+LaTeX Warning: Hyper reference `acro:ULF' on page V undefined on input line 27.
 
 
 
-LaTeX Warning: Hyper reference `acro:HV' on page IV undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:VLF' on page V undefined on input line 28.
 
 
 
-LaTeX Warning: Hyper reference `acro:HV' on page IV undefined on input line 18.
+LaTeX Warning: Hyper reference `acro:VLF' on page V undefined on input line 28.
 
-
-
-LaTeX Warning: Hyper reference `acro:LF' on page IV undefined on input line 19.
-
-
-
-LaTeX Warning: Hyper reference `acro:LF' on page IV undefined on input line 19.
-
-
-
-LaTeX Warning: Hyper reference `acro:PTSD' on page IV undefined on input line 2
-1.
-
-
-LaTeX Warning: Hyper reference `acro:PTSD' on page IV undefined on input line 2
-1.
-
-
-LaTeX Warning: Hyper reference `acro:SADS' on page IV undefined on input line 2
-3.
-
-
-LaTeX Warning: Hyper reference `acro:SADS' on page IV undefined on input line 2
-3.
-
-
-LaTeX Warning: Hyper reference `acro:SUDEP' on page IV undefined on input line 
-25.
-
-
-LaTeX Warning: Hyper reference `acro:SUDEP' on page IV undefined on input line 
-25.
-
-
-LaTeX Warning: Hyper reference `acro:ULF' on page IV undefined on input line 27
-.
-
-
-LaTeX Warning: Hyper reference `acro:ULF' on page IV undefined on input line 27
-.
-
-
-LaTeX Warning: Hyper reference `acro:VLF' on page IV undefined on input line 28
-.
-
-
-LaTeX Warning: Hyper reference `acro:VLF' on page IV undefined on input line 28
-.
 
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -2413,7 +2419,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 98
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [4
+ [5
 
 
 
@@ -2430,7 +2436,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 75
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [5
+ [6
 
 
 ])
@@ -2446,7 +2452,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 10
 4.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [6]
+ [7]
 Package tocbasic Info: character protrusion at lot deactivated on input line 10
 5.
  (dokumentation.lot)
@@ -2462,7 +2468,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 12
 1.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [7
+ [8
 
 
 ]
@@ -2482,7 +2488,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 12
 7.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 
-[8
+[9
 
 
 ]
@@ -2501,7 +2507,7 @@ File: images/Bosch_Logo_Kopfzeile.png Graphic file (type png)
 Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 13
 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
- [9
+ [10
 
 
 ] (content/01kapitel.tex
@@ -2567,7 +2573,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 53
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [3]
-<images//RR.png, id=498, 685.56125pt x 270.00874pt>
+<images//RR.png, id=503, 685.56125pt x 270.00874pt>
 File: images//RR.png Graphic file (type png)
 <use images//RR.png>
 Package pdftex.def Info: images//RR.png  used on input line 60.
@@ -2592,7 +2598,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 77
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [5 <./images//RR.png>]
-<images//HRVfreq.png, id=525, 720.44156pt x 303.38344pt>
+<images//HRVfreq.png, id=530, 720.44156pt x 303.38344pt>
 File: images//HRVfreq.png Graphic file (type png)
 <use images//HRVfreq.png>
 Package pdftex.def Info: images//HRVfreq.png  used on input line 96.
@@ -2664,7 +2670,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 15
 1.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [9]
-<images//spec.jpg, id=625, 1559.8275pt x 1032.85875pt>
+<images//spec.jpg, id=630, 1559.8275pt x 1032.85875pt>
 File: images//spec.jpg Graphic file (type jpg)
 <use images//spec.jpg>
 Package pdftex.def Info: images//spec.jpg  used on input line 168.
@@ -2683,7 +2689,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-<images//freqlist.png, id=645, 552.56438pt x 310.91156pt>
+<images//freqlist.png, id=650, 552.56438pt x 310.91156pt>
 File: images//freqlist.png Graphic file (type png)
 <use images//freqlist.png>
 Package pdftex.def Info: images//freqlist.png  used on input line 180.
@@ -2716,7 +2722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-<images//nichtlinear.png, id=684, 661.72218pt x 278.54062pt>
+<images//nichtlinear.png, id=689, 661.72218pt x 278.54062pt>
 File: images//nichtlinear.png Graphic file (type png)
 <use images//nichtlinear.png>
 Package pdftex.def Info: images//nichtlinear.png  used on input line 204.
@@ -2731,7 +2737,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 20
 9.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [13]
-<images//poincare.png, id=697, 433.3791pt x 433.62pt>
+<images//poincare.png, id=702, 433.3791pt x 433.62pt>
 File: images//poincare.png Graphic file (type png)
 <use images//poincare.png>
 Package pdftex.def Info: images//poincare.png  used on input line 218.
@@ -2746,7 +2752,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 22
 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [14 <./images//nichtlinear.png>]
-<images//SD.png, id=709, 325.215pt x 315.42844pt>
+<images//SD.png, id=715, 325.215pt x 315.42844pt>
 File: images//SD.png Graphic file (type png)
 <use images//SD.png>
 Package pdftex.def Info: images//SD.png  used on input line 230.
@@ -2780,7 +2786,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 24
 4.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [16 <./images//SD.png>]
-<images//kubios.jpg, id=735, 1786.675pt x 1399.2275pt>
+<images//kubios.jpg, id=740, 1786.675pt x 1399.2275pt>
 File: images//kubios.jpg Graphic file (type jpg)
 <use images//kubios.jpg>
 Package pdftex.def Info: images//kubios.jpg  used on input line 252.
@@ -2799,7 +2805,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-<images//samples.png, id=746, 429.10312pt x 176.91093pt>
+<images//samples.png, id=751, 429.10312pt x 176.91093pt>
 File: images//samples.png Graphic file (type png)
 <use images//samples.png>
 Package pdftex.def Info: images//samples.png  used on input line 263.
@@ -2823,7 +2829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-<images//kubiossamples.jpg, id=753, 1493.58pt x 349.305pt>
+<images//kubiossamples.jpg, id=758, 1493.58pt x 349.305pt>
 File: images//kubiossamples.jpg Graphic file (type jpg)
 <use images//kubiossamples.jpg>
 Package pdftex.def Info: images//kubiossamples.jpg  used on input line 273.
@@ -2948,7 +2954,7 @@ Overfull \hbox (17.30127pt too wide) in paragraph at lines 105--112
 [][] 
  []
 
-<images//oslGraph.png, id=819, 383.7537pt x 289.08pt>
+<images//oslGraph.png, id=825, 383.7537pt x 289.08pt>
 File: images//oslGraph.png Graphic file (type png)
 <use images//oslGraph.png>
 Package pdftex.def Info: images//oslGraph.png  used on input line 117.
@@ -3013,7 +3019,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [31]
 chapter 4.
-<images//konzeptKlassen.png, id=921, 593.21625pt x 201.75375pt>
+<images//konzeptKlassen.png, id=926, 593.21625pt x 201.75375pt>
 File: images//konzeptKlassen.png Graphic file (type png)
 <use images//konzeptKlassen.png>
 Package pdftex.def Info: images//konzeptKlassen.png  used on input line 13.
@@ -3030,12 +3036,12 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 20
 [32
 
  <./images//konzeptKlassen.png>]
-<images//ablaufKonzept.png, id=927, 553.06625pt x 392.46625pt>
+<images//ablaufKonzept.png, id=933, 553.06625pt x 392.46625pt>
 File: images//ablaufKonzept.png Graphic file (type png)
 <use images//ablaufKonzept.png>
 Package pdftex.def Info: images//ablaufKonzept.png  used on input line 23.
 (pdftex.def)             Requested size: 364.19672pt x 258.44164pt.
-<images//konzeptSamples.png, id=929, 723.70375pt x 211.79124pt>
+<images//konzeptSamples.png, id=935, 723.70375pt x 211.79124pt>
 File: images//konzeptSamples.png Graphic file (type png)
 <use images//konzeptSamples.png>
 Package pdftex.def Info: images//konzeptSamples.png  used on input line 32.
@@ -3050,7 +3056,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 36
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [33 <./images//ablaufKonzept.png>]
-<images//ablaufVisualisieren.png, id=936, 251.94125pt x 300.12125pt>
+<images//ablaufVisualisieren.png, id=941, 251.94125pt x 300.12125pt>
 File: images//ablaufVisualisieren.png Graphic file (type png)
 <use images//ablaufVisualisieren.png>
 Package pdftex.def Info: images//ablaufVisualisieren.png  used on input line 41
@@ -3066,7 +3072,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 49
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [34 <./images//konzeptSamples.png> <./images//ablaufVisualisieren.png>]
-<images//designKonzept.png, id=943, 684.5575pt x 338.26375pt>
+<images//designKonzept.png, id=948, 684.5575pt x 338.26375pt>
 File: images//designKonzept.png Graphic file (type png)
 <use images//designKonzept.png>
 Package pdftex.def Info: images//designKonzept.png  used on input line 55.
@@ -3084,7 +3090,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 3.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [35 <./images//designKonzept.png>]
 chapter 5.
-<images//klassendiagramm.png, id=949, 2706.11pt x 1423.3175pt>
+<images//klassendiagramm.png, id=954, 2706.11pt x 1423.3175pt>
 File: images//klassendiagramm.png Graphic file (type png)
 <use images//klassendiagramm.png>
 Package pdftex.def Info: images//klassendiagramm.png  used on input line 11.
@@ -3115,7 +3121,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 27
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [37]
-<images//fertigeApplikation.png, id=967, 778.40813pt x 405.01312pt>
+<images//fertigeApplikation.png, id=972, 778.40813pt x 405.01312pt>
 File: images//fertigeApplikation.png Graphic file (type png)
 <use images//fertigeApplikation.png>
 Package pdftex.def Info: images//fertigeApplikation.png  used on input line 36.
@@ -3131,7 +3137,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 40
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [38]
-<images//setupStruktur.png, id=972, 453.19313pt x 83.5622pt>
+<images//setupStruktur.png, id=978, 453.19313pt x 83.5622pt>
 File: images//setupStruktur.png Graphic file (type png)
 <use images//setupStruktur.png>
 Package pdftex.def Info: images//setupStruktur.png  used on input line 49.
@@ -3156,7 +3162,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 70
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [40 <./images//setupStruktur.png>]
-<images//sampleConfigurator.png, id=989, 238.64156pt x 269.50688pt>
+<images//sampleConfigurator.png, id=994, 238.64156pt x 269.50688pt>
 File: images//sampleConfigurator.png Graphic file (type png)
 <use images//sampleConfigurator.png>
 Package pdftex.def Info: images//sampleConfigurator.png  used on input line 75.
@@ -3186,12 +3192,12 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 87
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [42]
-<images//ablaufSamples.png, id=1030, 723.70375pt x 211.79124pt>
+<images//ablaufSamples.png, id=1035, 723.70375pt x 211.79124pt>
 File: images//ablaufSamples.png Graphic file (type png)
 <use images//ablaufSamples.png>
 Package pdftex.def Info: images//ablaufSamples.png  used on input line 90.
 (pdftex.def)             Requested size: 455.24417pt x 133.22882pt.
-<images//rawData.png, id=1031, 277.78781pt x 113.67468pt>
+<images//rawData.png, id=1036, 277.78781pt x 113.67468pt>
 File: images//rawData.png Graphic file (type png)
 <use images//rawData.png>
 Package pdftex.def Info: images//rawData.png  used on input line 105.
@@ -3206,7 +3212,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 10
 8.
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [43 <./images//ablaufSamples.png>]
-<images//datenstruktur.png, id=1038, 570.13pt x 435.6275pt>
+<images//datenstruktur.png, id=1043, 570.13pt x 435.6275pt>
 File: images//datenstruktur.png Graphic file (type png)
 <use images//datenstruktur.png>
 Package pdftex.def Info: images//datenstruktur.png  used on input line 117.
@@ -3297,7 +3303,7 @@ Overfull \hbox (11.74983pt too wide) in paragraph at lines 178--181
 []$[]$ 
  []
 
-<images//belastungsintervall.png, id=1106, 777.65532pt x 402.75468pt>
+<images//belastungsintervall.png, id=1111, 777.65532pt x 402.75468pt>
 File: images//belastungsintervall.png Graphic file (type png)
 <use images//belastungsintervall.png>
 Package pdftex.def Info: images//belastungsintervall.png  used on input line 18
@@ -3361,7 +3367,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 14
 [52
 
 ]
-<images//rmssd.jpg, id=1169, 1622.06pt x 869.2475pt>
+<images//rmssd.jpg, id=1174, 1622.06pt x 869.2475pt>
 File: images//rmssd.jpg Graphic file (type jpg)
 <use images//rmssd.jpg>
 Package pdftex.def Info: images//rmssd.jpg  used on input line 19.
@@ -3376,7 +3382,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 26
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [53 <./images//rmssd.jpg>]
-<images//rmssdbelastung.jpg, id=1179, 1614.03pt x 865.2325pt>
+<images//rmssdbelastung.jpg, id=1184, 1614.03pt x 865.2325pt>
 File: images//rmssdbelastung.jpg Graphic file (type jpg)
 <use images//rmssdbelastung.jpg>
 Package pdftex.def Info: images//rmssdbelastung.jpg  used on input line 32.
@@ -3391,7 +3397,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 36
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [54]
-<images//meanrr.jpg, id=1190, 1620.0525pt x 867.24pt>
+<images//meanrr.jpg, id=1195, 1620.0525pt x 867.24pt>
 File: images//meanrr.jpg Graphic file (type jpg)
 <use images//meanrr.jpg>
 Package pdftex.def Info: images//meanrr.jpg  used on input line 41.
@@ -3410,7 +3416,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-<images//sdnn.jpg, id=1202, 1620.0525pt x 807.015pt>
+<images//sdnn.jpg, id=1207, 1620.0525pt x 807.015pt>
 File: images//sdnn.jpg Graphic file (type jpg)
 <use images//sdnn.jpg>
 Package pdftex.def Info: images//sdnn.jpg  used on input line 52.
@@ -3425,7 +3431,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 56
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
 [56 <./images//meanrr.jpg>]
-<images//meanrr2.jpg, id=1212, 1620.0525pt x 798.985pt>
+<images//meanrr2.jpg, id=1218, 1620.0525pt x 798.985pt>
 File: images//meanrr2.jpg Graphic file (type jpg)
 <use images//meanrr2.jpg>
 Package pdftex.def Info: images//meanrr2.jpg  used on input line 63.
@@ -3440,7 +3446,7 @@ Package pdftex.def Info: images/Bosch_Logo_Kopfzeile.png  used on input line 67
 .
 (pdftex.def)             Requested size: 119.81003pt x 76.82234pt.
  [57 <./images//sdnn.jpg>]
-<images//rmssd2.jpg, id=1222, 1614.03pt x 807.015pt>
+<images//rmssd2.jpg, id=1227, 1614.03pt x 807.015pt>
 File: images//rmssd2.jpg Graphic file (type jpg)
 <use images//rmssd2.jpg>
 Package pdftex.def Info: images//rmssd2.jpg  used on input line 72.
@@ -3573,13 +3579,13 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 61666 strings out of 478593
- 1291758 string characters out of 2844604
+ 61678 strings out of 478593
+ 1292172 string characters out of 2844604
  2606494 words of memory out of 3000000
- 77953 multiletter control sequences out of 15000+600000
- 543301 words of font info for 177 fonts, out of 8000000 for 9000
+ 77958 multiletter control sequences out of 15000+600000
+ 543430 words of font info for 178 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 113i,21n,109p,10629b,2406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,21n,109p,10629b,2397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
 :/Users/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
 ers/jojok/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Us
@@ -3599,9 +3605,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jojo
 k/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jojo
 k/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/jojo
 k/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (76 pages, 3514225 bytes).
+Output written on dokumentation.pdf (77 pages, 3516344 bytes).
 PDF statistics:
- 1638 PDF objects out of 1728 (max. 8388607)
- 466 named destinations out of 1000 (max. 500000)
+ 1643 PDF objects out of 1728 (max. 8388607)
+ 468 named destinations out of 1000 (max. 500000)
  42631 words of extra memory for PDF output out of 42996 (max. 10000000)
 
